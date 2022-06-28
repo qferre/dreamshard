@@ -1,0 +1,67 @@
+% !TeX program = LuaLaTeX
+
+\documentclass[10pt,a4paper,twocolumn,openany]{book}
+
+%%% Loading the main rpg-book style
+% Options: bg-a4, bg-letter, bg-full, bg-print, bg-none. This changes the background used.
+\usepackage[bg=none]{lib/rpg-book} 
+
+\begin{document}
+
+%----------------- Text begins here -----------------% 
+%% It is distributed in several files.
+
+%% NOTE : use \include to skip a page, and \input to simply transpose the contents of the file at this position.
+%% If this is only a section, it might be more relevant to use \input
+
+%% NOTE: if you get a weird "begin \command ended by \othercommand" error, 
+% it likely means you have opened quote marks (") or brackets ({) that do not have a corresponding closing quote mark or bracket.
+
+% TITLE
+\input{tex/title.tex}
+
+\tableofcontents
+
+% Foreword and acknowledgements
+\input{tex/foreword.tex}
+
+% Core rules
+\include{tex/01_core_rules.tex}
+
+% Combat
+\include{tex/02_combat.tex}
+
+% Adventuring
+\include{tex/03_adventuring.tex}
+
+% Interactions
+\include{tex/04_interactions.tex}
+
+% Abilities
+\include{tex/05_abilities.tex}
+
+\begin{appendices}
+
+% Appendices
+
+%% --- Art integration example
+%\rpgart{t}{img/art/volcano} % "t" is for "top". Do not use "b" for bottom, it eats into the page number. TODO: apply manually the inkstain mask when needed
+
+%% General Appendix
+\include{tex/A1_appendix.tex}
+
+%% Game design considerations
+\include{tex/A2_game_design.tex}
+
+%% Examples and bestiary
+\include{tex/A3_samples.tex}
+
+%% Strategy layer/campaign
+\include{tex/A4_strategy.tex}
+
+%% Lore
+\include{tex/A5_lore.tex} 
+
+\end{appendices}
+
+\end{document}

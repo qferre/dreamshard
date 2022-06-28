@@ -1,0 +1,332 @@
+\chapter{Core rules}
+
+The core gameplay loop of the Dreamshard RPG will be familiar to every tabletop RPG players. First, the Game Master (GM) describes the current situation, then the Players each describe what they want their respective Player Characters (PC) to do. Following this, the GM adjudicates: they decide if this is possible, and give the odds for a roll to determine the outcome if they so wish. Finally, the GM narrates the results. 
+
+Whenever the rules are unclear, use common sense and personal preference. In any case, \textbf{the GM is always right} and has full latitude to modify the rules to fit the situation. When a "specific" rule (such as an Ability) contradicts a general rule, the specific rule wins. Finally, when halving numbers, \textbf{round down} unless specified otherwise. 
+
+
+\section{Dice rolls}
+\label{dice_rolls}
+
+Dice rolls should be used when the outcome of a given action is \textbf{uncertain}\footnote{If players request a re-roll, they should have a very good reason to do so (new skills, tools, or information or a non-time-sensitive action), and this may come with a potential tradeoff of more severe failures.}. For instance, for very difficult tasks, or when there is a time constraint.
+
+First, some terminology: an Actor designates any agent in the game that is capable of taking Actions, be it a Player Character of a Non Player Character.
+
+Whenever an Actor tries to do something, if the GM calls for a roll, then the Actor will roll their Aptitude against a given Difficulty. In combat, Aptitude and Difficulty are respectively called an Accuracy and a Defense.
+
+To do a roll, follow these steps:
+
+\begin{enumerate}
+    \item The GM picks the associated Characteristic modifier (see section \ref{characteristics}), and a Skill modifier (see section \ref{skills}) if applicable. 
+    \item Furthermore, the GM may order circumstance modifiers, such as Special Skills.
+	\item The GM determines and announces the Difficulty of the test.
+    \item The player may present an argument to the GM for more modifiers, of for the use of different ones from the character sheet. 
+    \item \textit{Final score = 1d20 roll + Aptitude – Difficulty}. The Aptitude is the sum of all modifiers in all previous steps\footnote{Meaning: Aptitude = Characteristic modifier + Skill modifier + any other modifier}.
+    \item Compare the final score to Table \ref{success_roll} to determine the quality of the action's result.
+\end{enumerate}
+
+
+\begin{rpg-examplebox}
+	In this book, rolls are written using the following syntax: "[Characteristic modifier + Skill modifier + other modifiers - Difficulty] roll".
+\end{rpg-examplebox}
+
+For example, disarming a trap means putting your Aptitude of DEX + Crafting (for example, +3+2 = +5) against the trap's Difficulty (for example, -2) and checking the result on Table \ref{success_roll}. This will be written as a "[DEX + Crafting - 2] roll".
+
+The general philosophy of the system is to ask the players what they want to do, then work a suitable Difficulty for the roll (and maybe request the use of an Ability). The GM has full freedom to cap, or generally change, the modifiers applied to any given roll.
+
+
+\paragraph{Assistance} 
+
+A friendly Actor can help another Actor perform an action. They can provide, as a bonus modifier, half their Aptitude for a maximum of +3. In combat, this is an Action (see section \ref{actions}). Several Actors can help, but this can only stack up to +4 in the general case.
+
+\paragraph{No hurry} 
+
+If there is no hurry, the GM may allow Actors to simply take 10 as the result of the dice (meaning the true final result will be equal to 10 + Aptitude - Difficulty) instead of rolling. In particulary lenient cases, such as when the players are in a calm environment with all necessary tools and all the time in the world, they may take 14 instead\footnote{Do recall that the GM decides the Difficulty, so they can essentially determine the final result in advance since by fixing the dice result, the resulting score will be known in advance.}. This is not recommended for spur-of-the-moment actions, like persuading someone, but permitted for certain skill checks such as general knowledge checks. This is also not recommended if you intentionally want there to be an uncertainty as to the result, such as in certain kinds of Crafting\footnote{Taking 14 is not recommended here, but taking 10 could be justifiable.}.
+
+It goes without saying that this is entirely at the discretion of the GM. The GM may decide that, even if you have a lot of time ahead, the outcome of a given action still has a degree of randomness, and ask you to roll a dice regardless.
+
+
+\subsection{Determining the Difficulty}
+\label{difficulty}
+
+The Difficulty to oppose a roll is usually equal to the appropriate Defense of the target: Fortitude, Reflex or Will. Those depend on the Characteristics of the target (plus, as always, any relevant modifier to them), and are detailed in section \ref{defenses}. 
+
+Barring that, if no Defense is applicable, the Difficulty can be calculated by summing relevant modifiers: usually the same modifiers that would be summed to calculate an Aptitude if the target was the one doing the action. If there is no target Actor, the GM will work out a Difficulty based on the odds they want to give to the players.
+
+Let's make it more concrete: most social challenges will use a modulated Will as Difficulty. Most surprises would use Reflex, but sneaking would likely be opposed by the sentinel's equivalent Aptitude (WIT + maybe Discretion + circumstance modifiers). For all of this, please read section \ref{balancing_rolls} for more advice!
+
+\begin{rpg-examplebox}
+	Ultimately, the GM decides the Difficulty, no matter what the rules say!
+\end{rpg-examplebox}
+
+\paragraph{Angle of approach}
+
+Beyond raw statistics, the angle of approach matters when determining the Difficulty. Consider social challenges, for instance. They should use a modulated Will; for example, Will-2 to convince someone of a trivial thing, but Will+4 for something they are loathe to do. Furthermore, if the player gives a very compelling in-character argument while roleplaying, or gives a very good piece of evidence, the Difficulty should be lower than if they give a bad argument, even with high Psychology. I recommend the modifiers applied to be about \textpm 2 for such cases, depending on the odds you want to give your players\footnote{For instance, if you want a PC to have 50\% odds of success (plus 25\% odds of only partial failure) set the Difficulty equal to the PC's Aptitude for the task.}. A similar argument can be made for other types of rolls.
+
+
+\paragraph{Hidden Difficulty} 
+
+In the general case, one always knows whether their roll succeeded or failed. However, the GM can always instead call for a roll but keep the Difficulty a secret, and consider the result themself, without announcing it explicitly to the player. 
+
+This is best used when stating the real Difficulty would be a story spoiler, or when the player has no compelling logical reason to know exactly how likely they were to succeed, or whether they succeeded.
+
+\subsection{Special dice rolls} 
+
+In addition to the rules presented above, certain rolls may have additional rules.
+
+
+\paragraph{Flipped rolls} 
+
+Flipped rolls are called "flipped" because the target of the action executes the roll, instead of the Agent performing the action. Here, the Defense of the target is used as a (pseudo-)Aptitude for the roll.
+
+These rolls are applicable when a player (or any Actor) is targeted by non-sentient hazards or opponents, such as traps, falling rocks, poison, a launched fireball, etc. because in this case, there is no "aggressor" Actor whose Aptitude can be used. For instance, if a trap or hazard of has a Difficulty of 3, the roll made by the Actor who triggers it to avoid its effect will be [Reflex - 3], with Reflex (a Defense) as the Aptitude.
+
+This should be used sparingly, since the rolls results are biased towards succeeding (see table \ref{success_roll}) due to the possibility of Grazes. This means that simply flipping any roll (meaning switch Aptitude and Difficulty) increases the chances of success. As such, you may want to treat Grazes as failures, depending on the odds you want to give. 
+
+Flipped rolls exist for player satisfaction reasons, because unlike in other d20 systems, there is no Challenge Rating to be matched. It may also be used when the attacker is sentient and attacking, as we don't want the player to feel like the GM rolled their dice instead of the player, behind their screen, and simply decided to bestow a calamity upon the PC. As a general recommendation, use regular rolls for standard actions but flipped rolls for the more potentially devastating ones.
+
+As a general rule, any malus that gives "-X to all rolls" will also impact Flipped rolls, though the GM may decide otherwise.
+
+
+\paragraph{Opposing rolls} 
+
+Opposing rolls are used when two Actors are \textit{actively} opposing one another. For example, two people pushing against a door, or a pursuit with one party actively dodging. This is not recommended for simpler checks like convincing someone, or tripping them.
+
+Each Actor makes a normal roll, and then the opponents compare their totals from step 5: that is to say the sum of the dice roll and all modifiers. Straightforwardly, the highest total wins. For the protracted contests that are longer or more impactful, such as long pursuits or high-stakes debates, see section \ref{protracted} instead to turn them into major story moments.
+
+\subsection{Margin of success}
+
+Once a roll is made, the total in step 5 (sum of the dice roll and all modifiers) is compared against this table:
+
+\begin{table}[h!tbp]
+	\begin{center}
+		\begin{tabular}{p{2.5cm}p{2.4cm}p{2.6cm}} \toprule
+			
+			\textbf{Final score} & \textbf{Result} \\ \midrule
+			$\leq$ 0 \textit{(or nat. 1)} & \textcolor{red}{Fumble} & "Hell no!" \\
+			1 to 5 & \textcolor{orange}{Failure} & "No." \\
+			6 to 10 & \textcolor{black}{Graze} & "No, but..." \\
+			11 to 19 & \textcolor{olive}{Success} & "Yes." \\
+			$\geq$ 20 \textit{(or nat. 20)} & \textcolor{teal}{Critical Success} & "Hell yes! And..." \\
+			\bottomrule
+		\end{tabular}
+	\end{center}
+	\caption{Roll outcome depending on roll total and natural (nat.) dice value.}
+	\label{success_roll}
+\end{table}
+
+Successes and Failures may also be called Hits and Misses, mostly in combat. Unsurprisingly, they respectively mean that whatever the Actor was attempting to do succeded or failed.
+
+Grazes can be seen as Partial Failures. For example, the Actor failed at the task, but nothing is broken or nobody is alerted, and the next attempt will be easier. Or someone is not convinced, but no longer hostile. \textbf{However, when in doubt, treat Grazes as closer to a Failure than to a Success!} The special cases of Combat and Conditions are presented later.
+
+\paragraph{Criticals} 
+
+The nature of Critical Successes and Fumbles (ie. Critical Failures) is left to the GM. They should be remarkable, but reasonable. Critical successes may also shorten the time needed for a task.
+
+Since Criticals are rather frequent in the Dreamshard system, this means they represent "the best (or worst) reasonably possible outcome". An alternative interpretation is that they are the pinnacle of what the Actor can do, or of what can go wrong. This means that, among other things, it does not let the Actor break the laws of reality, or convince an utterly loyal man to betray his best friend without proof.
+
+That being said, I personally treat natural 20s as "supercriticals". Not a new type of success \textit{per se}, but an excuse to go a bit wilder, be more receptive to player ideas, and add an interesting additional effect if it is digetically interesting (such as by having a spell only capable of making someone trip push them off a ledge instead). Conversely, Fumbles should often result in friendly fire.
+
+\section{Character Sheet}
+
+An Actor is exhaustively described by their (or its) Character Sheet. This applies to Player Characters, but any Actor (NPCs, monsters, whatever) uses the same general principle. Besides the elements described here, it should also contain a character's background, physical appearance, culture, and any relevant information.
+
+\subsection{Characteristics}
+\label{characteristics}
+
+
+\rpgart{t}{img/art/port}
+
+The Characteristics represent the fundamental attributes of one's, well, character. They are:
+
+\begin{itemize}
+	\item \textbf{\underline{Mig}ht}: Your strength and raw power, both physical and metaphysical.
+	\item \textbf{\underline{Dex}terity}: Your coordination and gracefulness.
+	\item \textbf{\underline{Con}stitution}: Your endurance and resistance to all things physical.
+	\item \textbf{\underline{Int}elligence}: Your capabilities in analytical reasoning.
+	\item \textbf{\underline{Wit}s}: Your cleverness and instinct, but also your perception.
+	\item \textbf{\underline{Res}olve}: Your determination and the raw force of your personality.
+\end{itemize}
+
+Their value will usually be between 1 and 20, with 8-10 being average, 16 being rather good, and 20 close to the best human capabilities. Their values can be higher, but having a Characteristic drop below 1 means death. The associated \textit{Characteristic modifier} they provide for a value $x$ is $\frac{x-10}{2}$ rounded down. This modifier is used in rolls. 
+
+\begin{rpg-examplebox}
+	In the text of this book, the full word (eg. "Constitution") designates the full value (eg. 14) but the acronym in capitals (eg. "CON") refers to the modifier (eg. +2).
+\end{rpg-examplebox}
+
+\begin{rpg-table2}[XX]
+	\textbf{Characteristic}  & \textbf{Modifier}\\
+   	6-7  & -2 \\
+	8-9  & -1 \\
+	10-11  & +0 \\
+	12-13  & +1 \\
+	14-15  & +2 \\
+	16-17  & +3 \\
+	18-19  & +4 \\
+	20-21  & +5 \\
+	22-23  & +6 \\
+	24-25  & +7 \\
+\end{rpg-table2}
+
+They are presented further on Table \ref{characteristics_table}. For each characteristic, \textit{apply its modifier to all uses presented in the second column}. The third column presents other uses. They are also used when calculating Defenses (see section \ref{defenses}).
+
+% Full width table on next page
+\begin{table*}[h!tbp]
+	\begin{center}
+		\begin{tabular}{p{4cm}p{4cm}p{6cm}} \toprule
+			
+		    \textbf{Characteristic} & \textbf{Modifier applies to ...} & \textbf{Other uses} \\ \midrule
+		    
+		    Might (MIG) & Damage, numerical Ability effects & Fortitude Defense \\[2mm]
+		    Dexterity (DEX) & & Accuracy in melee, Reflex Defense \\[2mm]
+		    Constitution (CON) & & Hit Points, Fortitude Defense \\[2mm]
+		    Intelligence (INT) & Applied Conditions duration (in turns) & Spellcasting, Will Defense \\[2mm]
+		    Wits (WIT) &  & Accuracy at a distance, Perception, Reflex Defense \\[2mm]
+		    Resolve (RES) & Reduce hostile Conditions duration (in turns) & Out of combat uses, most Defenses, Heroism\\[2mm]
+
+		    \bottomrule
+		\end{tabular}
+	\end{center}
+	\caption{Characteristics and their uses}
+	\label{characteristics_table}
+\end{table*}
+
+
+% \paragraph{rpg-table with more columns}
+% \begin{rpg-table}[XXX]
+%     \textbf{Table head 1}  & \textbf{Table head 2} & \textbf{Table head 3}\\
+%    	Some value  & Some value & Some value\\
+%    	Some value  & Some value & Some value\\
+%    	Some value  & Some value & Some value
+% \end{rpg-table}
+
+
+% \paragraph{rpg-table with more columns}
+% \begin{rpg-table2}[XXX]
+%     \textbf{Table head 1}  & \textbf{Table head 2} & \textbf{Table head 3}\\
+%    	Some value  & Some value & Some value\\
+%    	Some value  & Some value & Some value\\
+%    	Some value  & Some value & Some value
+% \end{rpg-table2}
+
+
+\paragraph{Clarifications}
+
+Charactertistics may also used in other situations at the discretion of the GM. For example, MIG may be relevant when jumping. Note that you will almost never sum two characteristic modifiers together.
+
+On table \ref{characteristics_table}, "numerical effects" for MIG covers damage, but also healing (magical or not) for both. In general, anything that will affect Hit Points or a numerical value (including Challenge Rating in protracted contests, see section \ref{protracted}).
+
+The duration of any Condition (effect-over-time, see section \ref{conditions}) applied by an Actor is $1 \ + \ INT \ of \ caster \ - RES \ of \ target$. Keep in mind that this is the general case, and an Ability may instead enforce (usually to a lower value) the number of turns on which a Condition lasts.
+
+
+\paragraph{Knock-out} 
+
+\label{knockout}
+
+When a Player Character reaches 0 Hit Points, or fall below into negative HP, they are knocked out and fall unconscious. 
+
+Once a player's HP fall strictly below 0, if they remain at negative HP for $1+CON$ turns, they die. The turn during which they were knocked-out does not count in this timer. A Player Character also dies instantly if their HP reach a value equal to minus their Constitution.
+
+A successful [INT + Nature + any Medicine Special Skill] roll can pause the bleed-out timer, but the timer restarts if the PC takes more damage. A Medicine roll can also stabilize the PC back to 0 HP, but this will occupy the healer for many turns.
+
+
+\subsection{Skills}
+\label{skills}
+
+Skills are additional modifiers to a roll, that are applied when relevant. A given Skill is not necessarily associated with a Characteristic: any combination of a Characteristic and a Skill modifier can be requrested by the GM depending on the situation.
+
+Each Skill point gives a +1 to the relevant roll when the Skill is used.
+
+\begin{itemize}
+    \item \textbf{Athletics}: Feats of athleticism, but also acrobatics.
+    \item \textbf{Discretion}: Moving about discreetly, being stealthy in general, and performing sleights of hand.
+    \item \textbf{Crafting}: Fabricating objects. This also covers mechanical devices such as traps, bombs, and general engineering.
+    \item \textbf{Lore}: Political and cultural knowledge, as well general culture.
+    \item \textbf{Kosmics}: Knowledge about magic, and the sciences in general, depending on the Actor's background. This also impacts spellcasting (see section \ref{spells}).
+    \item \textbf{Nature}: Knowledge about the natural world. Depending on the Actor's background and the circumstances, this can also cover medicine.
+    \item \textbf{Psychology}: Persuasion, deception and intimidation, depending on the associated Characteristic used. This also covers general psychological analysis.
+\end{itemize}
+
+
+Skills may also be used for certain Actions in combat (notably Discretion). Note that even if you have zero in a skill, you still have the knowledge of an average person.
+
+
+\paragraph{Usage and edge cases}
+
+As mentioned previously, the Skills are \textit{not} rigid. What matters is whether \textit{the player can make a convincing argument}. Special Skills (see below) can also be applied.
+
+For example, there is no general Investigation skill. Instead, lie detection can be WIT + Psychology, looking for clues in a room or smuggling something may be WIT + Discretion, while pickpocketing would be DEX + Discretion. Acting and lying is usually covered by RES + Psychology, but RES + Discretion or WIT + Psychology could be relevant depending on the situation. Furthermore, you can use MIG + Psychology to intimidate, or RES + Psychology to convince, again depending on the situation. A general Perception and alertness check however (eg. spotting something from far away or from the corner of one's eye) should only be handled by WIT.
+
+\subsubsection{Special Skills}
+
+Special Skills cover narrower uses that regular Skills. This is intentional. In counterpart, they are easier to acquire; as such, they should remain situational so as to not supersede regular Skills. As Special Skills are bought separately at Character Creation, their goal is to help flesh out the roleplaying of a character without worrying about min-maxing the allocation of the regular Skill points.
+
+Here is a non-exhaustive list, to give you some inspiration: politics, barter, etiquette, streetwise, ship handling, carpentry, specific branches of magic, animal handling, rhetoric, performance, empathy, authority, suggestion, medicine, etc. The list is as long as you want is to be!
+
+For those situations, the character may possess a Special Skill, which works like a classical Skill modifier, but only applies in those particular cases. It is important to note that Special Skills are \textbf{cumulative} with the modifiers given by classical Skills. However, there must be a valid justification for adding them.
+
+Warfare Special Skills that impact Accuracy in combat are permitted, but to be used very sparingly: see section \ref{balancing_skills}.
+
+
+\subsubsection{Traits}
+
+Traits, broadly speaking, cover any peculiarity of your character, and can tweak them beyond what is planned in the core rules. Note that a Trait is equivalent to a Passive Ability (see later). This is usually a personality trait, but can be descriptive of pretty much anything. Traits can of course be gained during an adventure!
+
+At the GM discretion, a Trait may give any type of gameplay modifier. But their impact on the gameplay should remain quite limited (see section \ref{balancing_abilities}), their role is simply give a bit of flavor and contribute to a character's development. 
+
+Consider those examples: a reckless or perfectionnist character may get a modifier in some situations. Paranoid can give you a +2 to Discretion but -2 to Psychology, or Cross-Eyed gives you a -2 to ranged Accuracy but does not impact your Wits. 
+
+Finally, a Trait may also have no gameplay impact whatsoever but simply round up your character's personality. They can represent their ideals, flaws, and bonds (relevant for Relations later), their interests, motivations, and deepest desires.
+
+\subsubsection{Heroism}
+
+\label{heroism}
+
+Heroism represents, well, heroism. Going above and beyond, the stuff of myths and legends. A Player Character begins with as many Heroism tokens as their RES, for a minimum of 2. Heroism is awarded by the GM for good roleplaying, or generally making the story better! I recommend awarding Heroism to the entire group at once, as this is a cooperative game. 
+
+A PC cannot stockpile more than 3 Heroism points. At any time, the PCs can spend one Heroism point to trigger one effect of their choice among the following list:
+
+\begin{itemize}
+    \item Re-roll the dice you rolled immediately before, and keep the best result.
+    \item When a d20 roll is called but before it is rolled, add +4 to your Aptitude or Defense for this roll. This bonus can be stacked by spending several Heroism points, up to a maximum of +12.
+    \item You cannot be Knocked-Out (see section \ref{knockout}) until the beginning of your next round. Any damage that would reduce your HP below 1 is ignored.
+    \item Use a Mythic Ability (see section \ref{signature}).
+    \item Do something awesome! At the GM's discretion, of course. But if you spend Heroism, the GM should be more inclined to listen to your suggestion.
+\end{itemize}
+
+You can spend as many as you want in quick succession, but keep in mind that they are not easy to re-acquire. Besides the method mentioned above, I recommend that if you perform two successive long rests\footnote{Or more, or less, depending on the scenario's timeframe. My point is that they should not be easy to recover.} with no Heroism points, the GM lets you regain one. Experience Points can also be used to regain them (see later).
+
+Tangentially, Heroism points can also represent extreme luck, if it's more in line with the tone. For more harrowing campaigns, Heroism might also serve as Willpower when needed, depending on contexts and GM interpretation.
+
+\subsection{Character creation}
+\label{character_creation}
+
+All steps of character creation are summarized here. The player will, with the GM assistance, follow these steps in order.
+
+\begin{enumerate}
+    \item Pick the Characteristics by distributing the values from the following array: \textbf{16, 14, 13, 12, 10, 9}. You can move 1 point elsewhere from this array\footnote{This lets you have a Characteristic at 17 at character creation if you make a sacrifice elsewhere.}.
+    \item Distribute 5 Skill points. A Skill cannot increase past +4 at character creation.
+    \item Assign 3 points worth of Special Skills, discussing it with the GM.
+    \item Your starting Hit Points (HP) are equal to two times your Constitution.
+    \item Compute your Defenses (section \ref{defenses}).
+	\item Spend 4 Ability points (section \ref{abilities}) to learn Abilities. 
+    \item Determine Traits with the GM, if applicable.
+    \item Prepare Spells (section \ref{spells}) with the GM, if applicable.
+	\item Write down your starting Focus (section \ref{resources}) and Heroism.
+    \item Determine your starting equipment, if applicable. 
+\end{enumerate}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,46 @@
+% Define all strings as new macros instead of hardcoding them in the
+% TeX files. This then allows us to add captions for multilanguage support.
+\newcommand\armorclassname{Armor}
+\newcommand\hitpointsname{Hit Points}
+\newcommand\speedname{Speed}
+
+\newcommand\focusname{Focus}
+\newcommand\defensesname{Defenses}
+% \newcommand\deflectionname{Deflection}
+% \newcommand\reflexname{Reflex}
+% \newcommand\fortitudename{Fortitude}
+% \newcommand\willname{Will}
+
+\newcommand\strstatname{MIG}
+\newcommand\dexstatname{DEX}
+\newcommand\constatname{CON}
+\newcommand\intstatname{INT}
+\newcommand\wisstatname{WIT}
+\newcommand\chastatname{RES}
+
+\newcommand\skillsname{Skills}
+\newcommand\accuraciesname{Accuracies}
+\newcommand\dimmname{Damage Immunities}
+\newcommand\dvulname{Damage Vulnerabilities}
+\newcommand\dresname{Damage Resistances}
+\newcommand\cimmname{Condition Immunities}
+\newcommand\savesname{Saving Throws}
+\newcommand\sensesname{Senses}
+\newcommand\languagesname{Languages}
+\newcommand\challengename{Challenge}
+
+\newcommand\rpg@commentboxname{Note}
+\newcommand\rpg@warnboxname{Warning}
+\newcommand\rpg@suggestionboxname{Suggestion}
+\newcommand\rpg@exampleboxname{Example}
+
+
+
+% Check if either babel or polyglossia have been loaded,
+% in which case load the string captions
+\@ifpackageloaded{babel}{
+  \usepackage{lib/book/rpg-strings-captions}
+}{}
+\@ifpackageloaded{polyglossia}{
+  \usepackage{lib/book/rpg-strings-captions}
+}{}

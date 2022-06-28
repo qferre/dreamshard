@@ -1,0 +1,864 @@
+\chapter{Bag of Tricks}
+
+\label{annex_samples_bestiary}
+
+
+\section{Bestiary}
+
+
+%%% IMPLEMENTATION NOTES
+% - When formatting, ensure manually that the monsterbox below is not cut (on two columns or two pages), since LaTeX will not do it automatically. Move it or add spaces if needed.
+% To modify the box template itself, see the files 'rpg-monster.sty' and 'rpg-strings.sty'
+
+\begin{monsterboxbg}{Name of the Actor}
+    %\begin{monsterbox}{rpg-monsterbox}
+    %\textit{Level 1 - Short description}\\
+
+    % Token can have text wrapping around it
+    \begin{wrapfigure}{l}{60bp}
+        \includegraphics[width=70bp,height=70bp]{img/boss_token_example.png}
+    \end{wrapfigure}
+
+    Description of the Actor and token if possible. This description should be long enough so that the text goes below the token and wraps itself succesfully around it.
+
+    More information should be presented, including tactical information. The token itself, obviously, is optional.
+    
+    %% IMPORTANT Implementation note: Remove the rpghline below if your description is not long enough to cover the token.
+    \rpghline
+    \stats[ % This 'stats' command will autocomplete the modifier for you
+        % Correspondance with my rules : STR is MIG, DEX is DEX, CON is CON, INT is INT, WIS is WIT, CHA is RES
+        STR = \stat{12}, 
+        DEX = \stat{7},
+        CON = \stat{10},
+        INT = \stat{10},
+        WIS = \stat{10},
+        CHA = \stat{10},
+    ]
+    \rpghline
+
+    % If you want to use commas in these sections, enclose the
+    % description in braces.
+    % I'm so sorry.
+
+    \basics[
+    armorclass = 3,
+    hitpoints  = 42, %hitpoints  = \rpgdice{3d8 + 3},
+    %speed      = 10,
+    focus      = 5,
+    defenses   = {Deflection 0, Reflex 0, Fortitude 0, Will 0}
+    ]
+    \rpghline%
+
+    \details[%
+    %% IMPORTANT: Many of those are optional and will default to empty if not specified.
+    skills = {Athletics 3, Kosmics 1},
+    accuracies = {Melee 6, Ranged 6},
+    % languages = {Common Lisp, Erlang},
+    % damageimmunities={Cosmic},
+    % savingthrows=,
+    % conditionimmunities={Charmed},
+    % damageresistances={Electricity},
+    % damagevulnerabilities={Fire},
+    % senses=---,
+    % languages=---,
+    challenge=Elite,
+    ]
+    \rpghline%
+    \begin{rpg-monsteraction}[Combat Specificities]
+        Does this Actor have Reach ? Do they have a size larger than 1\texttimes 1 ? Do they have a different speed than standard? This can be listed here, with any other specificities.
+    \end{rpg-monsteraction}
+
+    \rpgmonstersection{Abilities and Actions}
+
+    \begin{rpg-monsteraction}[Action Name]
+        List any relevant Ability or Action. Including usable objects and any kind of special action.
+    \end{rpg-monsteraction}
+
+    \begin{rpg-monsteraction}[Combat Action Example]
+        \textit{Accuracy vs Defense.} Effect.
+    \end{rpg-monsteraction}
+
+
+    \rpgmonstersection{Passive Abilities}
+
+    \begin{rpg-monsteraction}[Trait]
+    Any relevant Trait or Passive Ability. In particular, all Resistances and Vulnerabilities to Damage and Conditions should be listed here.
+    \end{rpg-monsteraction}
+
+    \begin{rpg-monsteraction}[Senses]
+    Any relevant Sense or Language beyond what is commonly expected can be also listed here.
+    \end{rpg-monsteraction}
+
+    
+    \rpgmonstersection{Notes}
+    Optional. Any relevant note, such as the knowledge possessed by the Actor, roleplaying notes, advice about its intended combat behavior, maybe notes about possible variants of the Actor.
+
+\end{monsterboxbg}
+
+
+This Bestiary section will contain many standardized examples of Actors, ready for re-use.
+
+Right above, I also present a template of "stat block", ready for modification and re-use: just look into the source code of the manuscript and see the implementation notes in the comments, or simply use it as a stylistic inspiration.
+
+\begin{rpg-examplebox}
+    Guidelines for the creation from scratch of custom Actors, as well as general balancing, are undissociable from general design considerations. As such, they are not presented here, but in section \ref{bestiary} instead. This part will instead contain only a catalog, and comments on the specific philosophy behind the design of the examples themselves, not of all Actors in general.
+\end{rpg-examplebox}
+
+The design considerations presented below also mean that Actors have, for instance, lower base damage and HP than would be the same for the players. As such, an easy way to scale these templates up when the players level up, so as to still match the guidelines, is to give them the equivalent of Tier 2 or Tier 3 equipment (or giving them objects that provide a similar boost in Aptitudes, Defenses and Damage).
+
+\paragraph{Clarifications}
+
+\begin{itemize}
+    \item Although they are not written on the stat block, all Actors presented here also have access to all standard Actions, (such as Concentrate or Assist) unless specified otherwise.
+    \item In the "Abilities and Actions" section, everything with the words "Standard Attack" or "Action" in the title is assumed to be a regular Action (meaning it does not cost Focus) and everything else is assumed to be an Ability (which costs Focus), unless specified otherwise.
+    \item Each Ability will mention in italics the Aptitude it uses, and if applicable, which Defense of the target to use as Difficulty ("vs"), or even the formula of a roll that must be passed to trigger it. If there is instead written "\textit{Always succeeds}", it means the effects as written in the description will always trigger without needing a roll.
+\end{itemize}
+
+
+
+% Open with a new page
+\newpage
+\subsection{Examples of Actors}
+
+
+\begin{monsterboxbg}{Zombie}
+
+    A swarming enemy. Not so harmless in large groups.
+    
+    \rpghline
+    \stats[
+        STR = \stat{12}, 
+        DEX = \stat{12},
+        CON = \stat{8},
+        INT = \stat{6},
+        WIS = \stat{8},
+        CHA = \stat{10},
+    ]
+    \rpghline
+
+    \basics[
+    armorclass = 0,
+    hitpoints  = 12,
+    focus      = 1,
+    defenses   = {Deflection 1, Reflex 1, Fortitude 0, Will -2}
+    ]
+    \rpghline
+
+    \details[%
+    accuracies = {Melee 2, Ranged -2},
+    challenge = Weak,
+    ]
+    \rpghline%
+    \begin{rpg-monsteraction}[Combat Specificities]
+        Abomination.
+    \end{rpg-monsteraction}
+
+    
+    \rpgmonstersection{Abilities and Actions}
+
+    \begin{rpg-monsteraction}[Standard Attack]
+        \textit{Melee vs Deflection.} 2+1 damage.
+    \end{rpg-monsteraction}
+
+    \begin{rpg-monsteraction}[Ensnare]
+        \textit{Melee vs Fortitude.} The target is Grappled. You can no longer act.
+    \end{rpg-monsteraction}
+
+
+\end{monsterboxbg}
+
+
+
+\begin{monsterboxbg}{Warrior}
+
+    A reliable sort, good at holding the line.
+    
+    \rpghline
+    \stats[
+        STR = \stat{14}, 
+        DEX = \stat{14},
+        CON = \stat{13},
+        INT = \stat{8},
+        WIS = \stat{8},
+        CHA = \stat{10},
+    ]
+    \rpghline
+
+    \basics[
+    armorclass = 3,
+    hitpoints  = 19,
+    focus      = 3,
+    defenses   = {Deflection 2+2, Reflex 2, Fortitude 3, Will -1}
+    ]
+    \rpghline
+
+    \details[%
+    skills = {Athletics 1},
+    accuracies = {Melee 4, Ranged -2},
+    ]
+    \rpghline%
+
+    
+    \rpgmonstersection{Abilities and Actions}
+
+    \begin{rpg-monsteraction}[Standard Attack]
+        \textit{Accuracy vs Defense.} Shortsword and shield. 3+2 damage.
+    \end{rpg-monsteraction}
+
+    \begin{rpg-monsteraction}[Ever Vigilant]
+    \end{rpg-monsteraction}
+
+    \begin{rpg-monsteraction}[Stalwart]
+    \end{rpg-monsteraction}
+
+\end{monsterboxbg}
+
+
+
+
+\begin{monsterboxbg}{Marskman}
+
+    Lethal at range, can inflict heavy damage if allowed to set up in position.
+    
+    \rpghline
+    \stats[
+        STR = \stat{12}, 
+        DEX = \stat{10},
+        CON = \stat{12},
+        INT = \stat{8},
+        WIS = \stat{15},
+        CHA = \stat{10},
+    ]
+    \rpghline
+
+    \basics[
+    armorclass = 1,
+    hitpoints  = 18,
+    focus      = 5,
+    defenses   = {Deflection 2, Reflex 2, Fortitude 2, Will -1}
+    ]
+    \rpghline
+
+    \details[%
+    skills = {Discretion 2},
+    accuracies = {Melee 0, Ranged 5},
+    ]
+    \rpghline%
+    \begin{rpg-monsteraction}[Combat Specificities]
+        Hello
+    \end{rpg-monsteraction}
+
+    
+    \rpgmonstersection{Abilities and Actions}
+
+    \begin{rpg-monsteraction}[Standard Attack]
+        \textit{Ranged vs Deflection.} Light musket. 6+1 damage, ignore 2 Armor, once per turn.
+    \end{rpg-monsteraction}
+
+    \begin{rpg-monsteraction}[Pin Down]
+    \end{rpg-monsteraction}
+
+    \rpgmonstersection{Passive Abilities}
+
+    \begin{rpg-monsteraction}[Zeroing In]
+        If you did not move on your previous turn, gain +1 to Accuracy.
+    \end{rpg-monsteraction}
+
+    \rpgmonstersection{Passive Abilities}
+
+    A common variant will instead wield a Standard ranged weapon such as a crossbow.
+
+\end{monsterboxbg}
+            
+
+
+
+
+
+\begin{monsterboxbg}{Daemon}
+
+    The world is dark and full of terrors.
+    
+    \rpghline
+    \stats[
+        STR = \stat{14}, 
+        DEX = \stat{16},
+        CON = \stat{10},
+        INT = \stat{14},
+        WIS = \stat{10},
+        CHA = \stat{12},
+    ]
+    \rpghline
+
+    \basics[
+    armorclass = 0,
+    hitpoints  = 23,
+    focus      = 5,
+    defenses   = {Deflection 4, Reflex 4, Fortitude 4, Will 3}
+    ]
+    \rpghline
+
+    \details[%
+    skills = {Athletics 2},
+    accuracies = {Melee 6, Ranged 0},
+    ]
+    \rpghline%
+    \begin{rpg-monsteraction}[Combat Specificities]
+        Abomination.
+    \end{rpg-monsteraction}
+
+    
+    \rpgmonstersection{Abilities and Actions}
+
+    \begin{rpg-monsteraction}[Standard Attack]
+        \textit{Melee vs Deflection.} Claws. Deals 4+2 damage.
+    \end{rpg-monsteraction}
+
+    \begin{rpg-monsteraction}[Draining Touch]
+        \textit{Melee vs Deflection.} Drain 6 HP.
+    \end{rpg-monsteraction}
+
+    \begin{rpg-monsteraction}[Intimidate]
+        \textit{Always succeeds.} Target must pass [Will-6], or you inflict them with the "Intimidated" Condition (-3 to all Accuracies when attacking the caster)
+    \end{rpg-monsteraction}
+
+    \rpgmonstersection{Passive Abilities}
+
+    \begin{rpg-monsteraction}[Darkvision]
+    \end{rpg-monsteraction}
+
+
+\end{monsterboxbg}
+
+
+
+
+\begin{monsterboxbg}{Spellcaster}
+
+    A polyvalent foe armed with a variety of Spells for all purposes, can become quite a headache if not dealth with quickly. Fortunately, not very resilient.
+    
+    \rpghline
+    \stats[
+        STR = \stat{10}, 
+        DEX = \stat{8},
+        CON = \stat{10},
+        INT = \stat{14},
+        WIS = \stat{14},
+        CHA = \stat{12},
+    ]
+    \rpghline
+
+    \basics[
+    armorclass = 0,
+    hitpoints  = 18,
+    focus      = 6,
+    defenses   = {Deflection 1, Reflex 1, Fortitude 0, Will 3}
+    ]
+    \rpghline
+
+    \details[%
+    skills = {Kosmics 2, Lore 2},
+    accuracies = {Melee -2, Ranged 4},
+    ]
+    \rpghline%
+    
+    \rpgmonstersection{Abilities and Actions}
+
+    \begin{rpg-monsteraction}[Standard Attack]
+        \textit{Ranged vs Deflection.} Pistol. 4 damage, ignore 1 Armor.
+    \end{rpg-monsteraction}
+
+    \begin{rpg-monsteraction}[Frostbite]
+        \textit{Ranged vs Fortitude.} 5 frost damage, and target loses 1 AP next turn.
+    \end{rpg-monsteraction}
+
+    
+    \begin{rpg-monsteraction}[Toughen]
+        \textit{Always succeeds.} Target gains +3 Deflection for the next turn only.
+    \end{rpg-monsteraction}
+
+    
+    \begin{rpg-monsteraction}[Wand of Atrophy]
+        \textit{Ranged vs Will.} 3 uses, does not cost Focus. Inflict the Ruptured Condition (+2 to all incoming damage).
+    \end{rpg-monsteraction}
+
+    
+    \begin{rpg-monsteraction}[Reality Fault]
+        \textit{Always succeeds.} Place a glyph on a distant tile. At the beginning of your next turn, it explodes, dealing 8 explosive damage on its tile and all adjacent tiles.
+    \end{rpg-monsteraction}
+    
+    \begin{rpg-monsteraction}[Summon Sprites]
+        \textit{Ranged.} Spawn two Sprites (Generic Enemy but with 4 HP only). Once per turn maximum.
+    \end{rpg-monsteraction}
+
+
+\end{monsterboxbg}
+	
+
+
+
+
+
+\newpage
+\subsection{Challenging Enemies}
+
+
+
+
+\begin{monsterboxbg}{Leader}
+
+    Very adept at controlling the field of battle. Can become deadly when commanding a squad.
+    
+    \rpghline
+    \stats[
+        STR = \stat{15}, 
+        DEX = \stat{12},
+        CON = \stat{13},
+        INT = \stat{12},
+        WIS = \stat{8},
+        CHA = \stat{14},
+    ]
+    \rpghline
+
+    \basics[
+    armorclass = 2,
+    hitpoints  = 24,
+    focus      = 6,
+    defenses   = {Deflection 3, Reflex 3, Fortitude 3, Will 3}
+    ]
+    \rpghline
+
+    \details[%
+    skills = {Athletics 2, Psychology 2},
+    accuracies = {Melee 2, Ranged -2},
+    challenge = Veteran,
+    ]
+    \rpghline%
+    
+    \rpgmonstersection{Abilities and Actions}
+
+    \begin{rpg-monsteraction}[Standard Attack]
+        \textit{Melee vs Deflection.} Greatsword. 5+2 damage, ignore 2 Armor, once per turn.
+    \end{rpg-monsteraction}
+
+    \begin{rpg-monsteraction}[Into The Fray]
+    \end{rpg-monsteraction}
+
+    \begin{rpg-monsteraction}[Brute]
+        \textit{Melee vs Fortitude.} Inflict Prone for the next turn only. On Graze, instead inflict Distracted (-2 to best Accuracy) for the same duration.
+    \end{rpg-monsteraction}
+
+    \begin{rpg-monsteraction}[Assault Order]
+        \textit{Always succeeds.} Pick an enemy Actor. They get +2 to all incoming damage until the beginning of your next turn. Can stack up to +3.
+    \end{rpg-monsteraction}
+
+    \begin{rpg-monsteraction}[Walk It Off]
+        \textit{Always succeeds.} Pick a friendly Actor. All hostile Conditions they suffer from are shortened by 1 turn (cannot shorten a Condition that has only 1 turn remaining).
+    \end{rpg-monsteraction}
+
+    \begin{rpg-monsteraction}[Sixth Sense]
+    \end{rpg-monsteraction}
+
+    \rpgmonstersection{Passive Abilities}
+
+    \begin{rpg-monsteraction}[Thick of the Fight]
+        All allies within 2 tiles of your position gain +1 to all Accuracies. You gain +1 to all Accuracies (up to +4) per such ally.
+    \end{rpg-monsteraction}
+
+\end{monsterboxbg}
+
+
+
+\begin{monsterboxbg}{Hulking Monstrosity}
+
+    The gloves are off. Face off against this enormous affront to Nature.
+    
+    \rpghline
+    \stats[
+        STR = \stat{20}, 
+        DEX = \stat{14},
+        CON = \stat{18},
+        INT = \stat{10},
+        WIS = \stat{10},
+        CHA = \stat{12},
+    ]
+    \rpghline
+
+    \basics[
+    armorclass = 1,
+    hitpoints  = 64,
+    focus      = 5,
+    defenses   = {Deflection 3, Reflex 3, Fortitude 9, Will 1}
+    ]
+    \rpghline
+
+    \details[%
+    skills = {Athletics 2},
+    accuracies = {Melee 4, Ranged 0},
+    challenge = Elite,
+    ]
+    \rpghline%
+    \begin{rpg-monsteraction}[Combat Specificities]
+        Large creature ($2 \times 2$ tiles). Abomination.
+    \end{rpg-monsteraction}
+
+    
+    \rpgmonstersection{Abilities and Actions}
+
+    \begin{rpg-monsteraction}[Standard Attack]
+        \textit{Melee vs Deflection.} 3+5 damage, hits 2 adjacent tiles.
+    \end{rpg-monsteraction}
+
+    \begin{rpg-monsteraction}[Grab and Smash]
+        \textit{MIG vs Reflex.} The target is Grappled by you. After 2 turns, if the Grapple was not broken, slam them to the ground for 10 damage.
+    \end{rpg-monsteraction}
+
+    \begin{rpg-monsteraction}[Clear Out]
+    \end{rpg-monsteraction}
+
+    \begin{rpg-monsteraction}[Hobbling Strike]
+    \end{rpg-monsteraction}
+
+    \rpgmonstersection{Passive Abilities}
+
+    \begin{rpg-monsteraction}[Stalwart]
+    \end{rpg-monsteraction}
+
+    \begin{rpg-monsteraction}[Disgustingly Resilient]
+        Regenerate 4 HP per turn.
+    \end{rpg-monsteraction}
+
+
+\end{monsterboxbg}
+
+
+
+\begin{monsterboxbg}{Magister}
+
+    Bear witness to the true power of Magic. A deadly foe, that can wield any kind of Spell imaginable to inflict any effect desired.
+    
+    \rpghline
+    \stats[
+        STR = \stat{12}, 
+        DEX = \stat{14},
+        CON = \stat{16},
+        INT = \stat{20},
+        WIS = \stat{16},
+        CHA = \stat{16},
+    ]
+    \rpghline
+
+    \basics[
+    armorclass = 1,
+    hitpoints  = 70,
+    focus      = 12,
+    defenses   = {Deflection 5, Reflex 5, Fortitude 6, Will 8}
+    ]
+    \rpghline
+
+    \details[%
+    skills = {Crafting 2, Kosmics 5, Lore 2},
+    challenge = Elite,
+    accuracies = {Melee 4, Ranged 6},
+    ]
+    \rpghline%
+    
+    \rpgmonstersection{Abilities and Actions}
+
+    \begin{rpg-monsteraction}[Standard Attack]
+        \textit{Ranged vs Deflection.} Pistol with enchanted bullets. Deal 4+1 magical damage.
+    \end{rpg-monsteraction}
+
+    \begin{rpg-monsteraction}[Knowledge Unending]
+        Cast a Spell. \textit{See the Notes section!}
+    \end{rpg-monsteraction}
+
+    \begin{rpg-monsteraction}[Nightmare]
+        \textit{Always succeeds.} Pick an Actor. Once per turn, perform opposed RES rolls, until the Actor is killed or you are interrupted. You cannot move in the process (this is a Channeling). Everytime the target wins, you deal them 3 psychic damage. Everytime they lose, move one step further on: (1) Inflict Sleeping, cannot be woken up with a simple Assist. (2) Take 10 damage, ignoring Armor. -4 to Intelligence, Wits and Resolve until rest. (3) Instantly drop to 0 HP.
+    \end{rpg-monsteraction}
+
+
+    \rpgmonstersection{Passive Abilities}
+
+    \begin{rpg-monsteraction}[Mind Over Matter]
+        +1 Accuracy when casting Spells. All negative mental Conditions recieved are downgraded (ie. Dominated becomes Charmed).
+    \end{rpg-monsteraction}
+
+    
+    \rpgmonstersection{Notes}
+
+    In the context of the "Knowledge Unending" Ability, to determine which Spells are known to a given Magister, you can draw from anywhere in this manuscript, depending on roleplaying context of course to inform your picks. For instance, it can be assumed they know all the Spellcaster archetype does, but feel free to draw Spells from any example given in the manuscript. Keep them reasonably balanced, for instance by downgrading Boss spells if you pick them.
+    
+    Furthermore, the second example included here (Nightmare) is an example of how Magisters have access to very powerful Spells, but feel free to design your own broken Abilities.
+
+\end{monsterboxbg}
+
+
+
+
+
+
+
+
+
+\begin{monsterboxbg}{Eidolon of the Dreamers}
+
+    The world would be a better place, if certain things were to never see the light again.
+    
+    \rpghline
+    \stats[
+        STR = \stat{16}, 
+        DEX = \stat{14},
+        CON = \stat{22},
+        INT = \stat{10},
+        WIS = \stat{10},
+        CHA = \stat{12},
+    ]
+    \rpghline
+
+    \basics[
+    armorclass = 0,
+    hitpoints  = 200,
+    focus      = 12,
+    defenses   = {Deflection 1, Reflex 1, Fortitude 9, Will 2}
+    ]
+    \rpghline
+
+    \details[%
+    skills = {Athletics 2},
+    accuracies = {Melee 4, Ranged 0},
+    challenge = Boss,
+    ]
+    \rpghline%
+    \begin{rpg-monsteraction}[Combat Specificities]
+        Large creature ($2 \times 2$ tiles). Abomination.
+    \end{rpg-monsteraction}
+
+    
+    \rpgmonstersection{Abilities and Actions}
+
+    \begin{rpg-monsteraction}[Standard Melee Attack]
+        \textit{Melee vs Deflection.} Smash, dealing 7+2 damage on two tiles adjacent to each other.
+    \end{rpg-monsteraction}
+
+    \begin{rpg-monsteraction}[Standard Ranged Attack]
+        \textit{Ranged vs Deflection.} Scorpio bolt. 5+2 damage.
+    \end{rpg-monsteraction}
+
+    \begin{rpg-monsteraction}[Clear Out]
+    \end{rpg-monsteraction}
+
+    \begin{rpg-monsteraction}[Neural Network]
+        \textit{Always succeeds.} All visible Abominations, including yourself, permanently gain +1 to all Aptitudes. Cumulative up to +6. Once per turn only.
+    \end{rpg-monsteraction}
+
+    \begin{rpg-monsteraction}[Unmake Them]
+        \textit{Melee vs Reflex.} Grapple a target. Slam it to the ground at the beginning your next turn, dealing 8 damage.
+    \end{rpg-monsteraction}
+
+    \rpgmonstersection{Passive Abilities}
+
+    \begin{rpg-monsteraction}[Presence]
+        Immune to Knockback and Dominated.
+    \end{rpg-monsteraction}
+
+    \begin{rpg-monsteraction}[Boss]
+        Gains 3 AP per turn instead of 2. Stuns instead reduce AP by 2.
+    \end{rpg-monsteraction}
+
+    \begin{rpg-monsteraction}[Tactical Retreat]
+        Upon losing 30 total HP, hide in the darkness and come down upon hearing noise. Repeat until defeated.
+    \end{rpg-monsteraction}
+
+\end{monsterboxbg}
+
+
+
+
+
+
+
+
+\begin{monsterboxbg}{Arch Lector}
+
+    The Magister to rule them all.
+    
+    \rpghline
+    \stats[
+        STR = \stat{14}, 
+        DEX = \stat{16},
+        CON = \stat{22},
+        INT = \stat{30},
+        WIS = \stat{22},
+        CHA = \stat{24},
+    ]
+    \rpghline
+
+    \basics[
+    armorclass = 2,
+    hitpoints  = 220,
+    focus      = 15,
+    defenses   = {Deflection 10, Reflex 10, Fortitude 13, Will 17}
+    ]
+    \rpghline
+
+    \details[%
+    skills = {Kosmics 10, Psychology 2, Lore 5, Athletics 3},
+    accuracies = {Melee 6, Ranged 12},
+    challenge = Nightmare Boss,
+    ]
+    \rpghline%
+    \begin{rpg-monsteraction}[Combat Specificities]
+        Human-ish.
+    \end{rpg-monsteraction}
+
+    
+    \rpgmonstersection{Abilities and Actions}
+
+    \begin{rpg-monsteraction}[Standard Attack]
+        \textit{Melee vs Deflection.} Shortsword. Deals 7+2 damage.
+    \end{rpg-monsteraction}
+
+    \begin{rpg-monsteraction}[Lunge]
+        \textit{Melee.} Move in a straight line over 4 squares. All Actors in your path take 7+2 damage (cannot avoid it) and must pass [Fortitude-6] or be Knocked Down for 1 turn only.
+    \end{rpg-monsteraction}
+
+    \begin{rpg-monsteraction}[Fate of the Sworn]
+        \textit{Always succeeds.} Resurrect an Actor, who was friendly to you, with half its Hit Points.
+    \end{rpg-monsteraction}
+
+    \begin{rpg-monsteraction}[Vainquish]
+        \textit{Ranged vs Reflex.} Hurl a lightning bolt at a distant enemy, dealing 8+2 lightning damage and inflicting -1 to all Defenses for 2 turns only (can stack).
+    \end{rpg-monsteraction}
+
+    \begin{rpg-monsteraction}[Blink]
+        \textit{Always succeeds.} Teleport away. All enemies adjacent to your initial position must pass [Fortitude-6] or be Blinded for 1 turn only.
+    \end{rpg-monsteraction}
+
+    \begin{rpg-monsteraction}[Death From Above]
+        \textit{Always succeeds.} Pull a golden bow and mark an area of diameter 4. Every Actor in the area at the beginning of your next turn takes 15 damage, and you inflict them with Burning (2 damage per turn). Cannot be avoided.
+    \end{rpg-monsteraction}
+
+    \begin{rpg-monsteraction}[Deny the Witch]
+        \textit{Ranged vs Will.} Target is Silenced for their next turn (cannot use Abilities or Gadgets).
+    \end{rpg-monsteraction}
+
+    \begin{rpg-monsteraction}[Dominate]
+        \textit{Ranged.} Target must pass [Will-8] (Grazes count) or be Dominated for their next turn.
+    \end{rpg-monsteraction}
+
+    \rpgmonstersection{Passive Abilities}
+
+    \begin{rpg-monsteraction}[Lightning Reflexes]
+        Like Ever Vigilant, except the AP granted can be used to cast Abilities.
+    \end{rpg-monsteraction}
+        
+    \begin{rpg-monsteraction}[Boss]
+        Gains 3 AP per turn instead of 2. Stuns instead reduce AP by 2.
+    \end{rpg-monsteraction}
+
+    \begin{rpg-monsteraction}[Unbreakable Spirit]
+        Recover 1 Focus per turn. All negative mental Conditions recieved are downgraded (ie. Dominated becomes Charmed).
+    \end{rpg-monsteraction}
+
+    \rpgmonstersection{Notes}
+    This Boss has particulary high Defense values (and Accuracies to a lesser degree). As such, it is meant to be fought by players which have been boosted: they should regain some Heroism each turn, and use it to overcome this Boss.
+
+    Note that the Abilities of the boss themselves are powerful, but not insanely so. The difficulty really comes from the modifiers.
+
+\end{monsterboxbg}
+
+
+
+\section{Examples of Abilities}
+
+\label{examples}
+
+This section presents example of Spells (in Table \ref{spells_example_table}), but also of Gadgets (in Table \ref{gadgets_example_table}) and Traits (in Table \ref{traits_example_table}). Those examples are here to be used as an inspiration when designing your own! As mentioned before, you can also \textbf{draw on the custom Abilities in the Bestiary above} for inspiration.
+
+In those examples, to determine the duration of Conditions an INT of 3 and a target RES of 1 is assumed.
+
+Some examples of uses that are different from a simple damage value or applied modifiers are presented, such as "Douse in Oil". We also present examples of different Objects created by achieving certain results when Crafting: for example, a a "Superior Ice Bomb" is obtained by a Critical Success when crafting an "Ice Bomb".
+
+Those examples are useful to understand the construction and balancing of a Spell, or a custom Ability in general. For instance, consider "Unlife": in terms of expected effect, this is roughly the equivalent of being able to inflict 3 damage \texttimes 3 turns \texttimes 2 actions per turn \texttimes 0.5 from the hit probability, plus having a meatshield which will in effect prevent some HP damage to the PCs. This is slightly more powerful than other Abilities, but not much so, and is paid for by necessitating 6 Power Accents. As discussed before, always think in terms of \textbf{"how big of an impact does one use of this Ability have on the field of play"}.
+
+\begin{table*}[h!tbp]
+	\begin{center}
+		\begin{tabular}{p{2.5cm}p{2cm}p{3.5cm}p{7.5cm}} \toprule
+			
+		    \textbf{Name} & \textbf{Sigil} & \textbf{Accents} & \textbf{Effect} \\ \midrule
+
+		    Cone of Intense Frost & Frost & Spray, Power 3 & vs Fortitude. 7 Frost damage in a cone. \\[2mm] 
+            Cone of Biting Frost & Frost & Spray, Power 3 & vs Fortitude. 5 Frost damage in a cone, and targets lose 1 AP next turn. \\[2mm] 
+
+            System Shock & Lightning & Power 4 & vs Fortitude. On touch, inflicts Stunned. \\[2mm] 
+
+            Trip & Force & Impact 2, Power 1 & vs Fortitude. Range of 10 tiles. Inflict Tripped (\times 0.5 Movement) for 3 turns, or move a small object. \\[2mm] 
+
+            Apparitions & Summoning & Impact 2, Power 2, Duration & vs Will. Inflicts Distracted (-2 to all melee combat rolls). \\[2mm] 
+
+            Douse in Oil & Telluric & Impact, Duration, Power 2 & vs Reflex. Douses in flammable oil for 3 turns.  \\[2mm] 
+
+            Fire sword	& Fire	& Affect item, Power 1, Duration & For 3 attacks, your weapon deals 2 additional Fire damage. \\[2mm] 
+
+            Frost Shell & Frost & Effect on self, Duration & Cancel the next 5 Fire damage. Then is Wet for 3 turns. \\[2mm] 
+
+            Unlife  & Summoning & Power 6, Duration & On touch, turn a fresh corpse into a Standard Enemy (15 HP, 3 to all Aptitudes, 2 to all Defenses) for 3 turns, controlled by the caster. \\[2mm]
+
+            Illusory Disguise & Illusion & Power 3, Effect on self, Duration & Disguise yourself as something specific. +5 to Discretion for rolls involving this disguise. Lasts 3 turns in combat, but a few minutes out of combat. \\[2mm] 
+
+		    \bottomrule
+		\end{tabular}
+	\end{center}
+	\caption{Examples of Spells}
+  \label{spells_example_table}
+\end{table*}
+
+
+
+\begin{table*}[h!tbp]
+	\begin{center}
+		\begin{tabular}{p{4cm}p{12cm}} \toprule
+			
+		    \textbf{Name} & \textbf{Effect} \\ \midrule
+
+		    Bodkin Arrow & Ignore 2 Armor. \\[2mm] 
+
+            Invigorating Salts & On touch, heal 7+INT HP. \\[2mm] 
+
+            Kinetic Petards & vs Fortitude. Area of Effect (1 square radius). Pushes targets by 1 square away, from the point of impact. They cannot Sidestep on their next turn. \\[2mm] 
+          
+            Hailpowder & Thrown at an ally. For the next 3 attacks against them, 5 damage is dealt to the attacker. \\[2mm] 
+            
+            Ice Bomb & Applies Ice on the ground (2 squares radius), for 3 turns. Anyone who moves on the ice must succeed in a flipped Reflex roll with a Difficulty of 5 or be knocked Prone for 3 turns. Ice will melt. \\[2mm] 
+            Superior Ice Bomb &	All of Ice Grenade, plus everybody in the blast radius loses 1 AP. \\[2mm] 
+
+            Inscribed Storm Bullet & Convert up to 5 damage into lightning (magic) damage. \\[2mm] 
+
+            Sticky Grenade & vs Deflection. Inflicts 10 explosive damage on the next turn. [DEX-5] to halve the damage. \\[2mm] 
+
+            Mindspin Wand & vs Will. One use. Inflict at random a Condition among: Charmed, Frightened, Enraged. Lasts 3 turns. \\[2mm] 
+
+		    \bottomrule
+		\end{tabular}
+	\end{center}
+	\caption{Examples of Gadgets}
+  \label{gadgets_example_table}
+\end{table*}
+
+\begin{table*}[h!tbp]
+	\begin{center}
+		\begin{tabular}{p{4cm}p{12cm}} \toprule
+			
+		    \textbf{Name} & \textbf{Effect} \\ \midrule
+
+		    Full-method Acting & +2 to Disguise, but can only wear Boot Dagger when disguised. \\[2mm] 
+
+            Disfigured & When unmasked, -2 to Psychology, but +2 instead when intimidating. \\[2mm] 
+
+		    \bottomrule
+		\end{tabular}
+	\end{center}
+	\caption{Examples of Traits}
+  \label{traits_example_table}
+\end{table*}

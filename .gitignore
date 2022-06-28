@@ -1,0 +1,13 @@
+# LaTeX auxiliary files
+*.aux
+*.fls
+*.log
+*.blg
+*.bbl
+*.synctex.gz
+*.out
+*.toc
+*.fdb_latexmk
+
+# Compiled PDF files
+main.pdf   

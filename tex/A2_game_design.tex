@@ -1,0 +1,445 @@
+
+\chapter{Game Design}
+
+When it comes to gameplay in general, I think the best possible advice has already been given by Sid Meier: \textbf{"a game is a series of interesting decisions"}. At any point, this is what you should aim to present to your players. In particular when writing your scenarios.
+
+On that note, there is a wealth of tools available to help you both play and design RPG campaigns, both online and in local groups. Virtual tabletops in particular can be very practical.
+
+
+\section{Balancing advice}
+
+\rpgart{t}{img/art/balance}
+
+With that out of the way, the rest of this appendix will mostly be focused on balancing advice.
+
+\begin{rpg-examplebox}
+    If you remember only one thing from this entire section, it should be this: as a GM, your \textbf{main balancing tool} will be to grant Objects to an actor that can boost any of their aspects.
+\end{rpg-examplebox}
+
+If a player is getting ahead or below the other members of the group in terms of performance, or in general if you need to rebalance something, a good way to do so is by boosting the under-powered Actor (player or NPC, but mostly applicable to players) with judicious grants of Equipment, objects, or loot in general. This can boost damage, rolls, skills, give them more Abilities, affect any gameplay element or any combination of the above.
+    
+A second way, less advisable but still useful, is to grant Traits (ie. passive Abilities) that give a boost or a nerf to specific situations, more Abilities, etc. Try to find a story reason to do so.
+    
+Finally, if all else fails, be clear to your players that you may need to make balance changes as a last resort, and even change the effect of an already-designed Spell or Object, or implement an optional rule mid-game, since the system is currently beta and relies a lot on GM adjudication.
+
+This is a game of cooperative storytelling, and the goal is to have fun. The GM has always the last say, but the GM should encourage the players to speak up if they feel under-powered or generally less useful (or over-powered, but curiously they tend not to complain in that case, I wonder why...) so they can discuss a boost.
+
+\begin{rpg-examplebox}
+    It's better to boost a player that is below group average, than to nerf the powerful one\footnote{Unless said player is so powerful as to be game-breaking...}: your players will like it better, and you can always boost the NPCs invisibly to compensate, since the players don't see NPC character sheets.
+\end{rpg-examplebox}
+
+In the immortal words of Gary Gygax: "dice are used to make noise behind the DM screen". Fudge a roll if you have to, but try to do it rarely so as not to ruin the balance of the game. And above all, do not get caught fudging rolls ! Otherwise, your credibility is destroyed.
+
+\subsection{Dice rolls}
+\label{balancing_rolls}
+
+Consider the following Difficulty table; which gives the rationale behing certain typical Difficulty values:
+
+\begin{rpg-table2}[cX]
+    \textbf{Difficulty}  & \textbf{Description}\\
+    +2/+3	& Trivial. The Difficulty actually becomes a bonus. \\
+    0	& A routine task, with no serious difficulties or opposition. Even somebody who knows nothing about the task has a 50\% chance of success. I also recommend this as the Difficulty on passive observations. \\
+    -2	& The Actor will need to focus a bit, but does not anticipate major hurdles. Simply "doing your job" should be around this Difficulty. \\
+    -3	& This is the \textbf{standard}, go-to Difficulty for most tasks. It represents something that is doable with some adequate notions. \\
+    -6	& This will require a certain expertise, such as convincing someone who is reluctant. This is the go-to Difficulty for most \textbf{hard} tasks.  \\
+    -9	& This should be very, very difficult, even for an expert! \\
+\end{rpg-table2}
+
+When the Actor's skills are only just adequate for the task they are attempting, their Aptitude will equal the Difficulty, and as a result they should mostly Graze or Succeed. Making it more concrete: at a total modifier of 0, the success odds are 50\% (+25\% Graze = 75\%). At -3, they are 35\% (+25\% Graze = 60\%), and at -6 they are 15\% (+ 25\% Graze = 40\%). This is mirrored for positive modifiers. 
+
+As a result, \textbf{each additional point of the total modifier tips the scales by approximately 5\%}. Of course, the Difficulty may be made a bit arbitrarily, depending on the odds the GM wants to give to the Actors. 
+
+When failing at a task that was very easy or that they have good skills in, instead of failing flat the Actor should just get a run-of-the-mill result: here, the dice roll represented the difference between "a standard result" and "a particulary good result".
+
+If no Defense is applicable and you are using a pseudo-Aptitude as the Difficulty of a roll, remember this: since Defenses are the sum of 2 Characteristic modifiers, and some Aptitudes will be only a single Characteristic modifier, consider adding circumstancial bonuses or finding an appropriate Skill so that the Difficulty (the pseudo-Aptitude of the target) will be the sum of 2 modifiers, like a Defense would be\footnote{This works offensively or defensively. We already discussed how sneaking should roll against enemy WIT + Discretion if the sentinel is on active lookout, or just WIT otherwise.}
+
+For the special case of Contests, recall that you chip at the Challenge by the "final result", meaning dice roll plus modifier. So, balance it carefully: even when the Aptitude equals the Difficulty, with 5 rolls an Actor will chip away 50 Challenge on average.
+
+
+\subsubsection{Modifiers}
+
+As for modifiers, +3 is considered a great advantage in a roll, while minor advantages can give +1 or +2. Anything higher than +3 should be justified. Relatedly, in certain cases you may have some effects that convert results to other types of results (ie. Converting Grazes to Failures for example).
+
+On the opposite side, GM is allowed to impose a supplementary malus whenever an Actor is doing something they have manifestly no aptitude or training for, such as wearing heavy armor or using a spell if you have never trained or studied either beforehand. But keep this mostly for plot reasons, or it gets confusing.
+
+
+\subsection{Bestiary}
+
+\label{bestiary}
+
+The Bestiary covers the creation of the "stat blocks" (equivalent to a Character Sheet) of all Actors, not simply "monsters". Bestiary creation follows the same general formula as the creation of a Player Character (section \ref{character_creation}), but some rules are modified. For example, HP is 2\texttimes Constitution for level 1 players; however, it should be around 1-1.5\texttimes Constitution for trashmobs, but 1.5-2\texttimes for regular mobs, and 4\texttimes Constitution or more for bosses, and more at higher levels. Indeed, keeping HP low for mobs is important to ensure the combat remains quick and fluid.
+
+
+\begin{rpg-examplebox}
+    An example of such a stat block is present in section \ref{annex_samples_bestiary}. I also present here many examples of custom-designed Actors to be used as inspiration, or even as-is.
+\end{rpg-examplebox}
+
+
+Feel free to cheat on the Defenses, HP, and Accuracy as we mentioned before, but try first to effect those changes by changing Characteristics. You should not over-optimize a build when designing a NPC: the best, key Characteristic for trashmobs should be 12-14. For regular enemies, it should be 14 or maybe 16. Elites and Bosses may be equivalent to or better than players. 
+
+Relatedly, don't give mobs too high Resolve or Intelligence\footnote{Give them free Accents as a Trait to compensate if you want.} if it's not a Boss, so they don't shorten Conditions too much and their own Conditions don't last too long. A typical Condition should last 2-4 turns!
+
+
+\begin{rpg-examplebox}
+    Here is what a "generic enemy" should look like: \textit{15 HP, 3 to all Aptitudes and Accuracies, 2 to all Defenses}. You can use this when in doubt, as a starting point, if you have a quick need for a stat block, or for a generic enemy, as intended.
+\end{rpg-examplebox}
+
+In summary, the key to balancing, be it combat or otherwise, is the "number of rounds to win". An average enemy should be able to defeat an average PC with 3-4 rounds worth of Action Points\footnote{A quick tip: if, during combat, you find that your enemies chew through the PC's Hit Points too fast, have them attack only once per turn and use their second AP on a support Action. This gives the PCs some breathing room and since the enemies are still doing something useful, this does not give the impression of a nerf.}. The reverse is somewhat trickier, since the party will have better synergy. It should take an average PC 2-3 rounds to defeat an average enemy, so a party of 4 can defeat one or two average enemies per turn. For harder or easier enemies, scale this up or down\footnote{Meaning, it's fine if a "trashmob" can be dispatched by a single player in a single turn, but remember that bosses will need to be able to endure concentrated fire for the entire combat.}. Here, "defeat" is meant in the broad sense, it includes crowd control, convincing to resign, etc.
+
+Relatedly, for enemies that inflict debuff Conditions on the players, lean towards predictable effects. Meaning, do not overuse the "-X to all rolls" as they can be frustrating. Instead, use predictable debuffs like +2 to all incoming or dealt damage, or -2 to the duration of all Conditions inflicted; in essence, debuffs that do not impact the dice roll, but instead the result in a manner that is predictable.
+
+For the number of enemies in an encounter, there should be enough enemies to defeat a player in one turn (to provide the appearence of a meaningful challenge) but for obvious frustation reasons, the enemies should focus fire only rarely. This is an important aspect of the concept of "Action Economy": the team with more total Actions will have more opportunities to inflict damage or generally influence the board, and is also why Bosses get more Actions (see below).
+
+Custom Abilities are possible, and even recommended (Abilities in the general sense, including Objects) and you may draw from the existing ones as inspiration. But as a general rule, enemies should have fewer Abilities and Skills than the players. We discuss this later also.
+
+\paragraph{Unconventional actors}
+
+For larger Actors (more than 1x1 in size) their MIG and CON will likely be $\geq18$\footnote{For the magniture of this increase, rememebr the square-cube law...}. They often have some sort of Trample Ability, which lets them attack several adjacent enemies.
+
+Although a typical human range for Characteristics is 8-16, and 20 is the limit of superhuman, even humans may exceed 20 due to magic or simply plot necessities. Conversely, even though a standard horse is much stronger than a human, too high values would make it unrealistically challenging in-game, as the scale does not translate linearily: its MIG and CON should remain at 12-18, so it remains a "regular enemy". When in doubt for the Characteristics of larger or smaller monsters, privilege basing them on gameplay challenge. This means they will be closer to typical "human" values than their size suggests.
+
+For Swarms, representing very small creatures as a single Actor, they can have some Armor against non-elemental damage representing the difficulty of hitting them. This, like general damage resistances, can be a Trait or a passive Ability.
+
+Actors (mostly for monsters) can have burrow, climb, fly, etc speeds which are different from their standard combat speed, as well as special senses. They can also have special resistances to specific actions or damage types. This is handled through Traits (aka. Passive Abilities). Finally, consider that special bonuses may apply to Accuracy for certain enemies in specific cases. For instance, a large monster, even if it not very agile, may get a bonus to Accuracy when using Clear Out (represented as a Trait, or a Special Skill of the Warfare family, both are equivalent in this case).
+
+
+\paragraph{Bosses}
+
+Bosses are defined in general as very powerful NPCs. Which ones should be "bosses" is up to the GM, but I recommend parcimony: encountering one should be a setpiece moment in the scenario.
+
+Bosses will generally have high Hit Points (see above), high Characteristics, and powerful Abilities. That much is a given. But most of them should also have a "Boss" Trait with the following effect: they gain \textbf{3 AP per turn} instead of 2, and convert most Conditions that cause them to skip a turn into "lose 2AP at the beginning of your turn". 
+
+This helps balance out the fact that the party of Player Characters will have much more Actions in total compared to the Boss, and also makes stunlocking a Boss harder. The specifics will vary depending on the plot, of course.
+
+
+
+
+\subsection{Abilities}
+
+Abilities are intended to let you do something out of the ordinary, and to let you do it more \textit{easily}. For example, Pin Down allows you to essentially get a vastly improved aimed leg shot without penalty. Abilities at higher Tiers are slightly more powerful, but not dramatically more so. Lower-Tier Abilities should not be obsoleted. Of course, Abilities can be used out of combat, and some can be fundamentally designed for that.
+
+When designing NPCs and monsters, it is possible to give them custom Abilities, based on the existing ones. Spells are also always custom-designed. When designing a custom Ability or a Spell, always think about this: \textbf{what can one Action Point spent with this Ability do}, in terms of impact on the board? As we said, you should be able to defeat a regular enemy with 3 rounds. An Ability that one-shots an enemy is too much, but one that could not defeat them or make them unable to do anything even after 5 uses is too weak.
+
+Certain Abilities are the cornerstone of certain types of builds. For instance, Enchanter is mandatory for Magic builds, abilities like Mayhem are mandatory for Crafting builds, Opportunist is needed for rogues, etc.
+
+Abilities cost Focus, but you can increase Focus easily when leveling, and there are also (crafted) Objects. Relatedly, The cooldowns "between rests" and "long rest" are there to prevent out-of-combat spamming, this is not like the Mythic Abilities which are precious.
+
+
+\paragraph{Bestiary Abilities}
+
+In the examples of Actors presented in section \ref{annex_samples_bestiary}, many Abilities will differ from the standard guidelines presented here: they will often have better odds of success, sometimes even always succeeding without even requiring a roll. This is made up by having weaker effects that they should, such as applying Conditions for a shorter period of time. I believe this makes for a more consistent gameplay experience, with less variance in outcome, but this is a personal design choice. Conversely, some Abilities are much stronger for cinematic reasons, but try not to overuse those. \textbf{When in doubt, try to make enemies less frustrating to fight than they should be based on the rules-as-written.}
+
+\textbf{It also goes without saying that the custom Abilities presented there can be very useful when designing your own custom Abilities, and even when desiging Spells for the players to use.}
+
+
+\paragraph{Rolls}
+
+For the Abilities that apply effects after a second roll (first roll being the attack roll), such as Clear Out: keep the two rolls so Different defenses are targeted, just be careful in balancing so that the second rolls has good odds. At present, I made it so on the second roll Grazes are converted to Successes when the Condition being applied is not too powerful (ie. not for Knock Down) Remember to manually write in in the text of the abilities in question, since it is an exception.
+
+Relatedly, in this second roll, the Aptitude (Accuracy) is usually the same as the one used in the attack roll, meaning all modifiers to Accuracy also apply here. Of course, the GM reserves the right to remove any such modifiers that do not make sense for the second roll (or add other modifiers).
+
+For the Area-of-Effect attacks: making one Attack roll per target is the correct implementation, but feels bad. So I recommend one roll per enemy for the Abilities that have a few targets (or even roll the dice once and consider all dice rolls were equal to that one). But for the large AoE, the GM should decide instead to ask the target to use flipped rolls, particularly if the PCs themselves are the targets.
+
+
+\paragraph{Numerical effects over time}
+
+\label{numerical_effect_over_time}
+
+Numerical effects (by which I mean mostly damage and healing) over time usually have lesser magnitude than one-off, burst effects.
+
+In general, for ailments such as poison, I recommend the damage per turn be kept small: 3 to 6 damage at the beginning of each round for 2-4 rounds is usually enough, and effectively equates to a few additional attacks.
+
+Relatedly: for Spells, and by extension Crafted Objects and Custom Abilities since they rely on the same balancing, a numerical effect over time will not apply its raw value (as determined by Power Accents) at each tick. Instead, it should impart a Condition which applies half the raw value, rounded \textbf{up} at the beginnining of each round\footnote{Otherwise, a Duration Accent would be much more powerful than other Accents, since the effects would be multiplicative.}. For example, consider a Spell dealing 5 damage once, cast by an Actor with an INT of 2 on a target with a RES of 0: it will deal 3 damage per turn ($5/2=2.5$ rounded up) over 3 turns.
+
+
+\rpgart{t}{img/art/volcano}
+
+
+\subsubsection{Spells}
+\label{balancing_spells}
+
+Magic is balanced so that, compared to regular Attacks and Abilities, it is slightly weaker in terms of total raw power. It may have higher burst damage, but it costs Focus so is not a long term option. Instead, it makes up for it in versatility: it usually ignores Armor, is useful to apply buffs or debuffs (Conditions), and can apply elemental effects and Combinations. In fact, Spells are much more more useful for support and influencing the field instead of doing raw damage, something they will be less efficient at in terms of resources spent when compared to physical builds.
+
+Since they cost Focus points, damage dealing spells are not the most efficient way to deal damage and are not sustainable long-term. Instead, your weapon is. Use magic only against Armor, or to trigger elemental combinations. In that sense, it then does not need to be significantly more powerful than regular weapon attacks. However, weapon attacks can be enhanced with enchanted or improved ammo (or weapon grease for melee weapons). These consumables each boost one attack (they do not cost an additional AP to apply of course) and are a type of "weaker consumable" (see \ref{weaker_consumables}).
+
+
+Indeed, if a Spell ends up mechanically more-or-less matching an existing Ability in terms of power level, or inflicts a Condition similar to one of those presented on the table of standard Conditions, it's fine and no additional Penalty Accents should be applied. Same reasoning for Crafting (!). In fact, having Spells being slightly weaker to make up for their versatility is fine. On the contrary, Enchanted objects are more powerful, but have more limited availability.
+
+As a stopgap to prevent exploits of the current balance, note that the GM is fully within their rights to impose additional penalties or even refuse a player Spell or Crafted Object that ends up much more powerful as the regular Abilities, even if the player has enough Aptitude to use all the Accents or craft it. Going even further, always remember that really flashy effects are out of reach of PC, and reserved for Magisters. Even though the PC are already a good deal above the general public when it comes to magic, most of them are still incapable of that.
+
+
+\paragraph{Nature of the effects}
+
+Let us discuss now how to determine the precise effects of a spell, by which I mean: which Aptitude gets a -2 modifier in this debuff spell, is this telekinsesis spell able to pull an object but not push it or vice-versa, does this illusion spell disguise the caster or instead makes the target see ghosts, etc. 
+
+The precise effect is fixed by the GM based on the guidelines given in Balancing, and on the nature of each Sigil given in its Ability text. Consider the following examples: Atrophy can apply broad penalties, Frost will likely slow one's movements, Illusion can make it harder to aim, Nature can ensare them with roots or critters, etc. Sigils should not be exceedingly polyvalent: if you are using, say, Nature to invoke critters to distract someone, the penalty applied will affec a more restricted set than if you used Atrophy: for example, only give -2 to melee Accuracy as opposed to -2 to all active rolls. You may alternatively decide to lower the magnitude instead of the scope (ie. -1 to all rolls instead of -2) but I recommend narrowing the scope in most cases.
+
+This is not defined by Accents, which determine mainly the range and power of a Spell right now. I am considering a massively expanded table of Accents which would cover also the precise effects, but for simplicity it's not the case at the moment. I understand this is a bit abstract: please see the example Spells in section \ref{examples} to see what I mean! It should also be noted that the "fluff" is less important than the gameplay effect. For example, the Accent system can say "inflict a malus of -2 on melee attack rolls" which you can then describe with "the enemy see ghosts" if the sigil is Illusion, or "there is a strong wind" if the sigil is Nature.
+
+
+In terms of Defenses, most spells should be resisted by Will. But is it conceivable that magical illnesses be resisted by Fortitude, and Area-of-Effect strikes such as fireballs should still be resisted by Reflex.
+
+Relatedly, a given Spell can usually apply a single Condition. For instance, a Spell will almost never apply both Enraged and Silenced\footnote{Sigil Merging may be able to do both, but it should remain an exception.}. Composite effects are permitted though (ie. using 2 Power to infict damage and 1 Power for a Condition\footnote{Of course, this will require as many Power Accents as the sum of the effects, not the strongest individual effect.}), but only if total number of Power Accents is 3 or more. There are some examples below in the tables. In fact, this is useful to make a Spell feel close to a regular Ability, which often incorporates an attack with its effect.
+
+An additional possible exception is that, like a Called Shot, spells with Power $\geq 3$ can apply a small Condition on Critical Success if it makes sense in context. But all that is mentioned in this paragraph should remain rare!
+
+Relatedly, when desigining a Spell (or for that matter any custom Ability), when it comes to determining its effect, you can draw inspiration from the Sigil description, and example spells in Table \ref{spells_example_table} of course; but feel free to also draw inspiration from existing Abilities in section \ref{abilities_list}. For example, making the target lose Action Points is originally from Pin Down, but fits well a frost spell too.
+
+
+
+
+
+
+\paragraph{Magnitude}
+
+As we have discussed, the key to balancing the magnitude of a Spell's effects is Power Accents. Recall that the scaling associated with a Power Accent is given in its description above: each one adds 2 to numerical effects (damage, healing), and 1 to the magnitude of a Condition, and the first Power Accent is free and does 3 damage.
+
+Let us elaborate a bit. Spells can inflict most of the conditions presented in the Table \ref{conditions_table} of standard Conditions, but the magnitude will change depending on the Power applied. For example, a Power 2 Illusion spell will inflict Distracted, giving -2 maluses to something, the malus is of equal to the Power; to decide which attribute is covered by 'something', see our discussion above.
+
+This is conceptually a weaker version of Blinded. Blinded inflcts -3, so Power 3 to inflict it is reasonable. Stronger conditions like Charmed or Frightened would require 4 or more Power accents: this is more than the numerical malus they infict, since they have additional effects which go way beyond the equivalent of a simple -3 malus. Conversely, very narrow cases will take less Power Accents than their modifiers would suggest: for instance, a bonus to Discretion out of combat only will be higher than what it should be based on the number of Power Accents.
+
+This is also reflected in the scaling of absolute effects: For example, making someone trip is Power 1, while pushing them is Power 2. Cloaking is 2-3, Disguise is 3-4. And even then, remember that strong absolute effects are out of reach of the players. This is important in practice! Because it means a Disguise effect essentially amounts to a +5 or +6 Discretion modifier; like we said above, the details of the fluff (how you describe it) are less important than the gameplay effect.
+
+But wait, why +5 or +6 if the Power is only 3 or 4? As we just mentioned, the GM can be a bit more generous with the modifiers is the use case is very narrow.In general, when making Spells (or Objects, or anything, since they use the same scaling) that are very narrowly applicable, the GM may be generous and make it more effective than it should be based on Accents only, giving between a free +1 or +3 depending on how narrow, although this should remain an exception \footnote{Also recall that sometimes a Graze is a partial failure only. This means a sentinel who is not on particulary alert will likely not pay too much attention to the details of a disguise, so Grazes on the Discretion roll may not be complete failures in this case.}. 
+
+This has additional implications. Casting a very powerful Spell, such as a perfect illusion or a metamorphosis spell, could easily require the equivalent of 7 or more Accents and be something mostly reserved to Magisters. The Player Characters would struggle with this, which is entirely consistent with the lore (see section \ref{magic_lore}). That being said, it is possible to put such spells back in their reach, but this should have \textbf{plot implications}. The PCs should need to conduct research, find materials, tools, etc. As a GM, let them do so only if you want them to be able to cast the spell of course. All of this would grant circumstancial positive modifiers that counter the insane Difficulty, and make the odds of success reasonable.
+
+
+In conclusion, the end goal is that a regular mage PC at 16 INT should be able to inflict reliable flexible Conditions of magnitude 2, and 3 or 4 with Enchanter. A PC with 18 INT should be able to inflict 3 and 4 reliably, 5 with a risk. All of this is true of Crafting too! This makes them on-par with the other Abilities.
+
+
+\paragraph{Snap and Calm Castings}
+
+It can be tough to balance the desired Difficulty of Calm Casting (mostly out-of-combat) vs Snap Casting (mostly in combat) since they rely on different modifiers. It can result in nonsensical situations with one of the two types being much easier or harder than it should logically be.
+
+If required, the GM can consider giving a Trait to a PC that increases or decreases Difficulty on one of the two types of casting, in accord with the character concept, if the PC finds that they are either too weak or too strong in either case. For instance, a wizard with very low DEX and WIT may need a Trait boosting their Accuracy when casting spells in combat, but this should of course come with a tradeoff. The key to remember is that Calm Casting should generally be easier than Snap Casting.
+
+Relatedly, Calm Casting is also relevant when trying to use a Spell (which is an Ability) out-of-combat. Elaborating on the creative use presented in section \ref{creative_use}: Sigils can have contextual non-combat use, even without having designed a Spell with a precise number of Accents (though it is recommended that you still do). For instance, an player may use the Divination sigil in an investigation, more or less allowing them to make an [INT+Kosmics] roll, like they would with a Skill, to gain information. There is of course still an associated Difficulty! Other sigils (Fire to burn vines, etc.) can also get this treatment
+
+
+
+\subsubsection{Custom Abilities}
+
+\label{balancing_abilities}
+
+I would strongly suggest that you, as the GM, may propose custom Ability Trees to the PCs; and of course design custom Abilities for your NPCs.
+Those custom Ability trees may also represent cultural traits, or special capabilities. They may or may not be restricted to certain types of Actors and even be unique to the Character, contain non-combat Abilities, Abilities that do not cost Focus, passive Abilities, etc. Indeed, "Abilities" here is to be understood in the general sense of a "perk" or a "boon" that impacts your capabilities.
+
+Notably, one could conceive of Abilities that give you a bonus to a Special Skill like disguise, rumors, pickpocketing or persuasion, in the vein of the Wildcard Ability in the vanilla rules. Some can be have a roleplay impact (ie. Reputation). For NPCs especially, they can also cover resistances and immunities to certain Conditions or Damage types. It can also be a bonus or malus to certain Accuracies or Defenses. There is no limit!
+
+Recall that we discussed creative problem solving in the main rules, using Abilities or any Action in out-of-the-box thinking in sectino \ref{creative_use}. For example, using fire to burn stubborn vines.
+
+\subsubsection{Traits}
+
+By the same reasoning, be careful with Traits, so as not to destroy the game's balance. I believe that if all the Traits of a Character put together give a total modifier of 2 (for example, one Trait that gives +2 in one situation but -2 in another, or two Traits that both give +1 and -1 somewhere) or even 3, you should be fine. 
+
+Another potential use of Traits is to allow you to bend the rules for certain character concepts. For instance, to play a "sorcerer" (that is to say somebody who does magic instinctively), you may give the player a Trait that caps Kosmics at 1, but in exchange gives additional Focus. Another example would be a support Character which has a Trait that increases the Accuracy of non-hostile Actions in combat, at the cost of reduced Accuracy for hostile Actions.
+
+
+\subsubsection{Skills}
+\label{balancing_skills}
+
+Special Skills are less expensive to buy at level up than regular Skills. To balance this, the GM must ensure they are more narrowly defined, meaningly they will be used more rarely. For instance, Discretion is a general skill, but Disguise is a Special Skill.
+
+"Warfare" Special Skills that give bonuses to Accuracy for specific Actions, Spells, situations, etc. are permitted, but to be used very parcimoniously. They should be much harder to level that regular Special Skills: I suggest capping them at half the PC's level (rounded down, so they are disallowed at level 1) and making them have half the XP cost of a Characteristic increase.
+
+\subsection{Loot and equipment}
+
+\label{balancing_equipment}
+
+Equipment comes in three Tiers. Tier 1 represents mundane objects with no special improvements, Tier 2 objects give +1 to their relevant attributes, and Tier 3 objects give +2. For instance, the "relevant attributes" for a weapon are Accuracy and Damage, while for armor it is the Armor value itself. For Shields, it is Deflection. As I wanted to remain reasonable and realistic, the impact of a Tier is relatively modest. Even higher Tiers are possible, but be parcimonious.
+
+Spells (using a Spell Focus object), Enchantments and Crafted objects may be scaled with Tiers, but this is rarer and usually handled simply by increasing Skill. That being said, objects granted by the GM separetly from Crafting and Enchanting can also have Tiers and be improved to a higher Tier, in order to be still relevant throughtout the campaign.
+
+Relatedly, unique and enchanted items may grant special Abilities (with all the considerations described above...). As a guideline, they should be limited in power and not be too extravagant, and be rare. A typical PC should only have a couple of them at most by the end of the campaign.
+
+Also, we have already said that Special Weapons can deviate from the standard template, for instance gunpowder weapons already ignore some Armor. Here are more possibilities: a Heavy weapon, like a blunderbuss, that instead deals three individual Light attacks, or some Weapons that cost 1 AP to reload. And so on so forth! Feel free to be creative, as long as the advantages balance the disadvantages.
+
+
+\subsubsection{Pace}
+
+\label{leveling_balancing}
+
+For the equipment of the Player Characters at the beginning of the campaign, assuming they start at level 1: as long as the PCs only get Tier 1 equipment, avoid special and magical Objects, and also avoid Heavy Armor, you'll be fine. Tier 2 and Tier 3 objects can come in early-to-mid and midgame respectively.
+
+For XP itself, the pace at which you will grant XP will of course depend on how quickly you want the players to become powerful. A good rule of thumb should be that the players should get some XP during each Act, spread out over the story beats, and a big payoff at the end of each Act (or major story beat). On average, they should gain a level by capitalizing on the XP of each Act, and gain one more level for the big payoff in XP at the end of an Act.
+
+Here is a good rule of thumb regarding the leveling path they should be able to get: their best Characteristic stats at 16-17, and they should be able to have it at 20 by level 5, but 22 by level 10, along with boosting a little some other Characteristics. Their best Skill starts at 4, and should be at 7 by level 5, 9-10 by level 10. Again, also boosting some other Skills. Finally, they should learn 5 new Abilities maximum until level 10.
+
+\subsubsection{Armor}
+
+Keep in mind Armor is a very important balancing factor. A flat -3 reduction to all Damage is very powerful, and that's just Medium Armor! This means Medium Armor (3) should be uncommon, and Heavy Armor (5 Armor) should be rare and the PCs will have to earn it\footnote{Higher Tier armor will protect even more, but higher Tier weapons offset that.}. Recall, however, that while Armor makes you more resistant, it can also inflict various penalties to your efficiency as discussed in section \ref{armor}, meaning as expected higher Armor is more useful for defensive than offensive characters.
+
+As such, giving players better Armor and higher Tier armor (which give more Armor points and cannot give additional penalties) is a very easy way to boost them if they struggle. This goes for both players and NPCs!
+
+That being said, recall that magic, gunpowder and explosives are very good answers to armor. For balance, in terms of Ability Trees, Red-focused players will likely start with light or medium armor, Green-focused likely light, and Blue-focuses none or light. This is of course indicative.
+
+This also means that Armor introduces a strong "rock-paper-scissors" relation between Armaments. Heavy weapons and magic will be very effective against Armor, while regular weapons are almost ineffective against Heavy Armor. This is by design! This is offset by regular attacks being able to be used more frequently, Criticals when in favorable positions, and scaling better with Characteristics.
+
+
+
+
+\subsubsection{Consumables and crafting}
+
+Balancing for Crafting is discussed at length in its section at section \ref{crafting}, but here are some additional considerations.
+
+Recall that, when Crafting simple objects or reconstituting a stock of some existing ones, the main limiting factor in gameplay is the restocking speed (how many objects can be crafted per day), with the rolls themselves succeeding often. However, the Difficulty will be higher and thus become the main limiting factor when crafting special implements.
+
+Crafting extremely powerful, or special, Objects will usually require advancing in the story and acomplishing certain objectives, to get positive modifiers that offset the massive Difficulty. Indeed, Permanent Enchantments require massive numbers of Accents, or are plot devices.
+
+\label{balancing_crafting}
+
+Crafted and Enchanted objects are conceptually equivalent to "spell slots" in DnD, which are also regenerated by a long rest. This means that they can be slightly more powerful than regular Abilities (as their uses are more limited), but only slightly so: this is the role of the Enchanter Ability, which gives free accents on Enchanting.
+
+This also means that, even when crafting non-magical Objects, the GM can be a bit more generous: crafting an Object that is roughly as powerful as a Spell (with Enchanter, so slightly more powerful than Snap Casting) is fine. This means the considerations above in Spell Balancing also apply here! See them in section \ref{balancing_spells}.
+
+
+\paragraph{Availability}
+
+The intented play style for wizards and gadgeteers in general will heavily rely on preparing Enchanting Objects to get more Ability uses, as consumables.
+
+Since using an Object does not cost a Focus point, their fabrication is capped\footnote{Otherwise, wizards would just get free powerful Abilities}. Note however that using a Concentrate Action is a valid way to spend a Focus point to boost the odds of a roll when using an Object, especially combined with the Mayhem Ability. However, unlike Focus, a long rest (fabrication, visit to a merchant) is needed to replenish them, nto a short one. And some are irrepleacable.
+
+Relatedly, Objects/Gadgets can compensate for a low base Focus, but be careful as a GM not to give too many Objects to a player (around 4 per long rest seems reasonable). We have said that the limiting factor would be that your Gadgets only regenerate by your Kosmics or Crafting every long rest ; you can potentially make this Kosmics+INT or Crafting + WIT, depending on the density of combat encounters in your campaigns, but this is usually not required.
+
+It is true that a PC must make two rolls in total for a Gadget: one to craft it (unless someone else did) and one to use it. This is counter-balanced by by the fact that crafted objects are usually more powerful that casual Abilities, and that you can restock them easily. On that note, recall that magical and non-magical Objects that you craft can be shared with your friends! Though if you want to share Enchanted objects, make sure the user has at least 1 Kosmics, or all results will be downgraded.
+
+
+\paragraph{Usage}
+
+When using an Inscribed Object (meaning, an existing Object, not necessarily a Crafted one, with gameplay properties upon which a Spell was inscribed), the roll is the same as if were using the same non-Inscribed object. This is usually going to be an improvised weapon roll But, much like Clear Out, if this would result in applying a major effect the GM is allowed to ask for a second roll to apply it\footnote{Where Grazes are converted to Successes as per balancing notes.}. But if the effect is reasonable, then a single is sufficient: in practice this will almost always be the case.
+
+The difference between Inscribing a Crafted Object and simply making a Magical Implement, is that with the former you get an enchanted object with the properties of the original crafted object plus the properties of the Spell (if it makes sense, obviously). Two rolls, two boons.
+
+
+\paragraph{Weaker consumables}
+
+\label{weaker_consumables}
+
+It is also possible to craft more consumables if they are individually weaker. For example, crafting enchanted or even mundane improved ammunition that ignores 1 or 2 Armor, or converts some damage into elemental damage. This is not even equivalent to one Power Accent for a spell, and as such crafting 2-5 of these objects for the price of a single "crafting slot" (meaning it counts as only 1 crafted Object for the limit between rests) is something the GM can allow.
+
+\section{Writing advice}
+
+Desiging a scenario or a campaign can be a daunting task. In this section, I'd like to share some of my thoughts on how to do that.
+
+The length of a scenario is highly variable, from short one-shots lasting 1-3 sessions, to epic campaigns divided in Acts which each have the size of a standard scenario (ie. around ten sessions). Anything is valid, depending on what you discussed with your players of course. But I recommend having a predetermined length, to avoid the "long running show" syndrome with incoherent twists added just for the sake of it.
+
+Indeed, as Aristotle said, a story is composed of a beginning, a middle, and an end. There is a reason why this structure is a timeless classic! The story needs to have a direction. In this structure, Act I sets up the stakes and presents the situations. Act II has the rising action, where the characters are working at solving the main problem and achieving their goals. Finally, Act III features the (usually climactic) resolution, also called the denouement. 
+
+The GM should prepare situations (scenes, locations) and characters with their personalities and motivations. This is usually better than preparing an extremely rigid plot, since one must remember that the Player Characters are a driving force in the narration. This way, the GM can improvise when needed. Know tha backgrounds of your characters (both PC and NPC), this will help you in that regard.
+
+That being said, depending on what has been discussed with the players, there is usually a "social contract" where the players understand that they should respect the planned structure of the GM's story, so preparation of narrative arcs (in broad strokes of course) beforehand remains possible. All of this depends on your playstyle and should be discussed with your players.
+
+
+\paragraph{Notebook}
+
+Preparing Game Master notes is a very individualized process. Whether it's done on paper or in a computer wiki matters little in the end, although the latter is much more practical. Nevertheless, here is my recommendation for the structure. I think there should be four main sections:
+
+\begin{itemize}
+    \item \textbf{Bestiary and Dramatis Personae}: All Non-Player Characters, with their personalities, what they know about the plot, their Agendas in the plot and towards the PC. And of course, their stat blocks. 
+    \item \textbf{Plot Points}: Everything regarding the plot, but also on the events and elements in the background that can be relevant in an investigation. 
+    \item \textbf{Scenes}: The scenes (ie. "chapters") that the players will explore, each corresponding roughly to one tactical map. More or less in chronological order. This contains the descriptions of what is found and what is scheduled to happend and under what condition. This details the challenges the PC will face. 
+    \item \textbf{World}: A miscellaneous section containing all special rules (gameplay-wise) of the scenario, and any information about the world at large (maps, worldbuilding, etc.).
+\end{itemize}
+
+	
+
+\section{Optional rules and Variants}
+
+This section contains optional variants, that can be used to add some spice to a campaign. But when in doubt, stick to the main rules!
+
+You can pick any number of Variants presented here, although some may have weird interactions with each other.
+
+\begin{rpg-examplebox}
+    In general, feel free to edit the rules or make modifications live in gameplay if you want, however you wish. For example I say Grazes do not shorten Conditions, or that certain boni are not cumulable, but you can make it so, permanently or only once if it fits a particular circumstance!
+\end{rpg-examplebox}
+
+
+\paragraph{Skills and general rolls}
+
+\begin{itemize}
+    \item \textbf{"Horseback Riding"} is a potential Special Skill. Its principle is similar to Kosmics, in that it lets you use your mount to the fullest and your Abilities while mounted, depending on its rank. Mounts generally have their own stat blocks, and you are considered to be permanently Grappling them. Use whichever Defense is appropriate, depending on whether your mount or yourself are being targeted. For damage however, to represent higher momentum, you sum your MIG and the mount's.
+    \item When rolling a Critical Success, one may opt to shorten the time taken by the task instead of increasing the quality of the success.
+    \item Instead of Heroism points being individual, have a single Group Heroism pool for everyone to draw from.
+    \item Whenever rolling a d20, a modification could be to use 2d10 instead. This would emphasize the need for proper positioning and modifier stacking. In this case, what would be "natural 1s" are instead "natural 2s", and Fumbles happen for results of 1 or lower instead of 0 or lower.
+\end{itemize}
+
+\paragraph{Abilities and Actions}
+
+New Abilities and Actions that can be used.
+
+\begin{itemize}
+    \item Tier 4 Abilities can only be learned starting at level 3.
+    \item "Exert" Action: trade 4 HP for 1 Focus.
+    \item "Guard": a high-Tier Red Ability. Unlocks a new combat Action. You can Guard in any direction (N, S, E, W, top, bottom). You have +4 Deflection against attacks coming from your Guarded direction. If an enemy strikes you on your Guard, your next attack against them will be at +3. You can change your Guard as an Overwatch Action\footnote{So, it costs 1AP to do so, and it can be done as a reaction before an attack hits.} but this will require an opposed DEX roll. However, Gyarding is tiring: you don't spend Focus to activate Guard, but if an attack is deflected by your Guard you pay 1 Focus.
+    \item "Abscond": a Guile Ability. Move to any location you could reach with a Movement Action using at most 2AP. This does not trigger Overwatch.
+    \item "Cleave": a Red Ability. Deal damage to two adjacent enemies.
+    \item The Concentrate Action does not cost Focus, but in counterpart the maximum Focus is be reduced, and Concentrate can only be used in combat and costs an Action Point (out of combat, just take 10 as in the core rules).
+    \item "Alternate Strike": a mid-Tier Red Ability, just before "Guard". Lets you choose between a thrust and a slash when using a melee weapon. A slash uses the regular weaopn rules, while a thrust makes you add your MIG modifier to Accuracy in exchange of losing your MIG bonus to damage. This will also change damage type if applicable to your customized rules (piercing damage vs slash or blush damage).
+    \item "Open Vein" : a Green Ability that applies Bleed (Damage over Time that ignores Armor)
+    \item If your campaign will only be played at low levels, meaning player MIG will stay low, you may have Heavy Weapons only ignore 1 Armor instead of 2 to compensate.
+    \item You may have the use of Gadgets (only powerful ones) cost Focus, as an Ability use would, but in counterpart boost maximum Focus by 25-50\%.
+\end{itemize}
+
+\paragraph{Magic}
+
+\begin{itemize}
+    \item An easy way to balance magic is to \textbf{increase or reduce the number of free Accents!}.
+    \item Relatedly, \textbf{diminishing the number of Magical Implements} that can be created per length of time, or hoarded at any one time, is also a very useful lever.
+    \item "Precision Accent": a new type of Accent that can boost the Accuracy of a spell (+1 per such Accent) so you can compensate a low Accuracy to a certain degree.
+    \item Add $+\frac{\textup{MIG}}{2}$, to modifiers applied by Conditions caused by an Actor.
+    \item Hard cap the number of Power Accents on Spells to the Kosmics of the caster.
+    \item Hard cap the Snap Casting or Calm Casting (for example, to the value of the other), or hard boost it.
+\end{itemize}
+
+
+\paragraph{Characteristics}
+
+\begin{itemize}
+    \item \textit{Beta Strike} mode: Double the HP of all Actors for more tactical encounters.
+    \item Even in the core rules, summing two Characteristic Modifiers instead of those of a Characteristic plus a Skill (for example, WIT+INT to crack a code) is possible, but should remain an exception.
+    \item Diminish the duration of hostile Conditions by the best of CON or RES.
+    \item Have RES boost magic.
+    \item INT increases Focus.
+    \item WIT or INT lowers the XP cost of Skills.
+    \item On a Critical Hit, instead of doubling damage, the attack is repeated: this means Armor counts twice. Note that Armor still counts only twice with Opportunist and not thrice, to let light weapons have high armor penetration in correct cases. To compensate, Armor is halved on grazes. This optional rule can be useful if you intentionally leave mobs' Deflection relatively low, and as such criticals are too frequent. 
+\end{itemize}
+
+
+
+
+\subsection{AI}
+
+
+\paragraph{Random Number Generator}
+
+If you forgot your dice, computer, or radioactive elements, you may not have a RNG at hand to generate random numbers between 1 and 20. To compensate for this, you may use a "linear congruential generator". It is an RNG computable with pen-and-paper, defined by the following recurrence relation: given a current value $X_n$, the next number generated is $X_{n+1}=(a \times X_n + c + n)\ ) \textup{mod}\ m$ with parameters $a$, $c$, $m$, and $\textup{mod}$ which refers to the modulo (meaning we cycle when the modulo is reached, for example 10 modulo 8 is 2 ; this is also known as the remainder of a division by the modulo) of the entire preceding expression. $n$ is the current iteration. 
+
+The classical generator found in the literature does not use $n$ as a term in the addition, but I found it helps lenghten the period depending on the values; it may break some theoretical guarantees, but for a pen and paper RPG I do not believe that is a problem.
+
+You can then take some low order bits (here, digits) of $X_{n+1}$ as the random number. You can use a relatively small $m$, as you don't need an output number with many bits. You would like $m$ to be prime, but if it has some large factors that is probably not a problem. If possible, $a$ should be near $\sqrt{m}$ and coprime to it (meaning their only common divisor is 1). 
+
+This RNG can be seeded with $X_0$ the current minute on the clock like many computers do, your birthday, or some such. 
+
+For us, $m=19$ is prime, so there are 18 output possibilities. We can have $a=3$, which is very close to $\sqrt{19}$ and a primitive element of 19, so the period is long, and $c$ can be 1 since it is trivial to add 1 to a number. There are however only 18 possibilities, not 20, so I would recommend mapping those to the 2-19 range of a dice. Another possiblity is $m=97, a=13, c=0$ and not adding $n$ each time.
+
+
+
+\paragraph{Artificial Intelligence}
+
+If you as the GM are unsure of what to do next, here is a quick "Artificial Intelligence" algorithm!
+
+An AI-controlled Actor will compute an objective based on an internal decision algorithm. In terms of movement, it will head towards the location with the highest weight through the shortest path, avoiding if possible any location with a negative weight. Weight is usually based on how much cover it provides, how much closer it is to the objective, etc.
+
+For targets, they will privilege enemies that are weak to their attack capatbilities or that present a large threat (healer, DPS). This means they will try to inflict "maximal damage", in the broad sense of "accomplishing the objective", not simply numerical HP. Exceptions can be made for story relevant decisions, and based on the job/role assigned by the leader AI. 
+
+For example, an Actor in charge of supporting another Actor will have a much increased weight on its healing Actions for that specific Actor. An Actor assigned to cover the right flank of the leader will have much higher weight for anything to the right of that leader.
+
+I suggest to remember job compositions that were effective by increasing weight depending on how high the performance was (effectively a form of optimization\footnote{In terms of optimization, recall the principle of gradient decent: move along the derivative towards the local minimum. Monte Carlo methods and non-gradient such as simulated annealing also exist, but that's another story.}).
+
+
+
+
+
+
+
