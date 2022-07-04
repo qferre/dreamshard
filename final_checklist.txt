@@ -1,8 +1,4 @@
-1) FINAL WRITING PASS
-- Finish redaction of the Lore based on the draft already present.
 - RE-READ EVERYTHING from the beginning to the end, the pdf and the incls, to ensure all is well.
-
-2) FINAL STEP
 - Put the full release with pdf and incls on the Google Drive directory I'll share with the players.
     https://drive.google.com/drive/folders/1q7WzfdtDhCEEnEun66uLDq3nrAE7gD7d
 - Put a copy of the full release and of the source code on my phone.
