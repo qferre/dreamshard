@@ -1,27 +1,25 @@
 \chapter{Core rules}
 
-The core gameplay loop of the Dreamshard RPG will be familiar to every tabletop RPG players. First, the Game Master (GM) describes the current situation, then the Players each describe what they want their respective Player Characters (PC) to do. Following this, the GM adjudicates: they decide if this is possible, and give the odds for a roll to determine the outcome if they so wish. Finally, the GM narrates the results. 
+The core gameplay loop of the Dreamshard RPG will be familiar to every tabletop RPG player. First, the Game Master (GM) describes the current situation, then the Players each describe what they want their respective Player Characters (PC) to do. Following this, the GM adjudicates: they decide if this is possible, and give the odds for a roll to determine the outcome if they so wish. Finally, the GM narrates the results. 
 
-Whenever the rules are unclear, use common sense and personal preference. In any case, \textbf{the GM is always right} and has full latitude to modify the rules to fit the situation. When a "specific" rule (such as an Ability) contradicts a general rule, the specific rule wins. Finally, when halving numbers, \textbf{round down} unless specified otherwise. 
+Whenever the rules are unclear, use common sense and personal preference. In any case, \textbf{the GM is always right}, and has full latitude to modify the rules to fit the situation. When a specific rule (such as an Ability) contradicts a general rule, the specific rule wins. Finally, when halving numbers, \textbf{round down} unless specified otherwise. 
 
 
 \section{Dice rolls}
 \label{dice_rolls}
 
-Dice rolls should be used when the outcome of a given action is \textbf{uncertain}\footnote{If players request a re-roll, they should have a very good reason to do so (new skills, tools, or information or a non-time-sensitive action), and this may come with a potential tradeoff of more severe failures.}. For instance, for very difficult tasks, or when there is a time constraint.
+Dice rolls should be used when the outcome of a given action is \textbf{uncertain}. For instance, for difficult tasks, or when there is a time constraint.
 
-First, some terminology: an Actor designates any agent in the game that is capable of taking Actions, be it a Player Character of a Non Player Character.
-
-Whenever an Actor tries to do something, if the GM calls for a roll, then the Actor will roll their Aptitude against a given Difficulty. In combat, Aptitude and Difficulty are respectively called an Accuracy and a Defense.
+First, some terminology: an \textit{Actor} designates any agent in the game that is capable of taking Actions, be it a Player Character of a Non Player Character. Whenever an Actor tries to do something, if the GM calls for a roll, then the Actor will roll their \textit{Aptitude} against a given \textit{Difficulty}. In combat, Aptitude and Difficulty are respectively called an Accuracy and a Defense.
 
 To do a roll, follow these steps:
 
 \begin{enumerate}
     \item The GM picks the associated Characteristic modifier (see section \ref{characteristics}), and a Skill modifier (see section \ref{skills}) if applicable. 
-    \item Furthermore, the GM may order circumstance modifiers, such as Special Skills.
+    \item Furthermore, the GM may order additional circumstance modifiers, including but not limited to: Special Skills, environmental modifiers, etc.
 	\item The GM determines and announces the Difficulty of the test.
-    \item The player may present an argument to the GM for more modifiers, of for the use of different ones from the character sheet. 
-    \item \textit{Final score = 1d20 roll + Aptitude – Difficulty}. The Aptitude is the sum of all modifiers in all previous steps\footnote{Meaning: Aptitude = Characteristic modifier + Skill modifier + any other modifier}.
+    \item The player may present an argument to the GM for more modifiers, of for the use of different ones from the character sheet. \textit{Regardless, the GM always has the last word.}
+    \item Roll the twenty-sided die, and add the modifiers, so that the \textbf{final score = 1d20 roll + Aptitude – Difficulty}. The Aptitude is the sum of all modifiers in all previous steps\footnote{Meaning: Aptitude = Characteristic modifier + Skill modifier + any other modifier.}.
     \item Compare the final score to Table \ref{success_roll} to determine the quality of the action's result.
 \end{enumerate}
 
@@ -30,9 +28,14 @@ To do a roll, follow these steps:
 	In this book, rolls are written using the following syntax: "[Characteristic modifier + Skill modifier + other modifiers - Difficulty] roll".
 \end{rpg-examplebox}
 
-For example, disarming a trap means putting your Aptitude of DEX + Crafting (for example, +3+2 = +5) against the trap's Difficulty (for example, -2) and checking the result on Table \ref{success_roll}. This will be written as a "[DEX + Crafting - 2] roll".
+
+Let us consider an example: disarming a trap. The GM decides that the required Aptitude will be DEX + Crafting, and that the trap's Difficulty is -2. This will be written as a "[DEX + Crafting - 2] roll".
+
+Now, let's say the Character's DEX and Crafting Skill are +3 and +2 respectively. This means the final modifier will be $3+2-2=3$ and the final roll will be 1d20+3 whose result will be compared to Table \ref{success_roll}.
 
 The general philosophy of the system is to ask the players what they want to do, then work a suitable Difficulty for the roll (and maybe request the use of an Ability). The GM has full freedom to cap, or generally change, the modifiers applied to any given roll.
+
+If players request a re-roll, they should have a very good reason to do so: perhaps having acquired new skills, tools, or information, or the action not being time sensitive. If the GM feels like it, this may come with a potential tradeoff of more severe failures...
 
 
 \paragraph{Assistance} 
