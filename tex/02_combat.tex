@@ -1,6 +1,6 @@
 \chapter{Combat}
 
-Actors will move (and by extension, fight) on local maps representing their surroudings. On such local maps, the world is divided into a square grid. This means the elementary unit of distance is the \textit{map square}, also called a "tile". Each square represents roughly 1.5 meters\footnote{1.5 meters is rounded to 5 feet in freedom units, so 9 meters (6 standard tiles) is 30 feet.}, but this can be more or less depending on the context. 
+Actors will move (and by extension, fight) on local maps representing their surroudings. On such local maps, the world is divided into a square grid. This means the elementary unit of distance is the \textit{map tile}, also called a "map square". Each tile represents a cube of roughly 1.5 meters\footnote{1.5 meters is rounded to 5 feet in freedom units, so 9 meters (6 standard tiles) is 30 feet.} of side, but this can be more or less depending on the context. 
 
 Whenever the GM needs to precisely track the action of the characters, time will be divided into turns in which each character acts. 
 
@@ -36,7 +36,7 @@ Here are the Actions each Actor can take during a round. Each costs one Action P
 \paragraph{Core Actions}
 \begin{itemize}
     \item \textbf{Move}: Unsurprisingly, move. Details below.
-    \item \textbf{Attack}: Make \textit{one} Attack using the weapon you have in hand. The second (or more) attack in a turn gets a -2 Accuracy penalty.
+    \item \textbf{Attack}: Make \textit{one} Attack using the weapon you have in hand. The second (or more) attack in a turn gets a \textit{-2 Accuracy penalty}.
     \item \textbf{Use an Ability}: Spend one point of Focus and use an Ability.
     \item \textbf{Overwatch}: Take a specific Action the next time something specific happens. Details below.
 \end{itemize}
@@ -44,50 +44,49 @@ Here are the Actions each Actor can take during a round. Each costs one Action P
 \paragraph{Uncommon Actions}
 \begin{itemize}
     \item \textbf{Sidestep}: Once per turn, you may move for a distance equal to half your DEX in tiles (minimum of 1 tile) without spending an Action Point. \textit{You cannot Sidestep when you have at least one Wound.\footnote{As such, once Wounded you cannot simply get back in place for free, which would make Knockbacks redundant.}}. This can trigger Overwatch.
-    \item \textbf{Dodge}: Focus on dodging and parrying\footnote{This can also represent a prudent retreat from an Overwatching opponent.}, so that until the beginning of your next round you get +3 to Reflex and Deflection. This stacks only up to +4.
+    \item \textbf{Dodge}: Focus on dodging and parrying\footnote{This can also represent a prudent retreat from an Overwatching opponent.}, so that until the beginning of your next round you get +3 to Reflex and Deflection. This can stack with itself only up to +4.
     \item \textbf{Assist}: Give half your Aptitude (+3 maximum) as a bonus to a friend's next specific roll. This is also used to help someone back to their feet. \footnote{In rare occasions, you may be able to use an Assist action to help an ally do an attack, but the GM must rule if this is reasonable: it is plausible that you may use it to represent positioning yourself to help someone who is fighting in the same melee as you, but you cannot use it to somehow make an ally 50 meters away aim their musket better.}
-    \item \textbf{Concentrate}: If your next Action requires a roll, you get +2. This bonus applies to all active rolls this Action will demand. This can be stacked up to +3 maximum. \textit{This does not cost an Action Point, but costs a Focus point instead (see section \ref{resources})}\footnote{The Concentrate Action is a way to use Focus to increase your odds when using a Gadget, or doing any action in general.}
+    \item \textbf{Concentrate}: If your next Action requires a roll, you get +2. This bonus applies to all active rolls this Action will demand. This can be stacked with itself, but up to +3 maximum. \textit{This does not cost an Action Point, but costs a Focus point instead (see section \ref{resources})}\footnote{The Concentrate Action is a way to use Focus to increase your odds when using a Gadget, or doing any action in general.}
     \item \textbf{Grapple}: Hold a target down, pinning it. This inflicts the Grappled\footnote{Which inflicts sizable penalties. See below.} Condition\footnote{Unlike a typical Condition, it can be maintained indefinitely. Its duration as determined by your INT and the target RES merely marks the time until you must make another Grapple roll to maintain it. Depending on your size and strength and that of the target, maintaing a Grapple can have any cost, from being free, to costing 1 AP per turn and inflict maluses (-2 to all Aptitudes, typical case), to preventing you from acting entirely.}. The roll to perform this Action is [MIG + Athletics - enemy Reflex]. A pinned target cannot do anything except try to break the grapple (freeing oneself from a Grapple is handled by Opposing rolls for Grapple). \\
     This action also covers being a general hindrance, such as trying to disarm someone or preventing an Actor from moving\footnote{The GM may replace the Reflex Defense with Fortitude, or apply any penalties that make sense in context.}; the difference being that the target will not be Grappled, but you won't be busy mainting the grapple either. \\
-    Finally, climbing a target larger than yourself is also a Grapple action, except that the climbed target does not get Grappled, it is merely hindered, and you get a bonus of +3 if you are making a Called Shot on the climbed area\footnote{You will move along the Actor which you are climbing, and may move upon the grappled creature as if it were very difficult terrain (\texttimes4).}.
+    Finally, climbing a target larger than yourself is also a Grapple action, except that the climbed target does not get Grappled\footnote{You will move along the Actor which you are climbing, and may move upon the grappled creature as if it were very difficult terrain (\texttimes4).}, it is merely hindered, and you get a bonus of +3 if you are making a Called Attack on the climbed area\footnote{Meaning, you aim for this specific body part (see section \ref{called_shot}).}.
 \end{itemize}
 
 
 
 \paragraph{Miscellaneous Actions}
 \begin{itemize}
-    \item \textbf{Stun}: Make an attack with a -3 Accuracy penalty. You inflict non-lethal damage: if the damage would drop the target at 0 HP or below, it's unconscious instead. 
-    \item \textbf{Throw} a random object: usually treated as an improvised weapon for 3 damage, but can have different (and hilarious) effects.
+    \item \textbf{Stun}: Make an attack with a -3 Accuracy penalty. You inflict non-lethal damage: if the damage would drop the target to 0 HP or below, the target is made unconscious instead if possible. 
+    \item \textbf{Throw} a random object: usually treated as an improvised weapon for 3 damage, but can have different (and quite \textit{hilarious}) effects depending on what the hell you are throwing.
     \item \textbf{Shove}: like a Grapple action, but against Fortitude. Pushes one square away.
 	\item \textbf{Anything else}: Anything else that requires a moment's concentration. For example, using an Object (aka. Gadget), dipping your weapon in something, switching your weapon, or climbing a horse.
 \end{itemize}
 
-With rare exceptions, the boni provided by actions such as Assist can not be stacked by performing the actions several times. Any bonus that can be stacked will clearly state so in its description.
+With rare exceptions, the boni provided by actions such as Assist \textbf{can not be stacked} by performing the actions several times. Any bonus that can be stacked will clearly state so in its description.
 
 \paragraph{Ongoing Actions} 
 
-Heavy efforts (moving a large rock, advanced spellcasting, etc.) might take several Actions. 
-Any Action costing more than 2 AP is called on "Ongoing Action" into the next turn. To do so, you pre-emptively reserve AP from the next turn, and the Action will trigger only once its full AP cost is paid.
+Heavy efforts (moving a large rock, advanced spellcasting, etc.) might take several Actions. Any Action costing more than 2 AP is called an "Ongoing Action" into the next turn. To do so, you pre-emptively reserve AP from the next turn, and the Action will trigger only once its full AP cost is paid.
 
-For example, if you wish to perform a 3 AP action and spend 2 AP, the Action will resolve only once you pay 1 additional AP on your next turn, and you will have 1 AP left. Depending on how much concentration is required, you may or may not be able to do anything else until the action resolves, but usually not. If you are interrupted (such as by being knocked Prone), the Action does not resolve does not resolve. If you take damage, make a Fortitude roll to keep your concentration just as if if the opponent was trying to knock you Prone.
+For example, if you wish to perform a 3 AP action and spend 2 AP, the Action will resolve only once you pay 1 additional AP on your next turn, and you will have 1 AP left. Depending on how much concentration is required, you may or may not be able to do anything else until the action resolves, but usually not. If you are interrupted (such as by being knocked Prone), the Action does not resolve. If you take damage, make a Fortitude roll to keep your concentration just as if if the opponent was trying to knock you Prone.
 
 Ongoing Actions can also be used to simulate ongoing movement of the platform you are standing on, or shooting while riding, etc. In those cases, you are not interrupted if this movement takes no effort on your part. This kind of movement is treated as a free Ongoing Move Action: time is divided in increments, so you move by 6 seconds worth of the platform's movement at the beginning of your turn. If simultaneity of movement is important (eg. if several people are standing on the same platform, or in a race) instead treat the platform as an independent Actor which moves all Actors standing on it simultaneously\footnote{Since motion is relative, this should not trigger Overwatch from Actors moving simultaneously to each other.}.
 
 
 \subsection{Overwatch details}
 
-When declaring an Overwatch, you can be very specific as to what will trigger it and what you will do, but you need to stay reasonable. Most Actions can be a trigger for Overwatch, but Actions that don't leave one exposed such as Concentrate or Dodge should not be able to trigger Overwatch, except for plot reasons. A good example would be "I will shoot this particular enemy if he moves" or "I am watching anyone in this cone of vision". In essence, Overwatch functions as a delayed Action, but it's not a blank check. You can't change your mind unless it makes sense to do so. You can remain vague to a certain extent, but you must tell the GM what you are on the lookout for and what you want to do, even if that's only in general terms.
+When declaring an Overwatch, you can be very specific as to what will trigger it and what you will do, but you need to stay reasonable. Most Actions can be a trigger for Overwatch, but Actions that don't leave one exposed such as Concentrate or Dodge should not be able to trigger Overwatch, except for plot reasons. A good example would be "I will shoot this particular enemy if he moves" or "I am watching anyone in this cone of vision". In essence, Overwatch functions as a delayed Action, but it's not a blank check. You can't change your mind unless it makes sense for you to do so. You can remain vague to a certain extent, but \textbf{you must tell the GM what you are on the lookout for and what you want to do}, even if that's only in general terms.
 
-If you spend $n$ Action Points on Overwatch, you will get $n$ Overwatch actions. Using Abilities on Overwatch is possible.
+If you spend a number $n$ of Action Points on Overwatch, you will get an equal number $n$ of Overwatch Actions. \textit{Using Abilities on Overwatch is possible.}
     
-Generally, you don't get a particular bonus or malus on Overwatch action, but the GM may decide to apply one if it makes sense. For example, if an enemy sprints away (spends all its AP on movement), you may get a slight penalty to an attack against them. Or an enemy that is merely Sidestepping from melee instead of moving with abandon may get a free Deflection bonus if they are a trained fighter to represent keeping their guard. Or again an enemy making a very involved action such as casting a spell may get a penalty instead. It's up to the GM, but keep in mind that these are all exceptional cases, only to be used if the action is especially egregious.
+In the general case, you don't get a particular bonus or malus on Overwatch action, but the GM may decide to apply one if it makes sense. For example, if an enemy sprints away (spends all its AP on movement), you may get a slight penalty to an attack against them. Or, an enemy that is merely Sidestepping from melee (instead of moving with abandon) may get a free Deflection bonus if they are a trained fighter, to represent keeping their guard. Or again, an enemy making a very involved action such as casting a spell may get a penalty instead. It's up to the GM, but keep in mind that these are all exceptional cases, only to be used if the action is especially egregious.
 
 More often than not, it can be clearly seen when an Actor is on Overwatch and poised to strike. Surprises are always possible, but be careful not be be too frustrating with them.
 
 
 \paragraph{Timing}
 
-Overwatch actions will usually happen before their trigger resolves, unless the trigger is very fast, or the Overwatch Action is complex (so Overwatch is not simply equal to a free Action). 
+Overwatch actions will usually happen \textbf{before} their trigger resolves, unless the trigger is very fast, or the Overwatch Action is complex (so Overwatch is not simply equal to a free Action). 
 
 Let me clarify this: for instance, you can use an Overwatch Action to shoot a creature as soon as it moves, which will interrupt its movement, or as soon as it pokes its head out of cover, if you are ready.
 
@@ -100,7 +99,9 @@ If you have multiple Overwatch Actions (through using several AP or gaining a bo
 
 For humans, each Action Point is usually worth 10 meters of movement\footnote{So, if a tile is 1.5m, that's 6 tiles and not 7 since we round down.}. But each AP is worth 20 meters for horses, and can be more or less for different creatures. Difficult terrain such as mud, shallows or brambles will double the movement costs. Climbing, swimming, crawling, and in general unusual modes of movement will also apply the same $2\times$ cost modifier. Truly horrible quagmires can have a $4\times$ cost modifier instead. Carrying a heavy object (such as a siege ladder, or a person) will also apply a $2\times$ cost modifier on top of this, unless someone is helping you. 
 
-One may move in any direction allowed by their move characteristics (walking, swimming, flying, etc.) but only along an edge of a tile (North, South, East, West, Up or Down) for each step, not along the diagonals. One cannot pass through squares containing a hostile Actor that is able to block the movement (not incapacitated, strong enough), a very large corpse, or a lot of corpses. 
+One may move in any direction allowed by their move characteristics (walking, swimming, flying, etc.) but only along an edge of a tile (North, South, East, West, Up or Down) for each step, \textbf{not along the diagonals}.
+
+One cannot pass through squares containing a hostile Actor that is able to block the movement (not incapacitated, strong enough), a very large corpse, or a lot of corpses. 
 
 
 \subsection{Actor size}
@@ -118,34 +119,33 @@ Phalanxes are also a possibility: several fighters can coordinate with one anoth
 
 \rpgart{t}{img/art/death_whisper}
 
-When making an Attack (or using an Ability), here is the general process: pick a target for your Attack (or Ability), then make the roll. The attack roll uses the same general table of successes presented in the core rules. In combat, your Aptitude roll is called your Accuracy. Depending on the type of success obtained, you will apply an effect: usually, damage, but some Abilities may require you to make another roll to see if a Condition is applied.
+When making an Attack (or using an Ability), here is the general process: pick a target for your Attack (or Ability), then make the roll. \textbf{The attack roll uses the same general table of Successes} presented in the core rules. In combat, your Aptitude roll is called your Accuracy. Depending on the type of success obtained, you will apply an effect: usually, damage, but some Abilities may require you to make another roll to see if a Condition is applied.
 
 
 \subsection{Accuracy}
 
 \label{accuracies}
 
-The Accuracy depends on the attack: it is $Dexterity - 10$ for a melee attack, $Wits-10$ for a ranged attack\footnote{In either case, it's the raw Dexterity or Wits, not the corresponding modifier!}. It doesn't matter whether this is a Spell or not. The Difficulty used to oppose it is a Defense, see below.
+\textbf{The Accuracy depends on the reach of the attack}: it is $Dexterity - 10$ for a melee attack, $Wits-10$ for a ranged attack\footnote{In either case, it's the raw Dexterity or Wits, not the corresponding modifier!}. Melee is defined as attacking an adjacent Actor, it doesn't matter whether this is a Spell or not. The Difficulty used to oppose it is a Defense, see below.
 
+Certain "attacks", usually Abilities, are instead beneficial, and (usually) cast against non-hostile target (in or out ot combat). Their roll will simply be your Accuracy with a Difficulty of 0\footnote{Or even a bonus if the GM feels like it, especially out of combat.} and hence will have good odds. Furthermore, if it is reasonable, when using an Accuracy for \textit{non-hostile actions} (healing, enhancing your weapon, etc.), you may use your Ranged Accuracy if it is higher than your Melee one (but not the reverse).
 
-Certain "attacks", usually Abilities, are instead beneficial, and (usually) cast against non-hostile target (in or out ot combat) that roll will simply be your Accuracy with a Difficulty of 0\footnote{Or even a bonus if the GM feels like it, especially out of combat.} and hence will have good odds. There is one exception: if it is reasonable, when using an Accuracy for non-hostile actions (healing, enhancing your weapon, etc.), you may use your Ranged Accuracy if it is higher than your Melee one.
+Note that actions, Abilities, Spells and Gadgets can demand Accuracy rolls even \textit{out of combat}: you will still use those rules. The GM is within their rights to ask you to roll with an Accuracy against a Difficulty. This is something that happens for spells and is called Calm Casting (see \ref{casting_types}), where the Accuracy is replaced by a classical Aptitude (INT + Kosmics here). The same principle can also be applicable for using objects out of combat: the GM decides. This is related to the core principle of Aptitude vs Defense that we discussed \textit{ad nauseam}.
 
-
-Note that actions, Abilities, Spells and Gadgets can demand Accuracy rolls even out of combat: you will still use those rules. The GM is within their rights to ask you to roll with an Accuracy against a Difficulty (not a Defense since there is no target). It is conceivable that the principle of Calm Casting (see later) where when you are out-of-combat the Accuracy is replaced by a classical Aptitude (INT + Kosmics for spells for example) is also applicable for using objects out of combat: the GM decides. This is related to the core principle of Aptitude vs Defense that we discussed ad nauseam.
-
-
-If an Action has multiple targets (eg. an area of effect), you generally make one roll per target. As mentioned before, the GM can instead ask for a Flipped roll from the targets, but this is an exception rather than the rule. 
+If an Action has multiple targets (eg. an area of effect), you generally make \textit{one roll per target}. As mentioned before, the GM can instead ask for a Flipped roll from the targets, but this is an exception rather than the rule. 
 
 
 \subsection{Line of Sight}
 
-Line of Sight is traced from the center of a tile to the center of another. LoS is blocked if this line goes through an obstruction. If the limits of an obstruction are unclear, treat the tile containing the obstruction as if the entire tile were obstructed. The line may be replaced by an arc if an object is being thrown instead. Shooting with a height advantage gives a bonus of +2. Cover also applies modifiers even if it does not completely block LoS, see below.
+Line of Sight is traced from the center of a tile to the center of another. LoS is blocked if this line goes through an obstruction. If the limits of an obstruction are unclear, treat the tile containing the obstruction as if the entire tile were obstructed. The line may be replaced by an arc if an object is being thrown instead. 
 
 That being said, small obstructions, such as another Actor or rubble, that are placed on a tile adjacent to the Actor (including diagonally adjacent in this case) do not block the Actor's LoS. Obviously, large ones such as a giant brick wall will still block LoS if the Actor cannot reasonably peek past them. You have a right to "peek", meaning ranged LoS can be computed starting from a tile adjacent to the one you're standing on if there is no obstruction in that tile. 
 
-If you are shooting over an elevation or a cliff, use the hypotenuse rule: you usually cannot see Actors closer to the cliff's edge than you are yourself (on the opposite side, of course)\footnote{If you are standing on the cliff's edge, you can shoot at anyone, but if you are 3 tiles away, you cannot shoot someone who is hugging the cliff's edge below you.}. Regardless, note that a ranged Attack against someone who is engaged in an active melee suffers a -3 Accuracy penalty.
+\textbf{Cover also applies modifiers} even if it does not completely block LoS, see below. Relatedly, a ranged Attack against someone who is engaged in an active melee suffers a -3 Accuracy penalty.
 
-Unless specified otherwise for the weapon or spell itself, less than 25 meters is considered to be short range; long range is 25 to 100 meters and will apply a -2 penalty. Anything beyond that is usually not reachable. When using a weapon with Reach (melee weapon with a range of 2 instead of 1), you still use your Dexterity, not your Wits. Dexterity is still used when trying to hit with a ranged weapon in melee. Additionally, Heavy ranged weapons get -3 Accuracy when shooting at an adjacent target. 
+Shooting with a height advantage gives a bonus of +2. If you are shooting over an elevation or a cliff, use the hypotenuse rule: you usually cannot see Actors closer to the cliff's edge than you are yourself (on the opposite side, of course)\footnote{If you are standing on the cliff's edge, you can shoot at anyone, but if you are 3 tiles away, you cannot shoot someone who is hugging the cliff's edge below you.}. 
+
+Unless specified otherwise for the weapon or spell itself, less than 25 meters is considered to be short range; long range is 25 to 100 meters and will apply a -2 penalty. Anything beyond that is usually not reachable. When using a melee weapon with Reach (melee weapon with a range of 2 instead of 1), you still use your melee Accuracy even for a target 2 tiles away. Conversely, you use your melee Accuracy if you are using a ranged weapon (such as a bow) against an adjacent target, and Heavy ranged weapons get -3 Accuracy when doing so. 
 
 \paragraph{On failure} 
 
@@ -155,9 +155,11 @@ When missing, especially on a Critical or for area-of-effect attacks like fireba
 \subsection{Defenses}
 \label{defenses}
 
-Defenses are a type of Difficulty, calculated by taking the highest of the two sums given in Table \ref{defenses_table}. They are mostly used in Combat to resist an Accuracy/Aptitude, but can have other uses, such as Will when persuading. Different Attacks, Abilities, and more generally hazards, may target a different Defense. The four Defenses are Will, Fortitude, Reflex, and Deflection (a special kind of Reflex). Defenses are generally not substracted for the rolls of beneficial actions. 
+Defenses are a type of Difficulty, calculated by taking the highest of the two sums given in Table \ref{defenses_table}. They are mostly used in Combat to resist an Accuracy/Aptitude. They can have other uses however, such as Will which can be used when resisting persuasion. 
 
-The difference between Deflection and Reflex is that shields and cover give a bonus to Deflection, not Reflex. As Deflection is a special kind of Reflex, all Reflex mali and boni also apply to it. Defense modifiers may be granted based on circumstantial modifiers. For example, long range gives a penalty, higher elevation gives a bonus, as discussed above.
+Different Attacks, Abilities, and more generally hazards, may target a different Defense. The four Defenses are Will, Fortitude, Reflex, and Deflection (a special kind of Reflex). Defenses are generally not substracted for the rolls of beneficial actions. 
+
+The difference between Deflection and Reflex is that shields and cover give a bonus to Deflection, not Reflex. As Deflection is a special kind of Reflex, all Reflex mali and boni also apply to it. Defense modifiers may be granted based on circumstantial modifiers. For example, as we discussed above, long range gives a penalty, higher elevation gives a bonus, etc.
 
 \begin{table*}[h!tbp]
 	\begin{center}
@@ -180,13 +182,15 @@ The difference between Deflection and Reflex is that shields and cover give a bo
 
 \paragraph{Body part targeting} 
 
-Depending on the relative size of the attacker and the target, an Attack can get maluses to accuracy (-2) when aiming for a specific part of the target. For large enemies, one always aims for a specific body part, without penalty or bonus.
+\label{called_shot}
+
+Aiming for a specific body part is called a \textit{Called Attack}. Depending on the relative size of the attacker and the target, an Attack can get maluses to accuracy (-2) when aiming for a specific part of the target. For large enemies, one always aims for a specific body part, without penalty or bonus.
 
 When aiming for a specific body part, you inflict minor Conditions on Critical Hits\footnote{Applying a small malus of -1 or -2 to a specific aspect of the target. This remains small, so as not to replace Abilities.} You of course inflict any additional effect that the GM deems to make sense\footnote{For especially large monsters and/or Bosses, the body parts may have their own Hit Points totals, applying a major effect once depleted!}.
 
 \subsubsection{Underhanded tactics} 
 
-An Actor is considered Flanked if they are adjcent to two enemy Actors which are not themselves adjacent. Note that if those two enemy Actors are only diagonally adjacent (as opposed to sharing one edge of their tiles), this is not adjacent in this particular case, unlike the rest of the rules. Making it more concrete: if you have an enemy at your North and your West, you are Flanked, even though they are diagonally adjacent to each other. If the enemies are to your North and North-West, they are adjacent by a side to each other and as a result do not Flank you. If the Actor being Flanked is larger than 1\texttimes1 tiles, ignore this: the large Actor will have an orientation, and being flanked will \textit{only} depend on its orientation. 
+An Actor is considered \textbf{Flanked} if they are adjcent to two enemy Actors which are not themselves adjacent. Note that if those two enemy Actors are only diagonally adjacent (as opposed to sharing one edge of their tiles), this is not adjacent in this particular case, unlike the rest of the rules. Making it more concrete: if you have an enemy at your North and your West, you are Flanked, even though they are diagonally adjacent to each other. If the enemies are to your North and North-West, they are adjacent by a side to each other and as a result do not Flank you. If the Actor being Flanked is larger than 1\texttimes1 tiles, ignore this: the large Actor will have an orientation, and being flanked will \textit{only} depend on its orientation. 
 
 Flanking at range is still Flanking, although it does not apply a Deflection malus. This means it can trigger effects such as Opportunist\footnote{Thus resulting in a net +1 in that case, +4 from Opportunist and -3 from aiming into a melee if the other flanker is in melee.}. Flanking at range is based on your projected position if you were in melee: the last tile crossed by the LoS of the flanker towards the flankee is considered to be the projection of the flanker. It only applies to the ranged attacker: this means that if you are in melee range, you don't get the bonus for hitting a Flanked enemy if the other flanker is flanking at range.
 
@@ -195,23 +199,46 @@ Someone who is caught off-guard (including Flanked, but also caught by surprise)
 
 \subsection{Damage}
 
-If an Attack is successful (meaning the result was not a Miss or a Fumble), it will apply Damage. This damage is equal to the damage value of the weapon or Ability (for example 3, 5 or 7, see table \ref{weapon_damage}), plus the user's MIG. When using additional (ie. off-hand) weapons in a single Attack (ie. attacking with 2 daggers in a single Attack Action), additional weapons only add half their base damage to the 'weapon damage' part of the calculation, rounded down as usual. Damage values for weapons are given in combat, but for cutscene moments (ie. holding someone at gunpoint or stabbing someone incapacitated\footnote{Which is not quite the same thing as attacking someone who suffers from an Incapacitating condition in combat, since combat is usually more chaotic and Incapacitating conditions do not necessarily make the target completely unconscious. That being said, if it makes sense (ie. against an unconscious target being held down with no enemies in the vicinity to hinder you), you can use this \texttimes 5 damage rule even in combat, of course.}), feel free to quintuple those or more.
-
-On Grazes, your inflict only half the result of your total damage, rounded down as usual. On Critical Successes/Hits, the attack's base damage is doubled (unlike Grazes, \textbf{not} including modifiers\footnote{Bonuses from Tier 2+ objects are still doubled since they are part of the base damage, but bonuses given by Spells or Abilities (including passives) will not be doubled.}) and is only then reduced by the target's Armor. For example, consider an Actor with +4 MIG using a Standard weapon (5 damage) against an enemy with 3 Armor: a critical hit will inflict $2\times5+4-3 = 11$ damage. \textbf{Any successful Attack will always inflict at least 1 point of Damage}, regardless of Armor or Grazes. Only very special edge cases, such as damage immunities, may nullify this.
+If an Attack is successful (meaning the result was not a Miss or a Fumble), it will apply Damage. This damage is equal to the damage value of the weapon or Ability (for example 3, 5 or 7, see table \ref{weapon_damage}), plus the user's MIG. When using additional (ie. off-hand) weapons in a single Attack (ie. attacking with 2 daggers in a single Attack Action), additional weapons only add \textit{half} their base damage to the 'weapon damage' part of the calculation, rounded down as usual. 
 
 Improvised weapons of standard size, such as thrown random objects, have a damage value of 3 + MIG.\footnote{An improvised weapon of standard weight and size can be thrown 8m without penalties, or up to 20-30m if imprecise.}. Wanton destruction such as explosives should cause around 8 to 16 damage. Note that large objects such a reinforced table or a castle door have Heavy Armor and HP in the double digits.
 
+\paragraph{Success types}
 
+Damage values for weapons are given in combat, but for cutscene moments (ie. holding someone at gunpoint or stabbing someone incapacitated), feel free to quintuple those or more\footnote{Thisis not quite the same thing as attacking someone who suffers from an Incapacitating condition in combat, since combat is usually more chaotic and Incapacitating conditions do not necessarily make the target completely unconscious. That being said, if it makes sense (ie. against an unconscious target being held down with no enemies in the vicinity to hinder you), you can use this \texttimes 5 damage rule even in combat, of course.}.
+
+On Grazes, your inflict only half the result of your total damage, rounded down as usual. On Critical Successes/Hits, the attack's base damage is doubled (unlike Grazes, \textbf{not} including modifiers\footnote{Bonuses from Tier 2+ objects are still doubled since they are part of the base damage, but bonuses given by Spells or Abilities (including passives) will not be doubled.}) and is only then reduced by the target's Armor. For example, consider an Actor with +4 MIG using a Standard weapon (5 damage) against an enemy with 3 Armor: a Critical Hit will inflict $2\times5+4-3 = 11$ damage. \textbf{Any successful Attack will always inflict at least 1 point of Damage}, regardless of Armor or Grazes. Only very special edge cases, such as damage immunities, may nullify this.
 
 \subsubsection{Armor} 
 
-Armor works very straightforwardly: any Damage applied to you is reduced by your Armor. However, Armor cannot reduce the damage of a successful Attack below 1. Furthermore, elemental damage (fire, electricity, cold, etc.) and magic will usually ignore Armor; at the GM's discretion, Armor may give different protections against different types of damage\footnote{Slashing, Piercing and Bludgeoning can also be considered different types of Damage, the distinction is not simply between physical and elemental. But this is usually not relevant.}. See section \ref{armor} for more details about how to equip a Player Character with Armor.
+Armor works very straightforwardly: any Damage applied to you is reduced by your Armor. However, as we just saw, Armor cannot reduce the damage of a successful Attack below 1. Furthermore, elemental damage (fire, electricity, cold, etc.) and magic will usually ignore Armor; at the GM's discretion, Armor may give different protections against different types of damage\footnote{Slashing, Piercing and Bludgeoning can also be considered different types of Damage, the distinction is not simply between physical and elemental. But this is usually not relevant.}. See section \ref{armor} for more details about how to equip a Player Character with Armor.
 
 Explosives destroy half their damage value's worth of the target's Armor.
 
 \subsubsection{Cover} 
 
-Cover gives a bonus to Armor or Deflection, depending on whether the attack was respectively made blindly or aimed. Standard cover gives +4 Deflection. Flimsy cover such as wood should give 1 Armor, but metal or stone can give 5 or more. Of course, a Cover's bonus does not apply when you are Flanking the target.
+When performing an attack against a target behind Cover, said target gets a bonus to Deflection. It is dependent on the nature of the Cover, as specified below.
+
+\begin{table}[h!tbp]
+	\begin{center}
+		\begin{tabular}{p{1.5cm}p{2cm}p{4cm}} \toprule
+			
+			\textbf{Type} & \textbf{Deflection bonus} & \textbf{Example} \\ \midrule
+			
+			Light & +2 & Branches, planks. \\
+			Standard & +4 & Chest-high wall. \\
+			Full & +6 & Battlements, full brick wall.\\
+
+			\bottomrule
+		\end{tabular}
+	\end{center}
+	\caption{Cover types}
+	\label{cover_types}
+\end{table}
+
+Of course, a Cover's bonus does not apply when the attacker is attacking from a direction that does not intersect the Cover. Attacking from a partially covered direction, such as attacking from the North-West while the cover is facing North only, reduces the quality of the cover by one instead of ignoring it completely. But if the Cover's direction is appropriate, it applied to both melee and ranged attacks. 
+
+However if the attacker strikes indiscriminately, with a very heavy armament or an area-of-effect one, the bonus will be to Armor instead of Deflection. The Armor given depends on the cover's sturdiness: flimsy cover such as wood should give 1 Armor, but metal or stone can give 5 or more. 
 
 \subsubsection{Wounds} 
 \label{wounds}
@@ -228,20 +255,22 @@ Wounds are healed when the Actor's HP return above their respective thresholds, 
 
 Gaining at least one Wound also results in an automatic Knockback of 2 tiles. You are not knocked back twice if you gain two Wounds at once. This is equivalent to a forced free Move Action, and can trigger Overwatch. 
 
-If Knockback is impossible\footnote{And I do mean impossible, not inconvenient. Falling off a cliff is inconvenient but very much possible.}, for example if it would push the Actor through an immobile object, then the Action inflicting the Knockback is considered to have been one degree of success better: for example, Hits are converted to Critical Hits, and additional damage is taken\footnote{However, Critical Hits will remain "mere" Critical Hits.}. This does not trigger if they can fall back at least one tile. An Player Character (or Boss NPC) may also choose to trigger this voluntarily instead of being Knockbacked.
+If Knockback is impossible\footnote{And I do mean impossible, not inconvenient. Falling off a cliff is inconvenient but very much possible.}, for example if it would push the Actor through an immobile object, then the Action inflicting the Knockback is considered to have been one degree of success better: for example, Grazed are converted to Hits, and additional damage is taken\footnote{However, Critical Hits will remain "mere" Critical Hits since this already the best possible outcome.}. This does not trigger if they can fall back at least one tile. An Player Character (or Boss NPC) may also choose to trigger this voluntarily instead of being Knockbacked.
 
-The first tile of Knockback is always in the exact direction directly opposed to the source of the Wound. The direction of second tile of movement, however, is negotiable as long as it constitutes a retreat. If you are Knockbacked into a tile containing an ally, the ally can choose to be Knockbacked as well to prevent you from taking supplementary damage: this is called a "cascading Knockback"\footnote{Dumb enemies will not do this, but smart or disciplined ones might.}. The GM reserves the right to have you jostle and make an ally fall instead if the attack was a Critical.
+The first tile of Knockback is always in the exact direction directly opposed to the source of the Wound. The direction of second tile of movement, however, is negotiable as long as it constitutes a retreat. If you are Knockbacked into a tile containing an ally, the ally can choose to be Knockbacked as well to prevent you from taking additional damage: this is called a "cascading Knockback"\footnote{Dumb enemies will not do this, but smart or disciplined ones might.}. The GM reserves the right to have you jostle and make an ally fall instead if the attack result was a Critical.
 
 \subsection{Conditions}
 \label{conditions}
 
-A Condition is, generally speaking, any effect over time that applies a persistent effect or modifier to an Actor. 
+A Condition is, generally speaking, any effect or modifier to an Actor that persists over time for a certain duration.
 
-Abilities, Attacks or other actions can apply Conditions under certain... conditions. This will be specified clearly in their text. The Ability will usually specify that the Actor will need to make an additional roll to see whether the Condition is applied, potentially against a different Defense. The Aptitude is generally the same as the one used for the first (attack) roll, if there was an attack rool. In any case, the modalities will be spelled out in the text.
+Abilities, Attacks or other actions can apply Conditions under certain... conditions. This will be specified clearly in their text. The Ability will usually specify that the Actor will need to make an additional roll to see whether it manages to apply the Condition, potentially against a different Defense. The Aptitude for this latter roll is generally the same as the one used for the first (attack) roll, if there was an attack roll. In any case, the modalities will be spelled out clearly in the Ability text. Environmental hazards also check for Defenses. 
 
-On a Graze, a Condition is generally downgraded in magnitude (but not shortened) or simply not applied. The opposite is true for Critical Successes. The duration of Conditions is equal to $1+INT_i-RES_t$ where $INT_i$ is the INT of the Actor inflicting them, and $RES_t$ is the RES of the target if the action is hostile (otherwise is 0). The minimum duration is always 1 turn. This also applies to heals over time and damage over time. An Ability can also specify a custom duration in its text.
+For example, shooting a poisoned arrow will require a [Accuracy - Deflection] roll to hit the target and inflict the arrow's damage, but inflicting the poison itself will require a success in a subsequent [Accuracy - Fortitude] roll.
 
-See Table \ref{conditions_table} for common Conditions and the Defenses that must be passed to inflict them. Feel free to draw inpiration from those in your balancing endeavors. Environmental hazards also check for Defenses. For example, an poisoned arrow will use [Accuracy - Deflection] to hit the target and inflict the arrow's damage, but inflicting the poison itself will require a success in a subsequent [Accuracy - Fortitude] roll.
+On a Graze, a Condition is generally downgraded in magnitude (but not shortened) or simply not applied. The opposite is true for Critical Successes. The duration of Conditions is equal to $1+INT_i-RES_t$ where $INT_i$ is the INT of the Actor inflicting them, and $RES_t$ is the RES of the target if the action is hostile (otherwise is 0). \textit{The minimum duration is always 1 turn.} An Ability can also specify a custom duration in its text.
+
+See Table \ref{conditions_table} for common Conditions and the Defenses that must be passed to inflict them. Feel free to draw inspiration from those in your balancing endeavors. 
 
 
 \begin{table*}[h!tbp]
@@ -251,13 +280,13 @@ See Table \ref{conditions_table} for common Conditions and the Defenses that mus
 		    \textbf{Condition} & \textbf{Similar Conditions} & \textbf{Defense} & \textbf{Effect} \\ \midrule
 
 		    Blinded & & Fortitude & No Sight, -4 all perception Aptitudes, -4 Reflex. \\[4mm] 
-		    Charmed & & Will & -3 Will against charmer, very reticent to harm charmer. \\[4mm] 
+		    Charmed & & Will & -4 Will against charmer, very reticent to harm charmer. \\[4mm] 
 		    Frightened & Disoriented, Weakened & Will & -3 all rolls, might require a [RES] roll to act. \\[4mm] 
             Incapacitated & Grappled, Prone, Stunned & Reflex & No Actions, -4 all Defenses, -6 all Aptitudes. \\[4mm]
 			Invisible & & & +6 Reflex same turn, then untargetable. \\[4mm] 
             Poisoned & Burning, Bleeding & Fortitude & -1 all rolls, Damage over Time. \\[4mm] 
             Crippled & Shocked & Fortitude & -2 all rolls, $\times$0.25 Movement. \\[4mm] 
-            Enraged & & Will & +4 MIG, -3 all non-combat and all Ability rolls. More susceptible to Psychology to change targets. \\[4mm] 
+            Enraged & & Will & +4 MIG, -3 all non-combat and all Ability rolls. More susceptible to Psychology to change targets. \\[6mm] 
             Flying & Levitating, Swimming & & Start reasoning in 3D instead of a grid. \\[4mm] 
 
 		    \bottomrule
@@ -277,25 +306,26 @@ Any damage or healing per turn is applied at the beginning of the target's round
 
 Note that Conditions are not cumulative \textbf{with the same rank}, and more generally are not cumulative if their effect comes from the same source. For instance, applying Distracted (a weaker version of Disoriented that gives -2) twice does not result in a -4 malus. Similarly, a smoke screen will have no effect on someone who was already Blinded.
 
-To remove Conditions before their set expiration time, on a case by case basis the Help action may be used, for example to help someone who was knocked down back on their feet. Anything the players can think of is potentially acceptable, through a roll (ie. chucking water at someone burning, or using Nature to treat poison). Furthermore, in general, the Vigor Sigil can simply give a positive Coundition that effectiely counteracts the negative one.
+To remove Conditions before their set expiration time, on a case by case basis the Help action may be used, for example to help someone who was knocked down back on their feet. Anything the players can think of is potentially acceptable, through a roll (ie. chucking water at someone burning, or using Nature to treat poison). Furthermore, in general, the Vigor Sigil can simply give a positive Condition that effectively counteracts the negative one.
 
-In Incapacitating Conditions, the "-4 to all Defenses" modifier is cumulative with the -3 from the general rule on being attacked while Incapacitated or Flanked, resulting in a total of -7 in melee. It should also be noted that Incapatiting Conditions have an exception to their potential duration: any Actor that suffers from an Incapacitating Condition that fully prevents them from taking Actions, such as Prone, gets a special escape roll at the beginning of their turn it it makes sense to to do (ie. not bound in iron chains). This escape roll consists in a flipped roll with the Difficulty being the Aptitiude of the roll that inflicted the condition; if the roll is a Success, the Condition will be removed at the beginning of their \textbf{next} turn\footnote{This helps prevent stunlocking, but since it works with a one turn delay does not trivialize Incapacitations.}. Grazes count as Failures for this roll. It should also be noted that the "-6 to all Aptitudes" malus does not apply to this escape roll nor to any roll with the purpose of recovering from the Conditions (for example, the opposed Grapple roll to attempt to escape).
+In Incapacitating Conditions, the "-4 to all Defenses" modifier is cumulative with the -3 from the general rule on being attacked while Incapacitated or Flanked, resulting in a total of -7 in melee. It should also be noted that Incapacitating Conditions have an exception to their potential duration: any Actor that suffers from an Incapacitating Condition that fully prevents them from taking Actions, such as Prone, gets a special escape roll at the beginning of their turn it it makes sense to do so (ie. not bound in iron chains). This escape roll consists in a flipped roll with the Difficulty being the Aptitiude of the roll that inflicted the condition; if the roll is a Success, the Condition will be removed at the beginning of their \textbf{next} turn\footnote{This helps prevent stunlocking, but since it works with a one turn delay does not trivialize Incapacitations.}. Grazes count as Failures for this roll. It should also be noted that the "-6 to all Aptitudes" malus does not apply to this escape roll nor to any roll with the purpose of recovering from the Conditions (for example, the opposed Grapple roll to attempt to escape).
 
 
 \subsubsection{Hazards}
 
+Difficult terrain like fire, ice, etc. can try to apply Conditions, against the appropriate Defense. See section \ref{hazards} for more information about this!
+
 For fire more specifically, an average flaming projectile has a 30\% chance of setting flammable materials alight (wood, etc.), but only 10\% for reinforced materials (ie. castle gate). Each turn, for each adjacent square containing flammable materials, an open fire has a 40\% chance of spreading there.
 
-Difficult terrain like fire, ice, etc. can try to apply Conditions, against the appropriate Defense. See section \ref{hazards} for more information about this!
 
 
 \subsection{Combinations}
 
 \label{combinations}
 
-Effects (not just damage) can be amplified through judicious combination, of elements or other principles. When making a Combination, all Hits are converted to Criticals, and all Grazes are converted to Hits. \textbf{This is particularly relevant for Spells} and is part of how they are balanced. If appropriate, this may also result in additional effects. This Combination principle can be applied to things other than elemental combinations, if it makes sense to do so.
+Effects (not just damage) can be amplified through judicious combinations, of elements or other principles. When making a Combination, all Hits are converted to Criticals, and all Grazes are converted to Hits. \textbf{This is particularly relevant for Spells} and is part of how they are balanced. If appropriate, this may also result in additional effects. This Combination principle can be applied to things other than elemental combinations, if it makes sense to do so.
 
-Here are some examples of such combinations: Frost and Water will form Ice. Lighting and Water will result in a Shock. Lightning (if powerful) can set flammable objects on Fire. Fire, well, will also set flammable objects on Fire. Kinetic Force (be it magical or mundane) can shatter, spray, fan, etc. More esoteric combinations are also possible, such as using Lighting and Summoning combined to temporarily re-animate dead tissue, but this should remain an exception for narrative purposes, only used on a case-by-case basid by the GM.
+Here are some examples of such combinations: Frost and Water will form Ice. Lighting and Water will result in a Shock. Lightning (if powerful) can set flammable objects on Fire. Fire, well, will also set flammable objects on Fire. Kinetic Force (be it magical or mundane) can shatter, spray, fan, etc. More esoteric combinations are also possible, such as using Lighting and Summoning combined to temporarily re-animate dead tissue, but this should remain an exception for narrative purposes, only used on a case-by-case bassd by the GM.
 
 Such Combinations should be earned, by which I mean it should not be trivial to set up and the prerequisites should be visibly met. For instance, a bit of humidity does not make every Lightining an automatic Critical success, the target should be quite wet.
 
