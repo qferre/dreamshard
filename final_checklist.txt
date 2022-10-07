@@ -1,6 +1,7 @@
 - RE-READ EVERYTHING from the beginning to the end, the pdf and the incls, to ensure all is well.
-    LAST COMPLETED PAGE of the pdf: 18
+    LAST COMPLETED PAGE of the PDF file: 29
 Be quick about it and not perfectionnist. Treat this as if I had a deadline for yesterday.
+- Try a few tricks like adding blank spaces to get nice page layouts if necessary
 - Put the full release with pdf and incls on the Google Drive directory I'll share with the players.
     https://drive.google.com/drive/folders/1q7WzfdtDhCEEnEun66uLDq3nrAE7gD7d
 - Put a copy of the full release and of the source code on my phone.
