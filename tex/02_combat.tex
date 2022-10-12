@@ -1,10 +1,10 @@
 \chapter{Combat}
 
-Actors will move (and by extension, fight) on local maps representing their surroudings. On such local maps, the world is divided into a square grid. This means the elementary unit of distance is the \textit{map tile}, also called a "map square". Each tile represents a cube of roughly 1.5 meters\footnote{1.5 meters is rounded to 5 feet in freedom units, so 9 meters (6 standard tiles) is 30 feet.} of side, but this can be more or less depending on the context. 
-
-Whenever the GM needs to precisely track the action of the characters, time will be divided into turns in which each character acts. 
+The Combat has two key concepts. First, the local map, presented in section \ref{tactical_map}: Actors will move (and by extension, fight) on local maps representing their surroudings, which are divided into tiles. Secondly, the turn structure, presented in section \ref{turn_structure}: whenever the GM needs to precisely track the action of the characters, time will be divided into turns in which each character acts. 
 
 \section{Turn structure}
+
+\label{turn_structure}
 
 During a \textbf{turn}, each Actor gets to take a \textbf{round} of actions. Each turn represents roughly 6 seconds of real time. \textbf{Each Actor gain 2 Action Points (AP) per turn\footnote{The GM can bend that rule in special circumstances. For clarity of action, I recommend giving more or fewer APs instead of giving additional rounds in a given turn, but both are possible.}}, and may conserve up to 1 unused AP from the previous turn into the next (hence starting with 3 AP in said next turn). 
 
@@ -43,7 +43,7 @@ Here are the Actions each Actor can take during a round. Each costs one Action P
 
 \paragraph{Uncommon Actions}
 \begin{itemize}
-    \item \textbf{Sidestep}: Once per turn, you may move for a distance equal to half your DEX in tiles (minimum of 1 tile) without spending an Action Point. \textit{You cannot Sidestep when you have at least one Wound.\footnote{As such, once Wounded you cannot simply get back in place for free, which would make Knockbacks redundant.}}. This can trigger Overwatch.
+    \item \textbf{Sidestep}: Once per turn, you may move for a distance equal to half your DEX in map tiles (minimum of 1 tile) without spending an Action Point. \textit{You cannot Sidestep when you have at least one Wound.\footnote{As such, once Wounded you cannot simply get back in place for free, which would make Knockbacks redundant.}}. This can trigger Overwatch.
     \item \textbf{Dodge}: Focus on dodging and parrying\footnote{This can also represent a prudent retreat from an Overwatching opponent.}, so that until the beginning of your next round you get +3 to Reflex and Deflection. This can stack with itself only up to +4.
     \item \textbf{Assist}: Give half your Aptitude (+3 maximum) as a bonus to a friend's next specific roll. This is also used to help someone back to their feet. \footnote{In rare occasions, you may be able to use an Assist action to help an ally do an attack, but the GM must rule if this is reasonable: it is plausible that you may use it to represent positioning yourself to help someone who is fighting in the same melee as you, but you cannot use it to somehow make an ally 50 meters away aim their musket better.}
     \item \textbf{Concentrate}: If your next Action requires a roll, you get +2. This bonus applies to all active rolls this Action will demand. This can be stacked with itself, but up to +3 maximum. \textit{This does not cost an Action Point, but costs a Focus point instead (see section \ref{resources})}\footnote{The Concentrate Action is a way to use Focus to increase your odds when using a Gadget, or doing any action in general.}
@@ -95,6 +95,14 @@ However, using an Ability as an Overwatch will likely complete after its trigger
 If you have multiple Overwatch Actions (through using several AP or gaining a bonus Overwatch Action from Ever Vigilant), you can use all of them against the same target in quick succession if makes sense\footnote{This is balanced by the fact that you must declare what you are on the lookout for: you can't just say "I attack as soon as anybody does anything!". As with all things, the GM decides if you're being reasonable or not.}. The GM may exceptionally prevent you from doing so (for instance if an enemy is sprinting away from your reach, which triggered your Overwatch, so you may not be able to score several hits on the target in time) but that's the exception, not the rule.
 
 
+
+\section{Tactical map}
+
+\label{tactical_map}
+
+On the local maps on which the actors move and fight, the world is divided into a square grid. This means the elementary unit of distance is the \textit{map tile}, also called a "map square". Each tile represents a cube of roughly 1.5 meters\footnote{1.5 meters is rounded to 5 feet in freedom units, so 9 meters (6 standard tiles) is 30 feet.} of side, but this can be more or less depending on the context.
+
+
 \subsection{Movement details}
 
 For humans, each Action Point is usually worth 10 meters of movement\footnote{So, if a tile is 1.5m, that's 6 tiles and not 7 since we round down.}. But each AP is worth 20 meters for horses, and can be more or less for different creatures. Difficult terrain such as mud, shallows or brambles will double the movement costs. Climbing, swimming, crawling, and in general unusual modes of movement will also apply the same $2\times$ cost modifier. Truly horrible quagmires can have a $4\times$ cost modifier instead. Carrying a heavy object (such as a siege ladder, or a person) will also apply a $2\times$ cost modifier on top of this, unless someone is helping you. 
@@ -103,6 +111,10 @@ One may move in any direction allowed by their move characteristics (walking, sw
 
 One cannot pass through squares containing a hostile Actor that is able to block the movement (not incapacitated, strong enough), a very large corpse, or a lot of corpses. 
 
+
+\paragraph{Distances}
+
+Whenever the rules call for a distance between tiles, ie. "any Actor at most 2 tiles away" or "a circle of radius 3 tiles", the distance is defined as \textbf{the number of tiles edges} (so, not along the diagonals, like for any Movement) one would need to cross to move from the first to the second tile. For instance, under those rules: the tile immediately to the South of the origin is one tile away, not zero. And a tile directly to the Northwest of the origin is at a distance of 2, not 1.
 
 \subsection{Actor size}
 
@@ -190,7 +202,7 @@ When aiming for a specific body part, you inflict minor Conditions on Critical H
 
 \subsubsection{Underhanded tactics} 
 
-An Actor is considered \textbf{Flanked} if they are adjcent to two enemy Actors which are not themselves adjacent. Note that if those two enemy Actors are only diagonally adjacent (as opposed to sharing one edge of their tiles), this is not adjacent in this particular case, unlike the rest of the rules. Making it more concrete: if you have an enemy at your North and your West, you are Flanked, even though they are diagonally adjacent to each other. If the enemies are to your North and North-West, they are adjacent by a side to each other and as a result do not Flank you. If the Actor being Flanked is larger than 1\texttimes1 tiles, ignore this: the large Actor will have an orientation, and being flanked will \textit{only} depend on its orientation. 
+An Actor is considered \textbf{Flanked} if they are adjacent to two enemy Actors which are not themselves adjacent. Note that if those two enemy Actors are only diagonally adjacent (as opposed to sharing one edge of their tiles), this is not adjacent in this particular case, unlike the rest of the rules. Making it more concrete: if you have an enemy at your North and your West, you are Flanked, even though they are diagonally adjacent to each other. If the enemies are to your North and North-West, they are adjacent by a side to each other and as a result do not Flank you. If the Actor being Flanked is larger than 1\texttimes1 tiles, ignore this: the large Actor will have an orientation, and being flanked will \textit{only} depend on its orientation. 
 
 Flanking at range is still Flanking, although it does not apply a Deflection malus. This means it can trigger effects such as Opportunist\footnote{Thus resulting in a net +1 in that case, +4 from Opportunist and -3 from aiming into a melee if the other flanker is in melee.}. Flanking at range is based on your projected position if you were in melee: the last tile crossed by the LoS of the flanker towards the flankee is considered to be the projection of the flanker. It only applies to the ranged attacker: this means that if you are in melee range, you don't get the bonus for hitting a Flanked enemy if the other flanker is flanking at range.
 

@@ -1,9 +1,12 @@
 - RE-READ EVERYTHING from the beginning to the end, the pdf and the incls, to ensure all is well.
-    LAST COMPLETED PAGE of the PDF file: 46
+    LAST COMPLETED PAGE of the PDF file: 56
 Be quick about it and not perfectionnist. Treat this as if I had a deadline for yesterday.
-- Clarification to add : for Abilities that say "up to N tiles away", explain that a adjacent tile is 1 tile away already and that you cannot move diagonally for this (otherwise the targeting zone would be a square instead of a pseudo circle)
+
 - Try a few tricks like adding blank spaces to get nice page layouts if necessary (remember to clear the cache to check from scratch)
+
 - Put the full release with pdf and incls on the Google Drive directory I'll share with the players.
     https://drive.google.com/drive/folders/1q7WzfdtDhCEEnEun66uLDq3nrAE7gD7d
+
 - Put a copy of the full release and of the source code on my phone.
+
 - Send to Jeanne, Dad and Zach (send them the Google Drive link)

@@ -54,21 +54,20 @@ Relatedly, It should be noted that "Building" is actually a very general concept
 
 \section{Armies}
 
-An Army is a stack of Units, that can move and fight on the main map.
+Any stack of Units constitutes an Army, that can move and fight on the main map.
 
 Armies have 2 move points per turn. Moving to an adjacent province usually costs 1 point\footnote{Army move speeds will need to be tweaked depending on how much time each turn represents, or the province sizes.}. Armies in friendly territory can move faster with an Agent action.
 
 
 \subsection{Recruitment}
 
-To recruit an Unit during the Recruitment phase, pick a Province with a Barracks. When recruited, the Unit is placed face down and will activate at the beginning of your next Economy phase. Each Barracks can recruit at most 2 Units per turn. Note that Units cannot be recruited in conquered territories until 3 turns after the conquest\footnote{Unless you are reconquering one of your core territories}.
+To recruit an Unit during the Recruitment phase, pick a Province with a Barracks. When recruited, the Unit is placed face down and will activate at the beginning of your next Economy phase. Each Barracks can recruit at most 2 Units per turn. Note that Units cannot be recruited in conquered territories until 3 turns after the conquest\footnote{Unless you are reconquering one of your core territories.}.
 
 You can either recruit generic Units at a cost of 1G each, or more costly Unique Units. Unique Units are created by the GM and will generally give a bonus if certain conditions are met. An example: "Heavy Cavalry, gives +1 in Late Phase unless the enemy has Pikes". Multiple Unique Units can be stacked in the same army, and their modifiers are cumulative.
 
-Each regiment necessitates an upkeep of 1G per turn, during the Upkeep phase. 
-Heroes require no upkeep. 
+Each Unit necessitates an upkeep of 1G per turn, during the Upkeep phase. Heroes require no upkeep. 
 
-Fleets are required to cross naval provinces\footnote{In certain scenarios, Fleets may be abstracted by a maritime movement path between two provinces, but this is not the general case.}. Fleets are recruited with the same principle as land Units, except they cannot enter land provinces but may occupy port. The player simply declares that they wish to recruit a naval Unit instead of a Land unit. 
+Fleets are required to cross naval provinces\footnote{In certain scenarios, Fleets may be abstracted by a maritime movement path between two provinces, but this is not the general case.}. Fleets are recruited with the same principle as land Units, except they cannot enter land provinces but may occupy harbors. The player simply declares that they wish to recruit a naval Unit instead of a land Unit. 
 
 
 \paragraph{Battles}
@@ -81,7 +80,7 @@ The roll is made by the attacker, and the modifier is equal to the difference in
 
 Whoever loses the first roll gets -2 for the second roll. After the Battle, each side loses 25\% of their Units per roll they lost and 5\% per roll they won rounded down. Each player chooses which of their units to remove). Here "Grazes" count as Failures, resulting in a symmetrical success table, for balance reasons.
 
-An army that loses two rolls must retreat to their choice of an adjacent friendly province, and is destroyed if they cannot. In case of a draw, both Armies may stay in place and a new Battle is initiated next turn, or choose to retreat.
+An army that loses two rolls must retreat to their choice\footnote{Critical results may negate that choice.} of an adjacent friendly province, and is destroyed if they cannot. In case of a draw, both Armies may stay in place and a new Battle is initiated next turn, or choose to retreat.
 
 While any land battle, siege and naval battles can be resolved with the those rules, if you want to be a bit more involved there are rules for that in section \ref{operations}.
 
@@ -90,7 +89,7 @@ While any land battle, siege and naval battles can be resolved with the those ru
 
 As mentioned before, Provinces are captured by moving an Army into them, but only if there are no defending Armies in it. This means that, for example, in case of a tie in a Battle you will not capture the province unless all defenders were destroyed.
 
-When a province is conquered, the building in the second slot is destroyed.
+When a province is conquered, the building in the second slot is destroyed (if destructible).
 
 
 \section{Setup}
@@ -104,7 +103,7 @@ The Game lasts until the Victory Conditions specified by the GM are met.
 
 As we discussed before, a "Building" is a very general concept, which is in fact closer to representing any "province feature" and may have its own rule.
 
-For example, basic custom buildings may give different modifiers (mine, farm, temple, school, etc.) or represent the availability of special resources. But, for example, a movable "building" could represent a guerilla effort in another Player's province, or the vassalage of local nobles. Terrain features may also be represented; as explained in the other strategic rules, terrain can affect movement, combat and economy.
+For example, basic custom buildings may give different modifiers (mine, farm, temple, school, etc.) or represent the availability of special resources. But, for example, a movable "building" could represent a guerilla effort in another Player's province, or the vassalage of local nobles. Terrain features may also be represented in free building slots; as explained in the other strategic rules, terrain can affect movement, combat and economy.
 
 \section{Agents}
 
@@ -120,9 +119,7 @@ Agents move twice as fast as Armies. Armies can not intercept Agents in the gene
 
 \subsection{Agent Actions}
 
-Each turn, a player may describe and the GM adjudicates 1 action per Agent during the Action phase.
-
-Here are some examples of such actions: 
+Each turn, a player may describe and the GM adjudicates 1 action per Agent during the Action phase. Here are some examples of such actions: 
 
 \begin{itemize}
     \item Lead an Army, granting combat bonuses.
@@ -167,11 +164,11 @@ Building upon this framework, the GM can add any manner of Special Rules to repr
 
 \subsection{Faction bonus}
 
-Some players (factions) may get some inherent advantages (equivalent of Traits) to represent cultural specificities. Examples: improved Unique Units, reduced Upkeep in certain conditions, faster constructions, better fortifications, can relocate buildings, etc.
+Some players (factions) may get some inherent advantages (equivalent of Traits) to represent cultural specificities. Examples: improved Unique Units, reduced Upkeep in certain conditions, faster constructions, better fortifications, can relocate Buildings, etc.
 
 \subsection{Events}
 
-The scenario may have planned certain special Events, that can trigger if certain conditions are met and affect the game board and player status in any possible way: for instance, switch control of provinces, give modifiers, place new Pawns, modify diplomatic relations, natural events, etc. This is also a general category for any modification the GM may wish to make to the state of play.
+The scenario may have planned certain special Events, that can trigger if certain conditions are met and affect the game board and player status in any possible way: for instance, switch control of provinces, give modifiers, place new Pawns, modify diplomatic relations, extreme natural events, etc. This is also a general category for any modification the GM may wish to make to the state of play.
 
 Events are conceptually linked to Agent Actions (the result of such an Action is an Event). They can affect the board in any way (ie. camouflaging an Army can be an Event) and may represent not only military actoins, but also political and diplomatic maneouvering.
 

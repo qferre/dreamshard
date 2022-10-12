@@ -95,15 +95,15 @@
 \end{monsterboxbg}
 
 
-This Bestiary section will contain many standardized examples of Actors, ready for re-use.
+This Bestiary section containq many standardized examples of Actors, ready for re-use.
 
-Right above, I also present a template of "stat block", ready for modification and re-use: just look into the source code of the manuscript and see the implementation notes in the comments, or simply use it as a stylistic inspiration.
+Right on the left, I also present a template of "stat block", ready for modification and re-use: just look into the source code of the manuscript and see the implementation notes in the comments, or simply use it as a stylistic inspiration.
 
 \begin{rpg-examplebox}
     Guidelines for the creation from scratch of custom Actors, as well as general balancing, are undissociable from general design considerations. As such, they are not presented here, but in section \ref{bestiary} instead. This part will instead contain only a catalog, and comments on the specific philosophy behind the design of the examples themselves, not of all Actors in general.
 \end{rpg-examplebox}
 
-The design considerations presented below also mean that Actors have, for instance, lower base damage and HP than would be the same for the players. As such, an easy way to scale these templates up when the players level up, so as to still match the guidelines, is to give them the equivalent of Tier 2 or Tier 3 equipment (or giving them objects that provide a similar boost in Aptitudes, Defenses and Damage).
+You can see the design considerations presented before are taken into account here. This means that the example NPC Actors have, for instance, lower base damage and HP than would be for Player Characters with the same Characteristics and Equipment. As such, an easy way to scale these templates up when the players level up, so as to still match the guidelines, is to give them the equivalent of Tier 2 or Tier 3 equipment (or giving them Objects that provide a similar boost in Aptitudes, Defenses and Damage).
 
 \paragraph{Clarifications}
 
@@ -160,7 +160,7 @@ The design considerations presented below also mean that Actors have, for instan
     \end{rpg-monsteraction}
 
     \begin{rpg-monsteraction}[Ensnare]
-        \textit{Melee vs Fortitude.} The target is Grappled. You can no longer act.
+        \textit{Melee vs Fortitude.} The target is Grappled, but you can no longer take Actions.
     \end{rpg-monsteraction}
 
 
@@ -170,7 +170,7 @@ The design considerations presented below also mean that Actors have, for instan
 
 \begin{monsterboxbg}{Warrior}
 
-    A reliable sort, good at holding the line.
+    A reliable sort, good at holding a defensive line.
     
     \rpghline
     \stats[
@@ -508,7 +508,7 @@ The design considerations presented below also mean that Actors have, for instan
     \end{rpg-monsteraction}
 
     \begin{rpg-monsteraction}[Grab and Smash]
-        \textit{MIG vs Reflex.} The target is Grappled by you. After 2 turns, if the Grapple was not broken, slam them to the ground for 10 damage.
+        \textit{MIG vs Reflex.} The target is Grappled by you. At the end of your next turn, if the Grapple was not broken, slam them to the ground (free Action) for 10 damage.
     \end{rpg-monsteraction}
 
     \begin{rpg-monsteraction}[Clear Out]
@@ -548,7 +548,7 @@ The design considerations presented below also mean that Actors have, for instan
 
     \basics[
     armorclass = 1,
-    hitpoints  = 70,
+    hitpoints  = 60,
     focus      = 12,
     defenses   = {Deflection 5, Reflex 5, Fortitude 6, Will 8}
     ]
@@ -725,7 +725,7 @@ The design considerations presented below also mean that Actors have, for instan
         \textit{Always succeeds.} Resurrect an Actor, who was friendly to you, with half its Hit Points.
     \end{rpg-monsteraction}
 
-    \begin{rpg-monsteraction}[Vainquish]
+    \begin{rpg-monsteraction}[Vanquish]
         \textit{Ranged vs Reflex.} Hurl a lightning bolt at a distant enemy, dealing 8+2 lightning damage and inflicting -1 to all Defenses for 2 turns only (can stack).
     \end{rpg-monsteraction}
 
@@ -782,15 +782,15 @@ Those examples are here to be used as an inspiration when designing your own! As
 \end{rpg-examplebox}
 
 
-In those examples, to determine the duration of Conditions an INT of 3 and a target RES of 1 is assumed.
+In those examples, to determine the duration of Conditions an \textbf{INT of 3 and a target RES of 1} is assumed.
 
-Some examples of uses that are different from a simple damage value or applied modifiers are presented, such as "Douse in Oil". We also present examples of different Objects created by achieving certain results when Crafting: for example, a a "Superior Ice Bomb" is obtained by a Critical Success when crafting an "Ice Bomb".
+Some examples that are different from a simple damage effect or applied modifiers are presented, such as "Douse in Oil". We also present examples of different Objects created by achieving certain results when Crafting: for example, a a "Superior Ice Bomb" is obtained by a Critical Success when crafting an "Ice Bomb".
 
 Those examples are useful to understand the construction and balancing of a Spell, or a custom Ability in general. For instance, consider "Unlife": in terms of expected effect, this is roughly the equivalent of being able to inflict 3 damage \texttimes 3 turns \texttimes 2 actions per turn \texttimes 0.5 from the hit probability, plus having a meatshield which will in effect prevent some HP damage to the PCs. This is slightly more powerful than other Abilities, but not much so, and is paid for by necessitating 6 Power Accents. As discussed before, always think in terms of \textbf{"how big of an impact does one use of this Ability have on the field of play"}.
 
 \begin{table*}[h!tbp]
 	\begin{center}
-		\begin{tabular}{p{2.5cm}p{2cm}p{3.5cm}p{7.5cm}} \toprule
+		\begin{tabular}{p{3cm}p{2cm}p{4cm}p{7.5cm}} \toprule
 			
 		    \textbf{Name} & \textbf{Sigil} & \textbf{Accents} & \textbf{Effect} \\ \midrule
 
@@ -824,7 +824,7 @@ Those examples are useful to understand the construction and balancing of a Spel
 
 \begin{table*}[h!tbp]
 	\begin{center}
-		\begin{tabular}{p{4cm}p{12cm}} \toprule
+		\begin{tabular}{p{4cm}p{13cm}} \toprule
 			
 		    \textbf{Name} & \textbf{Effect} \\ \midrule
 
@@ -858,7 +858,7 @@ Those examples are useful to understand the construction and balancing of a Spel
 			
 		    \textbf{Name} & \textbf{Effect} \\ \midrule
 
-		    Full-method Acting & +2 to Disguise, but can only wear Boot Dagger when disguised. \\[2mm] 
+		    Full-method Acting & +2 to Disguise, but can only wear a small boot dagger (Light weapon) when disguised. \\[2mm] 
 
             Disfigured & When unmasked, -2 to Psychology, but +2 instead when intimidating. \\[2mm] 
 
