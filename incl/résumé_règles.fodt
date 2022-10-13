@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <office:document xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:rpt="http://openoffice.org/2005/report" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:css3t="http://www.w3.org/TR/css3-text/" xmlns:officeooo="http://openoffice.org/2009/office" office:version="1.3" office:mimetype="application/vnd.oasis.opendocument.text">
- <office:meta><meta:initial-creator>Quentin FERRE</meta:initial-creator><meta:creation-date>2021-01-27T16:21:39.977000000</meta:creation-date><dc:date>2022-06-14T13:47:09.082000000</dc:date><dc:creator>Quentin Ferré</dc:creator><meta:editing-duration>PT11H14M41S</meta:editing-duration><meta:editing-cycles>25</meta:editing-cycles><meta:generator>LibreOffice/7.1.5.2$Windows_X86_64 LibreOffice_project/85f04e9f809797b8199d13c421bd8a2b025d52b5</meta:generator><meta:document-statistic meta:table-count="4" meta:image-count="0" meta:object-count="0" meta:page-count="2" meta:paragraph-count="146" meta:word-count="1141" meta:character-count="6744" meta:non-whitespace-character-count="5741"/></office:meta>
+ <office:meta><meta:initial-creator>Quentin FERRE</meta:initial-creator><meta:creation-date>2021-01-27T16:21:39.977000000</meta:creation-date><dc:date>2022-10-13T20:58:20.906000000</dc:date><dc:creator>Quentin Ferré</dc:creator><meta:editing-duration>PT11H38M24S</meta:editing-duration><meta:editing-cycles>26</meta:editing-cycles><meta:generator>LibreOffice/7.1.5.2$Windows_X86_64 LibreOffice_project/85f04e9f809797b8199d13c421bd8a2b025d52b5</meta:generator><meta:document-statistic meta:table-count="4" meta:image-count="0" meta:object-count="0" meta:page-count="2" meta:paragraph-count="146" meta:word-count="1150" meta:character-count="6787" meta:non-whitespace-character-count="5775"/></office:meta>
  <office:settings>
   <config:config-item-set config:name="ooo:view-settings">
-   <config:config-item config:name="ViewAreaTop" config:type="long">39088</config:config-item>
+   <config:config-item config:name="ViewAreaTop" config:type="long">5</config:config-item>
    <config:config-item config:name="ViewAreaLeft" config:type="long">0</config:config-item>
-   <config:config-item config:name="ViewAreaWidth" config:type="long">21632</config:config-item>
-   <config:config-item config:name="ViewAreaHeight" config:type="long">18634</config:config-item>
+   <config:config-item config:name="ViewAreaWidth" config:type="long">33383</config:config-item>
+   <config:config-item config:name="ViewAreaHeight" config:type="long">16803</config:config-item>
    <config:config-item config:name="ShowRedlineChanges" config:type="boolean">true</config:config-item>
    <config:config-item config:name="InBrowseMode" config:type="boolean">false</config:config-item>
    <config:config-item-map-indexed config:name="Views">
     <config:config-item-map-entry>
      <config:config-item config:name="ViewId" config:type="string">view2</config:config-item>
-     <config:config-item config:name="ViewLeft" config:type="long">14326</config:config-item>
-     <config:config-item config:name="ViewTop" config:type="long">46055</config:config-item>
+     <config:config-item config:name="ViewLeft" config:type="long">13536</config:config-item>
+     <config:config-item config:name="ViewTop" config:type="long">50916</config:config-item>
      <config:config-item config:name="VisibleLeft" config:type="long">0</config:config-item>
-     <config:config-item config:name="VisibleTop" config:type="long">39088</config:config-item>
-     <config:config-item config:name="VisibleRight" config:type="long">21631</config:config-item>
-     <config:config-item config:name="VisibleBottom" config:type="long">57720</config:config-item>
+     <config:config-item config:name="VisibleTop" config:type="long">5</config:config-item>
+     <config:config-item config:name="VisibleRight" config:type="long">33382</config:config-item>
+     <config:config-item config:name="VisibleBottom" config:type="long">16806</config:config-item>
      <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
      <config:config-item config:name="ViewLayoutColumns" config:type="short">0</config:config-item>
      <config:config-item config:name="ViewLayoutBookMode" config:type="boolean">false</config:config-item>
@@ -85,7 +85,7 @@
    <config:config-item config:name="UnxForceZeroExtLeading" config:type="boolean">false</config:config-item>
    <config:config-item config:name="UseOldPrinterMetrics" config:type="boolean">false</config:config-item>
    <config:config-item config:name="TabAtLeftIndentForParagraphsInList" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="Rsid" config:type="int">4979135</config:config-item>
+   <config:config-item config:name="Rsid" config:type="int">5036939</config:config-item>
    <config:config-item config:name="MsWordCompTrailingBlanks" config:type="boolean">false</config:config-item>
    <config:config-item config:name="MathBaselineAlignment" config:type="boolean">true</config:config-item>
    <config:config-item config:name="InvertBorderSpacing" config:type="boolean">false</config:config-item>
@@ -150,7 +150,7 @@
  <office:styles>
   <style:default-style style:family="graphic">
    <style:graphic-properties svg:stroke-color="#3465a4" draw:fill-color="#729fcf" fo:wrap-option="no-wrap" draw:shadow-offset-x="0.3cm" draw:shadow-offset-y="0.3cm" draw:start-line-spacing-horizontal="0.283cm" draw:start-line-spacing-vertical="0.283cm" draw:end-line-spacing-horizontal="0.283cm" draw:end-line-spacing-vertical="0.283cm" style:flow-with-text="false"/>
-   <style:paragraph-properties style:text-autospace="ideograph-alpha" style:line-break="strict" style:font-independent-line-spacing="false">
+   <style:paragraph-properties style:text-autospace="ideograph-alpha" style:line-break="strict" style:writing-mode="lr-tb" style:font-independent-line-spacing="false">
     <style:tab-stops/>
    </style:paragraph-properties>
    <style:text-properties style:use-window-font-color="true" loext:opacity="0%" style:font-name="Liberation Serif" fo:font-size="12pt" fo:language="fr" fo:country="FR" style:letter-kerning="true" style:font-name-asian="NSimSun" style:font-size-asian="10.5pt" style:language-asian="zh" style:country-asian="CN" style:font-name-complex="Arial1" style:font-size-complex="12pt" style:language-complex="hi" style:country-complex="IN"/>
@@ -424,466 +424,470 @@
    <style:text-properties fo:color="#c9211e" loext:opacity="100%" fo:font-size="10pt" fo:font-weight="bold" officeooo:rsid="0015905c" officeooo:paragraph-rsid="0015905c" style:font-size-asian="16pt" style:font-weight-asian="bold" style:font-size-complex="16pt" style:font-weight-complex="bold"/>
   </style:style>
   <style:style style:name="P23" style:family="paragraph" style:parent-style-name="Standard">
-   <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
-   <style:text-properties officeooo:rsid="00188985" officeooo:paragraph-rsid="00188985"/>
+   <style:paragraph-properties fo:line-height="100%" fo:text-align="justify" style:justify-single-word="false"/>
+   <style:text-properties fo:color="#c9211e" loext:opacity="100%" fo:font-size="10pt" fo:font-weight="bold" officeooo:rsid="003aa60a" officeooo:paragraph-rsid="0015905c" style:font-size-asian="16pt" style:font-weight-asian="bold" style:font-size-complex="16pt" style:font-weight-complex="bold"/>
   </style:style>
   <style:style style:name="P24" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
-   <style:text-properties fo:font-style="italic" officeooo:rsid="00154a52" officeooo:paragraph-rsid="001ccc94" style:font-style-asian="italic" style:font-style-complex="italic"/>
+   <style:text-properties officeooo:rsid="00188985" officeooo:paragraph-rsid="00188985"/>
   </style:style>
   <style:style style:name="P25" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
-   <style:text-properties fo:font-style="italic" style:text-underline-style="none" fo:font-weight="normal" officeooo:rsid="001add02" officeooo:paragraph-rsid="00154a52" style:font-style-asian="italic" style:font-weight-asian="normal" style:font-style-complex="italic" style:font-weight-complex="normal"/>
+   <style:text-properties fo:font-style="italic" officeooo:rsid="00154a52" officeooo:paragraph-rsid="001ccc94" style:font-style-asian="italic" style:font-style-complex="italic"/>
   </style:style>
   <style:style style:name="P26" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
-   <style:text-properties fo:font-style="normal" fo:font-weight="normal" officeooo:rsid="001937a9" officeooo:paragraph-rsid="001937a9" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-style-complex="normal" style:font-weight-complex="normal"/>
+   <style:text-properties fo:font-style="italic" style:text-underline-style="none" fo:font-weight="normal" officeooo:rsid="001add02" officeooo:paragraph-rsid="00154a52" style:font-style-asian="italic" style:font-weight-asian="normal" style:font-style-complex="italic" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="P27" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
+   <style:text-properties fo:font-style="normal" fo:font-weight="normal" officeooo:rsid="001937a9" officeooo:paragraph-rsid="001937a9" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-style-complex="normal" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="P28" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:text-align="center" style:justify-single-word="false"/>
    <style:text-properties fo:font-style="normal" fo:font-weight="bold" officeooo:rsid="001937a9" officeooo:paragraph-rsid="001937a9" style:font-style-asian="normal" style:font-weight-asian="bold" style:font-style-complex="normal" style:font-weight-complex="bold"/>
   </style:style>
-  <style:style style:name="P28" style:family="paragraph" style:parent-style-name="Standard">
+  <style:style style:name="P29" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties officeooo:rsid="001add02" officeooo:paragraph-rsid="001add02"/>
   </style:style>
-  <style:style style:name="P29" style:family="paragraph" style:parent-style-name="Standard">
+  <style:style style:name="P30" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties officeooo:rsid="001bef1b" officeooo:paragraph-rsid="001bef1b"/>
   </style:style>
-  <style:style style:name="P30" style:family="paragraph" style:parent-style-name="Standard">
+  <style:style style:name="P31" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties officeooo:rsid="001ccc94" officeooo:paragraph-rsid="00154a52"/>
   </style:style>
-  <style:style style:name="P31" style:family="paragraph" style:parent-style-name="Standard">
+  <style:style style:name="P32" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties officeooo:rsid="001ccc94" officeooo:paragraph-rsid="001ccc94"/>
   </style:style>
-  <style:style style:name="P32" style:family="paragraph" style:parent-style-name="Standard">
-   <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
-  </style:style>
   <style:style style:name="P33" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
-   <style:text-properties officeooo:paragraph-rsid="00154a52"/>
   </style:style>
   <style:style style:name="P34" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
-   <style:text-properties officeooo:paragraph-rsid="0016c086"/>
+   <style:text-properties officeooo:paragraph-rsid="00154a52"/>
   </style:style>
   <style:style style:name="P35" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
-   <style:text-properties officeooo:paragraph-rsid="0015905c"/>
+   <style:text-properties officeooo:paragraph-rsid="0016c086"/>
   </style:style>
   <style:style style:name="P36" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
-   <style:text-properties officeooo:paragraph-rsid="001e07cd"/>
+   <style:text-properties officeooo:paragraph-rsid="0015905c"/>
   </style:style>
   <style:style style:name="P37" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
-   <style:text-properties officeooo:paragraph-rsid="001937a9"/>
+   <style:text-properties officeooo:paragraph-rsid="001e07cd"/>
   </style:style>
   <style:style style:name="P38" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
-   <style:text-properties officeooo:paragraph-rsid="0029089d"/>
+   <style:text-properties officeooo:paragraph-rsid="001937a9"/>
   </style:style>
   <style:style style:name="P39" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
-   <style:text-properties officeooo:paragraph-rsid="002afa12"/>
+   <style:text-properties officeooo:paragraph-rsid="0029089d"/>
   </style:style>
   <style:style style:name="P40" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
-   <style:text-properties officeooo:paragraph-rsid="0028e13f"/>
+   <style:text-properties officeooo:paragraph-rsid="002afa12"/>
   </style:style>
   <style:style style:name="P41" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
-   <style:text-properties officeooo:paragraph-rsid="001ccc94"/>
+   <style:text-properties officeooo:paragraph-rsid="0028e13f"/>
   </style:style>
   <style:style style:name="P42" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
-   <style:text-properties officeooo:rsid="0021b38c" officeooo:paragraph-rsid="0021b38c"/>
+   <style:text-properties officeooo:paragraph-rsid="001ccc94"/>
   </style:style>
   <style:style style:name="P43" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
-   <style:text-properties officeooo:rsid="0024f1af" officeooo:paragraph-rsid="0024f1af"/>
+   <style:text-properties officeooo:rsid="0021b38c" officeooo:paragraph-rsid="0021b38c"/>
   </style:style>
   <style:style style:name="P44" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
-   <style:text-properties officeooo:rsid="0028e13f" officeooo:paragraph-rsid="0028e13f"/>
+   <style:text-properties officeooo:rsid="0024f1af" officeooo:paragraph-rsid="0024f1af"/>
   </style:style>
   <style:style style:name="P45" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
-   <style:text-properties officeooo:rsid="0029089d" officeooo:paragraph-rsid="0029089d"/>
+   <style:text-properties officeooo:rsid="0028e13f" officeooo:paragraph-rsid="0028e13f"/>
   </style:style>
   <style:style style:name="P46" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
-   <style:text-properties officeooo:rsid="002afa12" officeooo:paragraph-rsid="002afa12"/>
+   <style:text-properties officeooo:rsid="0029089d" officeooo:paragraph-rsid="0029089d"/>
   </style:style>
   <style:style style:name="P47" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
-   <style:text-properties fo:font-weight="normal" officeooo:rsid="0015905c" officeooo:paragraph-rsid="0015905c" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
+   <style:text-properties officeooo:rsid="002afa12" officeooo:paragraph-rsid="002afa12"/>
   </style:style>
   <style:style style:name="P48" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
-   <style:text-properties officeooo:rsid="0031c60c" officeooo:paragraph-rsid="0031c60c" fo:background-color="#ffff00"/>
+   <style:text-properties fo:font-weight="normal" officeooo:rsid="0015905c" officeooo:paragraph-rsid="0015905c" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="P49" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
-   <style:text-properties fo:font-size="18pt" fo:font-weight="bold" officeooo:rsid="0031c60c" officeooo:paragraph-rsid="0031c60c" fo:background-color="#ffff00" style:font-size-asian="18pt" style:font-weight-asian="bold" style:font-size-complex="18pt" style:font-weight-complex="bold"/>
+   <style:text-properties officeooo:rsid="0031c60c" officeooo:paragraph-rsid="0031c60c" fo:background-color="#ffff00"/>
   </style:style>
   <style:style style:name="P50" style:family="paragraph" style:parent-style-name="Standard">
-   <style:paragraph-properties fo:line-height="100%" fo:text-align="justify" style:justify-single-word="false"/>
-   <style:text-properties fo:font-size="10pt" officeooo:rsid="00154a52" officeooo:paragraph-rsid="00154a52" style:font-size-asian="16pt" style:font-size-complex="16pt"/>
+   <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
+   <style:text-properties fo:font-size="18pt" fo:font-weight="bold" officeooo:rsid="0031c60c" officeooo:paragraph-rsid="0031c60c" fo:background-color="#ffff00" style:font-size-asian="18pt" style:font-weight-asian="bold" style:font-size-complex="18pt" style:font-weight-complex="bold"/>
   </style:style>
   <style:style style:name="P51" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:line-height="100%" fo:text-align="justify" style:justify-single-word="false"/>
-   <style:text-properties fo:font-size="10pt" officeooo:rsid="00154a52" officeooo:paragraph-rsid="001937a9" style:font-size-asian="16pt" style:font-size-complex="16pt"/>
+   <style:text-properties fo:font-size="10pt" officeooo:rsid="00154a52" officeooo:paragraph-rsid="00154a52" style:font-size-asian="16pt" style:font-size-complex="16pt"/>
   </style:style>
   <style:style style:name="P52" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:line-height="100%" fo:text-align="justify" style:justify-single-word="false"/>
-   <style:text-properties fo:font-size="10pt" officeooo:rsid="00154a52" officeooo:paragraph-rsid="001ccc94" style:font-size-asian="16pt" style:font-size-complex="16pt"/>
+   <style:text-properties fo:font-size="10pt" officeooo:rsid="00154a52" officeooo:paragraph-rsid="001937a9" style:font-size-asian="16pt" style:font-size-complex="16pt"/>
   </style:style>
   <style:style style:name="P53" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:line-height="100%" fo:text-align="justify" style:justify-single-word="false"/>
-   <style:text-properties fo:font-size="10pt" officeooo:rsid="00188985" officeooo:paragraph-rsid="00188985" style:font-size-asian="16pt" style:font-size-complex="16pt"/>
+   <style:text-properties fo:font-size="10pt" officeooo:rsid="00154a52" officeooo:paragraph-rsid="001ccc94" style:font-size-asian="16pt" style:font-size-complex="16pt"/>
   </style:style>
   <style:style style:name="P54" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:line-height="100%" fo:text-align="justify" style:justify-single-word="false"/>
-   <style:text-properties fo:font-size="10pt" officeooo:rsid="0028e13f" officeooo:paragraph-rsid="0028e13f" style:font-size-asian="16pt" style:font-size-complex="16pt"/>
+   <style:text-properties fo:font-size="10pt" officeooo:rsid="00188985" officeooo:paragraph-rsid="00188985" style:font-size-asian="16pt" style:font-size-complex="16pt"/>
   </style:style>
   <style:style style:name="P55" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:line-height="100%" fo:text-align="justify" style:justify-single-word="false"/>
-   <style:text-properties fo:font-size="10pt" officeooo:rsid="0024f1af" officeooo:paragraph-rsid="0024f1af" style:font-size-asian="16pt" style:font-size-complex="16pt"/>
+   <style:text-properties fo:font-size="10pt" officeooo:rsid="0028e13f" officeooo:paragraph-rsid="0028e13f" style:font-size-asian="16pt" style:font-size-complex="16pt"/>
   </style:style>
   <style:style style:name="P56" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:line-height="100%" fo:text-align="justify" style:justify-single-word="false"/>
-   <style:text-properties fo:font-size="10pt" officeooo:rsid="001bef1b" officeooo:paragraph-rsid="001bef1b" style:font-size-asian="16pt" style:font-size-complex="16pt"/>
+   <style:text-properties fo:font-size="10pt" officeooo:rsid="0024f1af" officeooo:paragraph-rsid="0024f1af" style:font-size-asian="16pt" style:font-size-complex="16pt"/>
   </style:style>
   <style:style style:name="P57" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:line-height="100%" fo:text-align="justify" style:justify-single-word="false"/>
-   <style:text-properties fo:font-size="10pt" officeooo:rsid="0021b38c" officeooo:paragraph-rsid="0021b38c" style:font-size-asian="16pt" style:font-size-complex="16pt"/>
+   <style:text-properties fo:font-size="10pt" officeooo:rsid="001bef1b" officeooo:paragraph-rsid="001bef1b" style:font-size-asian="16pt" style:font-size-complex="16pt"/>
   </style:style>
   <style:style style:name="P58" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:line-height="100%" fo:text-align="justify" style:justify-single-word="false"/>
-   <style:text-properties fo:font-size="10pt" officeooo:rsid="001add02" officeooo:paragraph-rsid="001add02" style:font-size-asian="16pt" style:font-size-complex="16pt"/>
+   <style:text-properties fo:font-size="10pt" officeooo:rsid="0021b38c" officeooo:paragraph-rsid="0021b38c" style:font-size-asian="16pt" style:font-size-complex="16pt"/>
   </style:style>
   <style:style style:name="P59" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:line-height="100%" fo:text-align="justify" style:justify-single-word="false"/>
-   <style:text-properties fo:font-size="10pt" officeooo:rsid="001ccc94" officeooo:paragraph-rsid="00154a52" style:font-size-asian="16pt" style:font-size-complex="16pt"/>
+   <style:text-properties fo:font-size="10pt" officeooo:rsid="001add02" officeooo:paragraph-rsid="001add02" style:font-size-asian="16pt" style:font-size-complex="16pt"/>
   </style:style>
   <style:style style:name="P60" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:line-height="100%" fo:text-align="justify" style:justify-single-word="false"/>
-   <style:text-properties fo:font-size="10pt" officeooo:rsid="001ccc94" officeooo:paragraph-rsid="001ccc94" style:font-size-asian="16pt" style:font-size-complex="16pt"/>
+   <style:text-properties fo:font-size="10pt" officeooo:rsid="001ccc94" officeooo:paragraph-rsid="00154a52" style:font-size-asian="16pt" style:font-size-complex="16pt"/>
   </style:style>
   <style:style style:name="P61" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:line-height="100%" fo:text-align="justify" style:justify-single-word="false"/>
-   <style:text-properties fo:font-size="10pt" officeooo:rsid="0015905c" officeooo:paragraph-rsid="0015905c" style:font-size-asian="16pt" style:font-size-complex="16pt"/>
+   <style:text-properties fo:font-size="10pt" officeooo:rsid="001ccc94" officeooo:paragraph-rsid="001ccc94" style:font-size-asian="16pt" style:font-size-complex="16pt"/>
   </style:style>
   <style:style style:name="P62" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:line-height="100%" fo:text-align="justify" style:justify-single-word="false"/>
-   <style:text-properties fo:font-size="10pt" officeooo:rsid="0015905c" officeooo:paragraph-rsid="001d4738" style:font-size-asian="16pt" style:font-size-complex="16pt"/>
+   <style:text-properties fo:font-size="10pt" officeooo:rsid="0015905c" officeooo:paragraph-rsid="0015905c" style:font-size-asian="16pt" style:font-size-complex="16pt"/>
   </style:style>
   <style:style style:name="P63" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:line-height="100%" fo:text-align="justify" style:justify-single-word="false"/>
-   <style:text-properties fo:font-size="10pt" officeooo:rsid="0015905c" officeooo:paragraph-rsid="0020203b" style:font-size-asian="16pt" style:font-size-complex="16pt"/>
+   <style:text-properties fo:font-size="10pt" officeooo:rsid="0015905c" officeooo:paragraph-rsid="001d4738" style:font-size-asian="16pt" style:font-size-complex="16pt"/>
   </style:style>
   <style:style style:name="P64" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:line-height="100%" fo:text-align="justify" style:justify-single-word="false"/>
-   <style:text-properties fo:font-size="10pt" officeooo:rsid="0015905c" officeooo:paragraph-rsid="0024f1af" style:font-size-asian="16pt" style:font-size-complex="16pt"/>
+   <style:text-properties fo:font-size="10pt" officeooo:rsid="0015905c" officeooo:paragraph-rsid="0020203b" style:font-size-asian="16pt" style:font-size-complex="16pt"/>
   </style:style>
   <style:style style:name="P65" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:line-height="100%" fo:text-align="justify" style:justify-single-word="false"/>
-   <style:text-properties fo:font-size="10pt" officeooo:rsid="0015905c" officeooo:paragraph-rsid="003ce179" style:font-size-asian="16pt" style:font-size-complex="16pt"/>
+   <style:text-properties fo:font-size="10pt" officeooo:rsid="0015905c" officeooo:paragraph-rsid="0024f1af" style:font-size-asian="16pt" style:font-size-complex="16pt"/>
   </style:style>
   <style:style style:name="P66" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:line-height="100%" fo:text-align="justify" style:justify-single-word="false"/>
-   <style:text-properties fo:font-size="10pt" officeooo:rsid="0015905c" officeooo:paragraph-rsid="002afa12" style:font-size-asian="16pt" style:font-size-complex="16pt"/>
+   <style:text-properties fo:font-size="10pt" officeooo:rsid="0015905c" officeooo:paragraph-rsid="003ce179" style:font-size-asian="16pt" style:font-size-complex="16pt"/>
   </style:style>
   <style:style style:name="P67" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:line-height="100%" fo:text-align="justify" style:justify-single-word="false"/>
+   <style:text-properties fo:font-size="10pt" officeooo:rsid="0015905c" officeooo:paragraph-rsid="002afa12" style:font-size-asian="16pt" style:font-size-complex="16pt"/>
+  </style:style>
+  <style:style style:name="P68" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:line-height="100%" fo:text-align="center" style:justify-single-word="false"/>
    <style:text-properties fo:font-size="10pt" officeooo:rsid="0015905c" officeooo:paragraph-rsid="001d4738" style:font-size-asian="16pt" style:font-size-complex="16pt"/>
   </style:style>
-  <style:style style:name="P68" style:family="paragraph" style:parent-style-name="Standard">
+  <style:style style:name="P69" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:line-height="100%" fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties fo:font-size="10pt" officeooo:rsid="0029089d" officeooo:paragraph-rsid="0029089d" style:font-size-asian="16pt" style:font-size-complex="16pt"/>
   </style:style>
-  <style:style style:name="P69" style:family="paragraph" style:parent-style-name="Standard">
+  <style:style style:name="P70" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:line-height="100%" fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties fo:font-size="10pt" officeooo:rsid="002afa12" officeooo:paragraph-rsid="002afa12" style:font-size-asian="16pt" style:font-size-complex="16pt"/>
   </style:style>
-  <style:style style:name="P70" style:family="paragraph" style:parent-style-name="Standard">
+  <style:style style:name="P71" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:line-height="100%" fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties fo:font-size="10pt" officeooo:rsid="002afa12" officeooo:paragraph-rsid="003e6596" style:font-size-asian="16pt" style:font-size-complex="16pt"/>
   </style:style>
-  <style:style style:name="P71" style:family="paragraph" style:parent-style-name="Standard">
+  <style:style style:name="P72" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:line-height="100%" fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties fo:font-size="10pt" officeooo:rsid="002afa12" officeooo:paragraph-rsid="00474066" style:font-size-asian="16pt" style:font-size-complex="16pt"/>
   </style:style>
-  <style:style style:name="P72" style:family="paragraph" style:parent-style-name="Standard">
-   <style:paragraph-properties fo:line-height="100%"/>
-   <style:text-properties fo:font-size="10pt" style:font-size-asian="16pt" style:font-size-complex="16pt"/>
-  </style:style>
   <style:style style:name="P73" style:family="paragraph" style:parent-style-name="Standard">
-   <style:paragraph-properties fo:line-height="100%" fo:text-align="justify" style:justify-single-word="false"/>
+   <style:paragraph-properties fo:line-height="100%"/>
    <style:text-properties fo:font-size="10pt" style:font-size-asian="16pt" style:font-size-complex="16pt"/>
   </style:style>
   <style:style style:name="P74" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:line-height="100%" fo:text-align="justify" style:justify-single-word="false"/>
-   <style:text-properties fo:font-size="10pt" officeooo:paragraph-rsid="0028e13f" style:font-size-asian="16pt" style:font-size-complex="16pt"/>
+   <style:text-properties fo:font-size="10pt" style:font-size-asian="16pt" style:font-size-complex="16pt"/>
   </style:style>
   <style:style style:name="P75" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:line-height="100%" fo:text-align="justify" style:justify-single-word="false"/>
-   <style:text-properties fo:font-size="10pt" officeooo:paragraph-rsid="001937a9" style:font-size-asian="16pt" style:font-size-complex="16pt"/>
+   <style:text-properties fo:font-size="10pt" officeooo:paragraph-rsid="0028e13f" style:font-size-asian="16pt" style:font-size-complex="16pt"/>
   </style:style>
   <style:style style:name="P76" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:line-height="100%" fo:text-align="justify" style:justify-single-word="false"/>
-   <style:text-properties fo:font-size="10pt" officeooo:paragraph-rsid="00154a52" style:font-size-asian="16pt" style:font-size-complex="16pt"/>
+   <style:text-properties fo:font-size="10pt" officeooo:paragraph-rsid="001937a9" style:font-size-asian="16pt" style:font-size-complex="16pt"/>
   </style:style>
   <style:style style:name="P77" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:line-height="100%" fo:text-align="justify" style:justify-single-word="false"/>
-   <style:text-properties fo:font-size="10pt" officeooo:paragraph-rsid="0029089d" style:font-size-asian="16pt" style:font-size-complex="16pt"/>
+   <style:text-properties fo:font-size="10pt" officeooo:paragraph-rsid="00154a52" style:font-size-asian="16pt" style:font-size-complex="16pt"/>
   </style:style>
   <style:style style:name="P78" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:line-height="100%" fo:text-align="justify" style:justify-single-word="false"/>
-   <style:text-properties fo:font-size="10pt" officeooo:paragraph-rsid="0016c086" style:font-size-asian="16pt" style:font-size-complex="16pt"/>
+   <style:text-properties fo:font-size="10pt" officeooo:paragraph-rsid="0029089d" style:font-size-asian="16pt" style:font-size-complex="16pt"/>
   </style:style>
   <style:style style:name="P79" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:line-height="100%" fo:text-align="justify" style:justify-single-word="false"/>
-   <style:text-properties fo:font-size="10pt" officeooo:paragraph-rsid="0015905c" style:font-size-asian="16pt" style:font-size-complex="16pt"/>
+   <style:text-properties fo:font-size="10pt" officeooo:paragraph-rsid="0016c086" style:font-size-asian="16pt" style:font-size-complex="16pt"/>
   </style:style>
   <style:style style:name="P80" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:line-height="100%" fo:text-align="justify" style:justify-single-word="false"/>
-   <style:text-properties fo:font-size="10pt" officeooo:paragraph-rsid="001ccc94" style:font-size-asian="16pt" style:font-size-complex="16pt"/>
+   <style:text-properties fo:font-size="10pt" officeooo:paragraph-rsid="0015905c" style:font-size-asian="16pt" style:font-size-complex="16pt"/>
   </style:style>
   <style:style style:name="P81" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:line-height="100%" fo:text-align="justify" style:justify-single-word="false"/>
-   <style:text-properties fo:font-size="10pt" officeooo:paragraph-rsid="001e07cd" style:font-size-asian="16pt" style:font-size-complex="16pt"/>
+   <style:text-properties fo:font-size="10pt" officeooo:paragraph-rsid="001ccc94" style:font-size-asian="16pt" style:font-size-complex="16pt"/>
   </style:style>
   <style:style style:name="P82" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:line-height="100%" fo:text-align="justify" style:justify-single-word="false"/>
-   <style:text-properties fo:font-size="10pt" officeooo:paragraph-rsid="002afa12" style:font-size-asian="16pt" style:font-size-complex="16pt"/>
+   <style:text-properties fo:font-size="10pt" officeooo:paragraph-rsid="001e07cd" style:font-size-asian="16pt" style:font-size-complex="16pt"/>
   </style:style>
   <style:style style:name="P83" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:line-height="100%" fo:text-align="justify" style:justify-single-word="false"/>
-   <style:text-properties fo:font-size="10pt" officeooo:paragraph-rsid="00409e4b" style:font-size-asian="16pt" style:font-size-complex="16pt"/>
+   <style:text-properties fo:font-size="10pt" officeooo:paragraph-rsid="002afa12" style:font-size-asian="16pt" style:font-size-complex="16pt"/>
   </style:style>
   <style:style style:name="P84" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:line-height="100%" fo:text-align="justify" style:justify-single-word="false"/>
-   <style:text-properties fo:font-size="10pt" officeooo:paragraph-rsid="00474066" style:font-size-asian="16pt" style:font-size-complex="16pt"/>
+   <style:text-properties fo:font-size="10pt" officeooo:paragraph-rsid="00409e4b" style:font-size-asian="16pt" style:font-size-complex="16pt"/>
   </style:style>
   <style:style style:name="P85" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:line-height="100%" fo:text-align="justify" style:justify-single-word="false"/>
-   <style:text-properties fo:font-size="10pt" officeooo:rsid="003f6815" officeooo:paragraph-rsid="003f6815" style:font-size-asian="16pt" style:font-size-complex="16pt"/>
+   <style:text-properties fo:font-size="10pt" officeooo:paragraph-rsid="00474066" style:font-size-asian="16pt" style:font-size-complex="16pt"/>
   </style:style>
   <style:style style:name="P86" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:line-height="100%" fo:text-align="justify" style:justify-single-word="false"/>
-   <style:text-properties fo:font-size="10pt" officeooo:rsid="00409e4b" officeooo:paragraph-rsid="00409e4b" style:font-size-asian="16pt" style:font-size-complex="16pt"/>
+   <style:text-properties fo:font-size="10pt" officeooo:rsid="003f6815" officeooo:paragraph-rsid="003f6815" style:font-size-asian="16pt" style:font-size-complex="16pt"/>
   </style:style>
   <style:style style:name="P87" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:line-height="100%" fo:text-align="justify" style:justify-single-word="false"/>
-   <style:text-properties fo:font-size="10pt" officeooo:rsid="00409e4b" officeooo:paragraph-rsid="00474066" style:font-size-asian="16pt" style:font-size-complex="16pt"/>
+   <style:text-properties fo:font-size="10pt" officeooo:rsid="00409e4b" officeooo:paragraph-rsid="00409e4b" style:font-size-asian="16pt" style:font-size-complex="16pt"/>
   </style:style>
   <style:style style:name="P88" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:line-height="100%" fo:text-align="justify" style:justify-single-word="false"/>
-   <style:text-properties fo:font-size="10pt" officeooo:rsid="00474066" officeooo:paragraph-rsid="00474066" style:font-size-asian="16pt" style:font-size-complex="16pt"/>
+   <style:text-properties fo:font-size="10pt" officeooo:rsid="00409e4b" officeooo:paragraph-rsid="00474066" style:font-size-asian="16pt" style:font-size-complex="16pt"/>
   </style:style>
   <style:style style:name="P89" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:line-height="100%" fo:text-align="justify" style:justify-single-word="false"/>
+   <style:text-properties fo:font-size="10pt" officeooo:rsid="00474066" officeooo:paragraph-rsid="00474066" style:font-size-asian="16pt" style:font-size-complex="16pt"/>
+  </style:style>
+  <style:style style:name="P90" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:line-height="100%" fo:text-align="center" style:justify-single-word="false"/>
    <style:text-properties fo:font-size="10pt" fo:font-style="normal" fo:font-weight="bold" officeooo:rsid="001937a9" officeooo:paragraph-rsid="001937a9" style:font-size-asian="16pt" style:font-style-asian="normal" style:font-weight-asian="bold" style:font-size-complex="16pt" style:font-style-complex="normal" style:font-weight-complex="bold"/>
   </style:style>
-  <style:style style:name="P90" style:family="paragraph" style:parent-style-name="Standard">
+  <style:style style:name="P91" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:line-height="100%" fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties fo:font-size="10pt" fo:font-style="normal" fo:font-weight="normal" officeooo:rsid="001937a9" officeooo:paragraph-rsid="001937a9" style:font-size-asian="16pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="16pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
   </style:style>
-  <style:style style:name="P91" style:family="paragraph" style:parent-style-name="Standard">
+  <style:style style:name="P92" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:line-height="100%" fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties fo:font-size="10pt" fo:font-style="italic" style:text-underline-style="none" fo:font-weight="normal" officeooo:rsid="001add02" officeooo:paragraph-rsid="00154a52" style:font-size-asian="16pt" style:font-style-asian="italic" style:font-weight-asian="normal" style:font-size-complex="16pt" style:font-style-complex="italic" style:font-weight-complex="normal"/>
   </style:style>
-  <style:style style:name="P92" style:family="paragraph" style:parent-style-name="Standard">
+  <style:style style:name="P93" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:line-height="100%" fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties fo:font-size="10pt" fo:font-style="italic" style:text-underline-style="none" fo:font-weight="normal" officeooo:rsid="001add02" officeooo:paragraph-rsid="00474066" style:font-size-asian="16pt" style:font-style-asian="italic" style:font-weight-asian="normal" style:font-size-complex="16pt" style:font-style-complex="italic" style:font-weight-complex="normal"/>
   </style:style>
-  <style:style style:name="P93" style:family="paragraph" style:parent-style-name="Standard">
+  <style:style style:name="P94" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:line-height="100%" fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties fo:font-size="10pt" fo:font-style="italic" style:text-underline-style="none" fo:font-weight="normal" officeooo:rsid="003f6815" officeooo:paragraph-rsid="003f6815" style:font-size-asian="16pt" style:font-style-asian="italic" style:font-weight-asian="normal" style:font-size-complex="16pt" style:font-style-complex="italic" style:font-weight-complex="normal"/>
   </style:style>
-  <style:style style:name="P94" style:family="paragraph" style:parent-style-name="Standard">
+  <style:style style:name="P95" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:line-height="100%" fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties fo:font-size="10pt" fo:font-style="italic" officeooo:rsid="00154a52" officeooo:paragraph-rsid="001ccc94" style:font-size-asian="16pt" style:font-style-asian="italic" style:font-size-complex="16pt" style:font-style-complex="italic"/>
   </style:style>
-  <style:style style:name="P95" style:family="paragraph" style:parent-style-name="Standard">
+  <style:style style:name="P96" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:line-height="100%" fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties fo:font-size="10pt" fo:font-weight="bold" officeooo:rsid="0015905c" officeooo:paragraph-rsid="0015905c" style:font-size-asian="16pt" style:font-weight-asian="bold" style:font-size-complex="16pt" style:font-weight-complex="bold"/>
   </style:style>
-  <style:style style:name="P96" style:family="paragraph" style:parent-style-name="Standard">
+  <style:style style:name="P97" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:line-height="100%"/>
    <style:text-properties fo:font-size="10pt" fo:font-weight="bold" style:font-size-asian="16pt" style:font-weight-asian="bold" style:font-size-complex="16pt" style:font-weight-complex="bold"/>
   </style:style>
-  <style:style style:name="P97" style:family="paragraph" style:parent-style-name="Standard">
+  <style:style style:name="P98" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:line-height="100%" fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties fo:font-size="10pt" fo:font-weight="normal" officeooo:rsid="0015905c" officeooo:paragraph-rsid="0015905c" style:font-size-asian="16pt" style:font-weight-asian="normal" style:font-size-complex="16pt" style:font-weight-complex="normal"/>
   </style:style>
-  <style:style style:name="P98" style:family="paragraph" style:parent-style-name="Standard">
+  <style:style style:name="P99" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:line-height="100%" fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties fo:font-size="10pt" officeooo:rsid="003b6a17" officeooo:paragraph-rsid="003b6a17" fo:background-color="#ffff00" style:font-size-asian="16pt" style:font-size-complex="16pt"/>
   </style:style>
-  <style:style style:name="P99" style:family="paragraph" style:parent-style-name="Standard">
+  <style:style style:name="P100" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:line-height="100%" fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties fo:font-size="10pt" officeooo:rsid="002afa12" officeooo:paragraph-rsid="003e6596" fo:background-color="transparent" style:font-size-asian="16pt" style:font-size-complex="16pt"/>
   </style:style>
-  <style:style style:name="P100" style:family="paragraph" style:parent-style-name="Standard">
+  <style:style style:name="P101" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:line-height="100%" fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties fo:font-size="10pt" officeooo:rsid="003e6596" officeooo:paragraph-rsid="003e6596" fo:background-color="transparent" style:font-size-asian="16pt" style:font-size-complex="16pt"/>
   </style:style>
-  <style:style style:name="P101" style:family="paragraph" style:parent-style-name="Table_20_Contents">
+  <style:style style:name="P102" style:family="paragraph" style:parent-style-name="Table_20_Contents">
    <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties officeooo:rsid="00154a52" officeooo:paragraph-rsid="00154a52"/>
   </style:style>
-  <style:style style:name="P102" style:family="paragraph" style:parent-style-name="Table_20_Contents">
+  <style:style style:name="P103" style:family="paragraph" style:parent-style-name="Table_20_Contents">
    <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties officeooo:rsid="00154a52" officeooo:paragraph-rsid="001ccc94"/>
   </style:style>
-  <style:style style:name="P103" style:family="paragraph" style:parent-style-name="Table_20_Contents">
+  <style:style style:name="P104" style:family="paragraph" style:parent-style-name="Table_20_Contents">
    <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties fo:color="#c9211e" loext:opacity="100%" officeooo:rsid="00154a52" officeooo:paragraph-rsid="00154a52"/>
   </style:style>
-  <style:style style:name="P104" style:family="paragraph" style:parent-style-name="Table_20_Contents">
+  <style:style style:name="P105" style:family="paragraph" style:parent-style-name="Table_20_Contents">
    <style:paragraph-properties fo:line-height="100%" fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties fo:color="#c9211e" loext:opacity="100%" fo:font-size="10pt" officeooo:rsid="00154a52" officeooo:paragraph-rsid="00154a52" style:font-size-asian="16pt" style:font-size-complex="16pt"/>
   </style:style>
-  <style:style style:name="P105" style:family="paragraph" style:parent-style-name="Table_20_Contents">
+  <style:style style:name="P106" style:family="paragraph" style:parent-style-name="Table_20_Contents">
    <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties fo:color="#fc5c00" loext:opacity="100%" officeooo:rsid="00154a52" officeooo:paragraph-rsid="00154a52"/>
   </style:style>
-  <style:style style:name="P106" style:family="paragraph" style:parent-style-name="Table_20_Contents">
+  <style:style style:name="P107" style:family="paragraph" style:parent-style-name="Table_20_Contents">
    <style:paragraph-properties fo:line-height="100%" fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties fo:color="#fc5c00" loext:opacity="100%" fo:font-size="10pt" officeooo:rsid="00154a52" officeooo:paragraph-rsid="00154a52" style:font-size-asian="16pt" style:font-size-complex="16pt"/>
   </style:style>
-  <style:style style:name="P107" style:family="paragraph" style:parent-style-name="Table_20_Contents">
+  <style:style style:name="P108" style:family="paragraph" style:parent-style-name="Table_20_Contents">
    <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties fo:color="#18a303" loext:opacity="100%" officeooo:rsid="00154a52" officeooo:paragraph-rsid="00154a52"/>
   </style:style>
-  <style:style style:name="P108" style:family="paragraph" style:parent-style-name="Table_20_Contents">
+  <style:style style:name="P109" style:family="paragraph" style:parent-style-name="Table_20_Contents">
    <style:paragraph-properties fo:line-height="100%" fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties fo:color="#18a303" loext:opacity="100%" fo:font-size="10pt" officeooo:rsid="00154a52" officeooo:paragraph-rsid="00154a52" style:font-size-asian="16pt" style:font-size-complex="16pt"/>
   </style:style>
-  <style:style style:name="P109" style:family="paragraph" style:parent-style-name="Table_20_Contents">
+  <style:style style:name="P110" style:family="paragraph" style:parent-style-name="Table_20_Contents">
    <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties fo:font-weight="bold" officeooo:rsid="001bef1b" officeooo:paragraph-rsid="001bef1b" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
   </style:style>
-  <style:style style:name="P110" style:family="paragraph" style:parent-style-name="Table_20_Contents">
+  <style:style style:name="P111" style:family="paragraph" style:parent-style-name="Table_20_Contents">
    <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties fo:font-weight="bold" officeooo:rsid="001ccc94" officeooo:paragraph-rsid="001ccc94" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
   </style:style>
-  <style:style style:name="P111" style:family="paragraph" style:parent-style-name="Table_20_Contents">
+  <style:style style:name="P112" style:family="paragraph" style:parent-style-name="Table_20_Contents">
    <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties fo:font-weight="bold" officeooo:rsid="0024f1af" officeooo:paragraph-rsid="0024f1af" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
   </style:style>
-  <style:style style:name="P112" style:family="paragraph" style:parent-style-name="Table_20_Contents">
+  <style:style style:name="P113" style:family="paragraph" style:parent-style-name="Table_20_Contents">
    <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties officeooo:rsid="001ccc94" officeooo:paragraph-rsid="001ccc94"/>
   </style:style>
-  <style:style style:name="P113" style:family="paragraph" style:parent-style-name="Table_20_Contents">
-   <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
-  </style:style>
   <style:style style:name="P114" style:family="paragraph" style:parent-style-name="Table_20_Contents">
    <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
-   <style:text-properties officeooo:paragraph-rsid="00154a52"/>
   </style:style>
   <style:style style:name="P115" style:family="paragraph" style:parent-style-name="Table_20_Contents">
    <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
-   <style:text-properties officeooo:paragraph-rsid="001e07cd"/>
+   <style:text-properties officeooo:paragraph-rsid="00154a52"/>
   </style:style>
   <style:style style:name="P116" style:family="paragraph" style:parent-style-name="Table_20_Contents">
    <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
-   <style:text-properties officeooo:paragraph-rsid="0024f1af"/>
+   <style:text-properties officeooo:paragraph-rsid="001e07cd"/>
   </style:style>
   <style:style style:name="P117" style:family="paragraph" style:parent-style-name="Table_20_Contents">
    <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
-   <style:text-properties officeooo:rsid="001e07cd" officeooo:paragraph-rsid="001e07cd"/>
+   <style:text-properties officeooo:paragraph-rsid="0024f1af"/>
   </style:style>
   <style:style style:name="P118" style:family="paragraph" style:parent-style-name="Table_20_Contents">
    <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
-   <style:text-properties officeooo:rsid="0024f1af" officeooo:paragraph-rsid="0024f1af"/>
+   <style:text-properties officeooo:rsid="001e07cd" officeooo:paragraph-rsid="001e07cd"/>
   </style:style>
   <style:style style:name="P119" style:family="paragraph" style:parent-style-name="Table_20_Contents">
-   <style:paragraph-properties fo:line-height="100%" fo:text-align="justify" style:justify-single-word="false"/>
-   <style:text-properties fo:font-size="10pt" fo:font-weight="bold" officeooo:rsid="001bef1b" officeooo:paragraph-rsid="001bef1b" style:font-size-asian="16pt" style:font-weight-asian="bold" style:font-size-complex="16pt" style:font-weight-complex="bold"/>
+   <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
+   <style:text-properties officeooo:rsid="0024f1af" officeooo:paragraph-rsid="0024f1af"/>
   </style:style>
   <style:style style:name="P120" style:family="paragraph" style:parent-style-name="Table_20_Contents">
    <style:paragraph-properties fo:line-height="100%" fo:text-align="justify" style:justify-single-word="false"/>
-   <style:text-properties fo:font-size="10pt" fo:font-weight="bold" officeooo:rsid="001ccc94" officeooo:paragraph-rsid="001ccc94" style:font-size-asian="16pt" style:font-weight-asian="bold" style:font-size-complex="16pt" style:font-weight-complex="bold"/>
+   <style:text-properties fo:font-size="10pt" fo:font-weight="bold" officeooo:rsid="001bef1b" officeooo:paragraph-rsid="001bef1b" style:font-size-asian="16pt" style:font-weight-asian="bold" style:font-size-complex="16pt" style:font-weight-complex="bold"/>
   </style:style>
   <style:style style:name="P121" style:family="paragraph" style:parent-style-name="Table_20_Contents">
    <style:paragraph-properties fo:line-height="100%" fo:text-align="justify" style:justify-single-word="false"/>
-   <style:text-properties fo:font-size="10pt" fo:font-weight="bold" officeooo:rsid="0024f1af" officeooo:paragraph-rsid="0024f1af" style:font-size-asian="16pt" style:font-weight-asian="bold" style:font-size-complex="16pt" style:font-weight-complex="bold"/>
+   <style:text-properties fo:font-size="10pt" fo:font-weight="bold" officeooo:rsid="001ccc94" officeooo:paragraph-rsid="001ccc94" style:font-size-asian="16pt" style:font-weight-asian="bold" style:font-size-complex="16pt" style:font-weight-complex="bold"/>
   </style:style>
   <style:style style:name="P122" style:family="paragraph" style:parent-style-name="Table_20_Contents">
    <style:paragraph-properties fo:line-height="100%" fo:text-align="justify" style:justify-single-word="false"/>
-   <style:text-properties fo:font-size="10pt" officeooo:rsid="00154a52" officeooo:paragraph-rsid="00154a52" style:font-size-asian="16pt" style:font-size-complex="16pt"/>
+   <style:text-properties fo:font-size="10pt" fo:font-weight="bold" officeooo:rsid="0024f1af" officeooo:paragraph-rsid="0024f1af" style:font-size-asian="16pt" style:font-weight-asian="bold" style:font-size-complex="16pt" style:font-weight-complex="bold"/>
   </style:style>
   <style:style style:name="P123" style:family="paragraph" style:parent-style-name="Table_20_Contents">
    <style:paragraph-properties fo:line-height="100%" fo:text-align="justify" style:justify-single-word="false"/>
-   <style:text-properties fo:font-size="10pt" officeooo:rsid="00154a52" officeooo:paragraph-rsid="001ccc94" style:font-size-asian="16pt" style:font-size-complex="16pt"/>
+   <style:text-properties fo:font-size="10pt" officeooo:rsid="00154a52" officeooo:paragraph-rsid="00154a52" style:font-size-asian="16pt" style:font-size-complex="16pt"/>
   </style:style>
   <style:style style:name="P124" style:family="paragraph" style:parent-style-name="Table_20_Contents">
    <style:paragraph-properties fo:line-height="100%" fo:text-align="justify" style:justify-single-word="false"/>
-   <style:text-properties fo:font-size="10pt" officeooo:rsid="001ccc94" officeooo:paragraph-rsid="001ccc94" style:font-size-asian="16pt" style:font-size-complex="16pt"/>
+   <style:text-properties fo:font-size="10pt" officeooo:rsid="00154a52" officeooo:paragraph-rsid="001ccc94" style:font-size-asian="16pt" style:font-size-complex="16pt"/>
   </style:style>
   <style:style style:name="P125" style:family="paragraph" style:parent-style-name="Table_20_Contents">
    <style:paragraph-properties fo:line-height="100%" fo:text-align="justify" style:justify-single-word="false"/>
-   <style:text-properties fo:font-size="10pt" officeooo:rsid="0024f1af" officeooo:paragraph-rsid="0024f1af" style:font-size-asian="16pt" style:font-size-complex="16pt"/>
+   <style:text-properties fo:font-size="10pt" officeooo:rsid="001ccc94" officeooo:paragraph-rsid="001ccc94" style:font-size-asian="16pt" style:font-size-complex="16pt"/>
   </style:style>
   <style:style style:name="P126" style:family="paragraph" style:parent-style-name="Table_20_Contents">
    <style:paragraph-properties fo:line-height="100%" fo:text-align="justify" style:justify-single-word="false"/>
-   <style:text-properties fo:font-size="10pt" officeooo:rsid="001e07cd" officeooo:paragraph-rsid="001e07cd" style:font-size-asian="16pt" style:font-size-complex="16pt"/>
+   <style:text-properties fo:font-size="10pt" officeooo:rsid="0024f1af" officeooo:paragraph-rsid="0024f1af" style:font-size-asian="16pt" style:font-size-complex="16pt"/>
   </style:style>
   <style:style style:name="P127" style:family="paragraph" style:parent-style-name="Table_20_Contents">
    <style:paragraph-properties fo:line-height="100%" fo:text-align="justify" style:justify-single-word="false"/>
-   <style:text-properties fo:font-size="10pt" style:font-size-asian="16pt" style:font-size-complex="16pt"/>
+   <style:text-properties fo:font-size="10pt" officeooo:rsid="001e07cd" officeooo:paragraph-rsid="001e07cd" style:font-size-asian="16pt" style:font-size-complex="16pt"/>
   </style:style>
   <style:style style:name="P128" style:family="paragraph" style:parent-style-name="Table_20_Contents">
    <style:paragraph-properties fo:line-height="100%" fo:text-align="justify" style:justify-single-word="false"/>
-   <style:text-properties fo:font-size="10pt" officeooo:paragraph-rsid="0024f1af" style:font-size-asian="16pt" style:font-size-complex="16pt"/>
+   <style:text-properties fo:font-size="10pt" style:font-size-asian="16pt" style:font-size-complex="16pt"/>
   </style:style>
   <style:style style:name="P129" style:family="paragraph" style:parent-style-name="Table_20_Contents">
    <style:paragraph-properties fo:line-height="100%" fo:text-align="justify" style:justify-single-word="false"/>
-   <style:text-properties fo:font-size="10pt" officeooo:paragraph-rsid="00154a52" style:font-size-asian="16pt" style:font-size-complex="16pt"/>
+   <style:text-properties fo:font-size="10pt" officeooo:paragraph-rsid="0024f1af" style:font-size-asian="16pt" style:font-size-complex="16pt"/>
   </style:style>
   <style:style style:name="P130" style:family="paragraph" style:parent-style-name="Table_20_Contents">
    <style:paragraph-properties fo:line-height="100%" fo:text-align="justify" style:justify-single-word="false"/>
-   <style:text-properties fo:font-size="10pt" officeooo:paragraph-rsid="001e07cd" style:font-size-asian="16pt" style:font-size-complex="16pt"/>
+   <style:text-properties fo:font-size="10pt" officeooo:paragraph-rsid="00154a52" style:font-size-asian="16pt" style:font-size-complex="16pt"/>
   </style:style>
   <style:style style:name="P131" style:family="paragraph" style:parent-style-name="Table_20_Contents">
    <style:paragraph-properties fo:line-height="100%" fo:text-align="justify" style:justify-single-word="false"/>
+   <style:text-properties fo:font-size="10pt" officeooo:paragraph-rsid="001e07cd" style:font-size-asian="16pt" style:font-size-complex="16pt"/>
+  </style:style>
+  <style:style style:name="P132" style:family="paragraph" style:parent-style-name="Table_20_Contents">
+   <style:paragraph-properties fo:line-height="100%" fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties fo:font-size="10pt" officeooo:rsid="003ce179" officeooo:paragraph-rsid="003ce179" style:font-size-asian="16pt" style:font-size-complex="16pt"/>
   </style:style>
-  <style:style style:name="P132" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L1">
+  <style:style style:name="P133" style:family="paragraph" style:parent-style-name="Table_20_Contents">
+   <style:paragraph-properties fo:line-height="100%" fo:text-align="justify" style:justify-single-word="false"/>
+   <style:text-properties fo:font-size="10pt" fo:font-weight="bold" officeooo:rsid="004cdb8b" officeooo:paragraph-rsid="004cdb8b" style:font-size-asian="16pt" style:font-weight-asian="bold" style:font-size-complex="16pt" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="P134" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L1">
    <style:paragraph-properties fo:line-height="100%" fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties fo:font-size="10pt" officeooo:paragraph-rsid="00154a52" style:font-size-asian="16pt" style:font-size-complex="16pt"/>
   </style:style>
-  <style:style style:name="P133" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L2">
+  <style:style style:name="P135" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L2">
    <style:paragraph-properties fo:line-height="100%" fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties fo:font-size="10pt" officeooo:paragraph-rsid="0015905c" style:font-size-asian="16pt" style:font-size-complex="16pt"/>
   </style:style>
-  <style:style style:name="P134" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L3">
+  <style:style style:name="P136" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L3">
    <style:paragraph-properties fo:line-height="100%" fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties fo:font-size="10pt" officeooo:paragraph-rsid="0015905c" style:font-size-asian="16pt" style:font-size-complex="16pt"/>
-  </style:style>
-  <style:style style:name="P135" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L3">
-   <style:paragraph-properties fo:line-height="100%" fo:text-align="justify" style:justify-single-word="false"/>
-   <style:text-properties fo:font-size="10pt" officeooo:paragraph-rsid="001ccc94" style:font-size-asian="16pt" style:font-size-complex="16pt"/>
-  </style:style>
-  <style:style style:name="P136" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L1">
-   <style:paragraph-properties fo:line-height="100%" fo:text-align="justify" style:justify-single-word="false"/>
-   <style:text-properties fo:font-size="10pt" officeooo:rsid="00154a52" officeooo:paragraph-rsid="00154a52" style:font-size-asian="16pt" style:font-size-complex="16pt"/>
   </style:style>
   <style:style style:name="P137" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L3">
    <style:paragraph-properties fo:line-height="100%" fo:text-align="justify" style:justify-single-word="false"/>
-   <style:text-properties fo:font-size="10pt" officeooo:rsid="0015905c" officeooo:paragraph-rsid="0015905c" style:font-size-asian="16pt" style:font-size-complex="16pt"/>
+   <style:text-properties fo:font-size="10pt" officeooo:paragraph-rsid="001ccc94" style:font-size-asian="16pt" style:font-size-complex="16pt"/>
   </style:style>
-  <style:style style:name="P138" style:family="paragraph" style:parent-style-name="Standard">
+  <style:style style:name="P138" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L1">
    <style:paragraph-properties fo:line-height="100%" fo:text-align="justify" style:justify-single-word="false"/>
-   <style:text-properties fo:color="#c9211e" loext:opacity="100%" fo:font-size="10pt" fo:font-weight="bold" officeooo:rsid="003aa60a" officeooo:paragraph-rsid="0015905c" style:font-size-asian="16pt" style:font-weight-asian="bold" style:font-size-complex="16pt" style:font-weight-complex="bold"/>
+   <style:text-properties fo:font-size="10pt" officeooo:rsid="00154a52" officeooo:paragraph-rsid="00154a52" style:font-size-asian="16pt" style:font-size-complex="16pt"/>
+  </style:style>
+  <style:style style:name="P139" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L3">
+   <style:paragraph-properties fo:line-height="100%" fo:text-align="justify" style:justify-single-word="false"/>
+   <style:text-properties fo:font-size="10pt" officeooo:rsid="0015905c" officeooo:paragraph-rsid="0015905c" style:font-size-asian="16pt" style:font-size-complex="16pt"/>
   </style:style>
   <style:style style:name="T1" style:family="text">
    <style:text-properties officeooo:rsid="00154a52"/>
@@ -922,202 +926,232 @@
    <style:text-properties fo:font-style="italic" officeooo:rsid="003ce179" style:font-style-asian="italic" style:font-style-complex="italic"/>
   </style:style>
   <style:style style:name="T13" style:family="text">
-   <style:text-properties fo:font-style="italic" fo:font-weight="bold" style:font-style-asian="italic" style:font-weight-asian="bold" style:font-style-complex="italic" style:font-weight-complex="bold"/>
+   <style:text-properties fo:font-style="italic" officeooo:rsid="0028e13f" style:font-style-asian="italic" style:font-style-complex="italic"/>
   </style:style>
   <style:style style:name="T14" style:family="text">
-   <style:text-properties fo:font-style="italic" fo:font-weight="bold" officeooo:rsid="0016c086" style:font-style-asian="italic" style:font-weight-asian="bold" style:font-style-complex="italic" style:font-weight-complex="bold"/>
+   <style:text-properties fo:font-style="italic" fo:font-weight="bold" style:font-style-asian="italic" style:font-weight-asian="bold" style:font-style-complex="italic" style:font-weight-complex="bold"/>
   </style:style>
   <style:style style:name="T15" style:family="text">
-   <style:text-properties fo:font-style="italic" fo:font-weight="bold" officeooo:rsid="002afa12" style:font-style-asian="italic" style:font-weight-asian="bold" style:font-style-complex="italic" style:font-weight-complex="bold"/>
+   <style:text-properties fo:font-style="italic" fo:font-weight="bold" officeooo:rsid="0016c086" style:font-style-asian="italic" style:font-weight-asian="bold" style:font-style-complex="italic" style:font-weight-complex="bold"/>
   </style:style>
   <style:style style:name="T16" style:family="text">
-   <style:text-properties officeooo:rsid="0015905c"/>
+   <style:text-properties fo:font-style="italic" fo:font-weight="bold" officeooo:rsid="002afa12" style:font-style-asian="italic" style:font-weight-asian="bold" style:font-style-complex="italic" style:font-weight-complex="bold"/>
   </style:style>
   <style:style style:name="T17" style:family="text">
-   <style:text-properties fo:font-weight="bold" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
+   <style:text-properties fo:font-style="italic" style:text-underline-style="solid" style:text-underline-width="auto" style:text-underline-color="font-color" officeooo:rsid="0028e13f" style:font-style-asian="italic" style:font-style-complex="italic"/>
   </style:style>
   <style:style style:name="T18" style:family="text">
-   <style:text-properties fo:font-weight="bold" officeooo:rsid="001937a9" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
+   <style:text-properties fo:font-style="italic" style:text-underline-style="none" officeooo:rsid="0028e13f" style:font-style-asian="italic" style:font-style-complex="italic"/>
   </style:style>
   <style:style style:name="T19" style:family="text">
-   <style:text-properties fo:font-weight="bold" officeooo:rsid="0016c086" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
+   <style:text-properties officeooo:rsid="0015905c"/>
   </style:style>
   <style:style style:name="T20" style:family="text">
-   <style:text-properties fo:font-weight="bold" officeooo:rsid="001ccc94" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
+   <style:text-properties fo:font-weight="bold" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
   </style:style>
   <style:style style:name="T21" style:family="text">
-   <style:text-properties fo:font-weight="bold" officeooo:rsid="00154a52" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
+   <style:text-properties fo:font-weight="bold" officeooo:rsid="001937a9" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
   </style:style>
   <style:style style:name="T22" style:family="text">
-   <style:text-properties fo:font-weight="bold" officeooo:rsid="00232f05" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
+   <style:text-properties fo:font-weight="bold" officeooo:rsid="0016c086" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
   </style:style>
   <style:style style:name="T23" style:family="text">
-   <style:text-properties fo:font-weight="bold" officeooo:rsid="0015905c" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
+   <style:text-properties fo:font-weight="bold" officeooo:rsid="001ccc94" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
   </style:style>
   <style:style style:name="T24" style:family="text">
-   <style:text-properties fo:font-weight="bold" officeooo:rsid="0029089d" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
+   <style:text-properties fo:font-weight="bold" officeooo:rsid="00154a52" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
   </style:style>
   <style:style style:name="T25" style:family="text">
-   <style:text-properties fo:font-weight="bold" officeooo:rsid="002afa12" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
+   <style:text-properties fo:font-weight="bold" officeooo:rsid="00232f05" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
   </style:style>
   <style:style style:name="T26" style:family="text">
-   <style:text-properties fo:font-weight="normal" officeooo:rsid="0016c086" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
+   <style:text-properties fo:font-weight="bold" officeooo:rsid="0015905c" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
   </style:style>
   <style:style style:name="T27" style:family="text">
-   <style:text-properties fo:font-weight="normal" officeooo:rsid="0015905c" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
+   <style:text-properties fo:font-weight="bold" officeooo:rsid="0029089d" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
   </style:style>
   <style:style style:name="T28" style:family="text">
-   <style:text-properties fo:font-weight="normal" officeooo:rsid="002afa12" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
+   <style:text-properties fo:font-weight="bold" officeooo:rsid="002afa12" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
   </style:style>
   <style:style style:name="T29" style:family="text">
-   <style:text-properties fo:font-weight="normal" officeooo:rsid="00409e4b" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
+   <style:text-properties fo:font-weight="normal" officeooo:rsid="0016c086" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="T30" style:family="text">
-   <style:text-properties fo:font-weight="normal" officeooo:rsid="00474066" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
+   <style:text-properties fo:font-weight="normal" officeooo:rsid="0015905c" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="T31" style:family="text">
-   <style:text-properties officeooo:rsid="0016c086"/>
+   <style:text-properties fo:font-weight="normal" officeooo:rsid="002afa12" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="T32" style:family="text">
-   <style:text-properties fo:color="#c9211e" loext:opacity="100%" fo:font-weight="bold" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
+   <style:text-properties fo:font-weight="normal" officeooo:rsid="00409e4b" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="T33" style:family="text">
-   <style:text-properties fo:color="#c9211e" loext:opacity="100%" fo:font-weight="bold" officeooo:rsid="0029089d" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
+   <style:text-properties fo:font-weight="normal" officeooo:rsid="00474066" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="T34" style:family="text">
-   <style:text-properties fo:color="#c9211e" loext:opacity="100%" fo:font-weight="bold" officeooo:rsid="003aa60a" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
+   <style:text-properties fo:font-weight="normal" officeooo:rsid="004cdb8b" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="T35" style:family="text">
-   <style:text-properties fo:color="#c9211e" loext:opacity="100%" fo:font-style="italic" fo:font-weight="bold" style:font-style-asian="italic" style:font-weight-asian="bold" style:font-style-complex="italic" style:font-weight-complex="bold"/>
+   <style:text-properties officeooo:rsid="0016c086"/>
   </style:style>
   <style:style style:name="T36" style:family="text">
-   <style:text-properties officeooo:rsid="001937a9"/>
+   <style:text-properties fo:color="#c9211e" loext:opacity="100%" fo:font-weight="bold" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
   </style:style>
   <style:style style:name="T37" style:family="text">
-   <style:text-properties officeooo:rsid="001add02"/>
+   <style:text-properties fo:color="#c9211e" loext:opacity="100%" fo:font-weight="bold" officeooo:rsid="0029089d" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
   </style:style>
   <style:style style:name="T38" style:family="text">
-   <style:text-properties fo:color="#0369a3" loext:opacity="100%" officeooo:rsid="001add02"/>
+   <style:text-properties fo:color="#c9211e" loext:opacity="100%" fo:font-weight="bold" officeooo:rsid="003aa60a" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
   </style:style>
   <style:style style:name="T39" style:family="text">
-   <style:text-properties fo:color="#0369a3" loext:opacity="100%" officeooo:rsid="00154a52"/>
+   <style:text-properties fo:color="#c9211e" loext:opacity="100%" fo:font-style="italic" fo:font-weight="bold" style:font-style-asian="italic" style:font-weight-asian="bold" style:font-style-complex="italic" style:font-weight-complex="bold"/>
   </style:style>
   <style:style style:name="T40" style:family="text">
-   <style:text-properties fo:color="#0369a3" loext:opacity="100%" fo:font-style="italic" officeooo:rsid="00154a52" style:font-style-asian="italic" style:font-style-complex="italic"/>
+   <style:text-properties officeooo:rsid="001937a9"/>
   </style:style>
   <style:style style:name="T41" style:family="text">
-   <style:text-properties fo:color="#0369a3" loext:opacity="100%" fo:font-style="italic" officeooo:rsid="003f6815" style:font-style-asian="italic" style:font-style-complex="italic"/>
+   <style:text-properties officeooo:rsid="001add02"/>
   </style:style>
   <style:style style:name="T42" style:family="text">
-   <style:text-properties officeooo:rsid="001bef1b"/>
+   <style:text-properties fo:color="#0369a3" loext:opacity="100%" officeooo:rsid="001add02"/>
   </style:style>
   <style:style style:name="T43" style:family="text">
-   <style:text-properties style:font-name="Arial"/>
+   <style:text-properties fo:color="#0369a3" loext:opacity="100%" officeooo:rsid="00154a52"/>
   </style:style>
   <style:style style:name="T44" style:family="text">
-   <style:text-properties style:font-name="Arial" officeooo:rsid="001bef1b"/>
+   <style:text-properties fo:color="#0369a3" loext:opacity="100%" fo:font-style="italic" officeooo:rsid="00154a52" style:font-style-asian="italic" style:font-style-complex="italic"/>
   </style:style>
   <style:style style:name="T45" style:family="text">
-   <style:text-properties style:font-name="Arial" officeooo:rsid="001ccc94"/>
+   <style:text-properties fo:color="#0369a3" loext:opacity="100%" fo:font-style="italic" officeooo:rsid="003f6815" style:font-style-asian="italic" style:font-style-complex="italic"/>
   </style:style>
   <style:style style:name="T46" style:family="text">
-   <style:text-properties style:font-name="Arial" officeooo:rsid="003ce179"/>
+   <style:text-properties officeooo:rsid="001bef1b"/>
   </style:style>
   <style:style style:name="T47" style:family="text">
-   <style:text-properties officeooo:rsid="001ccc94"/>
+   <style:text-properties style:font-name="Arial"/>
   </style:style>
   <style:style style:name="T48" style:family="text">
-   <style:text-properties fo:font-style="normal" style:font-style-asian="normal" style:font-style-complex="normal"/>
+   <style:text-properties style:font-name="Arial" officeooo:rsid="001bef1b"/>
   </style:style>
   <style:style style:name="T49" style:family="text">
-   <style:text-properties fo:font-style="normal" officeooo:rsid="003aa60a" style:font-style-asian="normal" style:font-style-complex="normal"/>
+   <style:text-properties style:font-name="Arial" officeooo:rsid="001ccc94"/>
   </style:style>
   <style:style style:name="T50" style:family="text">
-   <style:text-properties officeooo:rsid="001d4738"/>
+   <style:text-properties style:font-name="Arial" officeooo:rsid="003ce179"/>
   </style:style>
   <style:style style:name="T51" style:family="text">
-   <style:text-properties officeooo:rsid="001e07cd"/>
+   <style:text-properties style:font-name="Arial" officeooo:rsid="004cdb8b"/>
   </style:style>
   <style:style style:name="T52" style:family="text">
-   <style:text-properties officeooo:rsid="0020203b"/>
+   <style:text-properties officeooo:rsid="001ccc94"/>
   </style:style>
   <style:style style:name="T53" style:family="text">
-   <style:text-properties officeooo:rsid="0021b38c"/>
+   <style:text-properties fo:font-style="normal" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T54" style:family="text">
-   <style:text-properties officeooo:rsid="00232f05"/>
+   <style:text-properties fo:font-style="normal" officeooo:rsid="003aa60a" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T55" style:family="text">
-   <style:text-properties officeooo:rsid="0024f1af"/>
+   <style:text-properties fo:font-style="normal" officeooo:rsid="0028e13f" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T56" style:family="text">
-   <style:text-properties officeooo:rsid="0026d199"/>
+   <style:text-properties fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="0028e13f" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T57" style:family="text">
-   <style:text-properties officeooo:rsid="00279e58"/>
+   <style:text-properties officeooo:rsid="001d4738"/>
   </style:style>
   <style:style style:name="T58" style:family="text">
-   <style:text-properties officeooo:rsid="0028e13f"/>
+   <style:text-properties officeooo:rsid="001e07cd"/>
   </style:style>
   <style:style style:name="T59" style:family="text">
-   <style:text-properties officeooo:rsid="0029089d"/>
+   <style:text-properties officeooo:rsid="0020203b"/>
   </style:style>
   <style:style style:name="T60" style:family="text">
-   <style:text-properties officeooo:rsid="002afa12"/>
+   <style:text-properties officeooo:rsid="0021b38c"/>
   </style:style>
   <style:style style:name="T61" style:family="text">
-   <style:text-properties officeooo:rsid="002efeb0"/>
+   <style:text-properties officeooo:rsid="00232f05"/>
   </style:style>
   <style:style style:name="T62" style:family="text">
-   <style:text-properties officeooo:rsid="002fd3e3"/>
+   <style:text-properties officeooo:rsid="0024f1af"/>
   </style:style>
   <style:style style:name="T63" style:family="text">
-   <style:text-properties officeooo:rsid="00343b5a"/>
+   <style:text-properties officeooo:rsid="0026d199"/>
   </style:style>
   <style:style style:name="T64" style:family="text">
-   <style:text-properties officeooo:rsid="003690f0"/>
+   <style:text-properties officeooo:rsid="00279e58"/>
   </style:style>
   <style:style style:name="T65" style:family="text">
-   <style:text-properties style:text-underline-style="solid" style:text-underline-width="auto" style:text-underline-color="font-color"/>
+   <style:text-properties officeooo:rsid="0028e13f"/>
   </style:style>
   <style:style style:name="T66" style:family="text">
-   <style:text-properties officeooo:rsid="00391726"/>
+   <style:text-properties officeooo:rsid="0029089d"/>
   </style:style>
   <style:style style:name="T67" style:family="text">
-   <style:text-properties officeooo:rsid="003aa60a"/>
+   <style:text-properties officeooo:rsid="002afa12"/>
   </style:style>
   <style:style style:name="T68" style:family="text">
-   <style:text-properties officeooo:rsid="003b92f9"/>
+   <style:text-properties officeooo:rsid="002efeb0"/>
   </style:style>
   <style:style style:name="T69" style:family="text">
-   <style:text-properties officeooo:rsid="003ce179"/>
+   <style:text-properties officeooo:rsid="002fd3e3"/>
   </style:style>
   <style:style style:name="T70" style:family="text">
-   <style:text-properties officeooo:rsid="003e6596"/>
+   <style:text-properties officeooo:rsid="00343b5a"/>
   </style:style>
   <style:style style:name="T71" style:family="text">
-   <style:text-properties officeooo:rsid="003e6596" fo:background-color="#ffff00" loext:char-shading-value="0"/>
+   <style:text-properties officeooo:rsid="003690f0"/>
   </style:style>
   <style:style style:name="T72" style:family="text">
-   <style:text-properties officeooo:rsid="003f6815"/>
+   <style:text-properties style:text-underline-style="solid" style:text-underline-width="auto" style:text-underline-color="font-color"/>
   </style:style>
   <style:style style:name="T73" style:family="text">
-   <style:text-properties officeooo:rsid="00409e4b"/>
+   <style:text-properties style:text-underline-style="solid" style:text-underline-width="auto" style:text-underline-color="font-color" officeooo:rsid="0028e13f"/>
   </style:style>
   <style:style style:name="T74" style:family="text">
-   <style:text-properties officeooo:rsid="0041a7f8"/>
+   <style:text-properties officeooo:rsid="00391726"/>
   </style:style>
   <style:style style:name="T75" style:family="text">
-   <style:text-properties officeooo:rsid="004442f4"/>
+   <style:text-properties officeooo:rsid="003aa60a"/>
   </style:style>
   <style:style style:name="T76" style:family="text">
-   <style:text-properties officeooo:rsid="00474066"/>
+   <style:text-properties officeooo:rsid="003b92f9"/>
   </style:style>
   <style:style style:name="T77" style:family="text">
-   <style:text-properties officeooo:rsid="00491ee2"/>
+   <style:text-properties officeooo:rsid="003ce179"/>
   </style:style>
   <style:style style:name="T78" style:family="text">
+   <style:text-properties officeooo:rsid="003e6596"/>
+  </style:style>
+  <style:style style:name="T79" style:family="text">
+   <style:text-properties officeooo:rsid="003e6596" fo:background-color="#ffff00" loext:char-shading-value="0"/>
+  </style:style>
+  <style:style style:name="T80" style:family="text">
+   <style:text-properties officeooo:rsid="003f6815"/>
+  </style:style>
+  <style:style style:name="T81" style:family="text">
+   <style:text-properties officeooo:rsid="00409e4b"/>
+  </style:style>
+  <style:style style:name="T82" style:family="text">
+   <style:text-properties officeooo:rsid="0041a7f8"/>
+  </style:style>
+  <style:style style:name="T83" style:family="text">
+   <style:text-properties officeooo:rsid="004442f4"/>
+  </style:style>
+  <style:style style:name="T84" style:family="text">
+   <style:text-properties officeooo:rsid="00474066"/>
+  </style:style>
+  <style:style style:name="T85" style:family="text">
+   <style:text-properties officeooo:rsid="00491ee2"/>
+  </style:style>
+  <style:style style:name="T86" style:family="text">
    <style:text-properties officeooo:rsid="004b9311"/>
+  </style:style>
+  <style:style style:name="T87" style:family="text">
+   <style:text-properties officeooo:rsid="004c9825"/>
+  </style:style>
+  <style:style style:name="T88" style:family="text">
+   <style:text-properties officeooo:rsid="004cdb8b"/>
   </style:style>
   <text:list-style style:name="L1">
    <text:list-level-style-bullet text:level="1" text:style-name="Bullet_20_Symbols" text:bullet-char="•">
@@ -1306,381 +1340,381 @@
     <text:sequence-decl text:display-outline-level="0" text:name="Figure"/>
    </text:sequence-decls>
    <text:p text:style-name="P18">Résumé des règles</text:p>
-   <text:p text:style-name="P50"/>
-   <text:p text:style-name="P53"><text:span text:style-name="T76">D</text:span>e manière générale, arrondir à l’inférieur.</text:p>
-   <text:p text:style-name="P53"/>
-   <text:p text:style-name="P74"><text:span text:style-name="T58">Si ce résumé et les règles complètes se contredisent, les règles complètes ont raison. Le </text:span><text:span text:style-name="T59">MJ (</text:span><text:span text:style-name="T8">GM</text:span><text:span text:style-name="T59">)</text:span><text:span text:style-name="T58"> a raison dans tous les cas.</text:span></text:p>
-   <text:p text:style-name="P74"/>
+   <text:p text:style-name="P51"/>
+   <text:p text:style-name="P54"><text:span text:style-name="T84">D</text:span>e manière générale, arrondir à l’inférieur.</text:p>
+   <text:p text:style-name="P54"/>
+   <text:p text:style-name="P75"><text:span text:style-name="T65">Si ce résumé et les règles complètes se contredisent,</text:span><text:span text:style-name="T55"> </text:span><text:span text:style-name="T56">les règles complètes ont raison</text:span><text:span text:style-name="T55">. </text:span><text:span text:style-name="T65">Le </text:span><text:span text:style-name="T66">MJ (</text:span><text:span text:style-name="T8">GM</text:span><text:span text:style-name="T66">)</text:span><text:span text:style-name="T65"> a raison dans tous les cas.</text:span></text:p>
+   <text:p text:style-name="P75"/>
    <text:p text:style-name="P19">Jets de dés</text:p>
-   <text:p text:style-name="P50"/>
-   <text:p text:style-name="P55">Le principe général est de résoudre les actions par un jet de dé avec <text:span text:style-name="T66">deux</text:span> modificateur<text:span text:style-name="T66">s </text:span><text:span text:style-name="T67">(</text:span><text:span text:style-name="T11">modifiers</text:span><text:span text:style-name="T49">)</text:span>.</text:p>
-   <text:p text:style-name="P55"/>
+   <text:p text:style-name="P51"/>
+   <text:p text:style-name="P56">Le principe général est de résoudre les actions par un jet de dé avec <text:span text:style-name="T74">deux</text:span> modificateur<text:span text:style-name="T74">s </text:span><text:span text:style-name="T75">(</text:span><text:span text:style-name="T11">modifiers</text:span><text:span text:style-name="T54">)</text:span>.</text:p>
+   <text:p text:style-name="P56"/>
    <table:table table:name="Tableau3" table:style-name="Tableau3">
     <table:table-column table:style-name="Tableau3.A"/>
-    <table:table-row table:style-name="TableLine2171917804720">
+    <table:table-row table:style-name="TableLine2223058341168">
      <table:table-cell table:style-name="Tableau3.A1" office:value-type="string">
-      <text:p text:style-name="P89"><text:span text:style-name="T65">Résultat final</text:span> = 1d20 + Aptitude – Difficulté</text:p>
+      <text:p text:style-name="P90"><text:span text:style-name="T72">Résultat final</text:span> = 1d20 + Aptitude – Difficulté</text:p>
      </table:table-cell>
     </table:table-row>
    </table:table>
-   <text:p text:style-name="P90"/>
-   <text:p text:style-name="P51"><text:span text:style-name="T17">Aptitude</text:span> = <text:span text:style-name="T2">Characteristic modifier </text:span></text:p>
-   <text:p text:style-name="P51"><text:tab/>+ <text:span text:style-name="T2">Skill modifier</text:span></text:p>
-   <text:p text:style-name="P51"><text:tab/><text:span text:style-name="T2">(+ Special Skill modifier) </text:span></text:p>
-   <text:p text:style-name="P75"><text:span text:style-name="T1"><text:tab/>+ </text:span><text:span text:style-name="T53">modificateurs de circonstance</text:span></text:p>
-   <text:p text:style-name="P50"/>
-   <text:p text:style-name="P76"><text:span text:style-name="T18">Difficulté</text:span><text:span text:style-name="T1"> = fix</text:span><text:span text:style-name="T36">ée par le GM</text:span><text:span text:style-name="T1">. </text:span><text:span text:style-name="T36">Généralement une Défense, ou une Aptitude inversée («</text:span><text:span text:style-name="T7"> flipped roll </text:span><text:span text:style-name="T36">»)</text:span></text:p>
-   <text:p text:style-name="P76"><text:tab/><text:span text:style-name="T42">La difficulté peut être cachée.</text:span></text:p>
-   <text:p text:style-name="P76"/>
-   <text:p text:style-name="P56"><text:span text:style-name="T17">Assistance</text:span> octroie <text:span text:style-name="T43">min</text:span>(+3, Aptitude/2) à un autre joueur.</text:p>
-   <text:p text:style-name="P50"/>
-   <text:p text:style-name="P56">Peut prendre 10 comme résultat si pas pressé.</text:p>
-   <text:p text:style-name="P50"/>
-   <text:p text:style-name="P56">Jets opposés : le résultat final le plus élevé gagne.</text:p>
-   <text:p text:style-name="P50"/>
+   <text:p text:style-name="P91"/>
+   <text:p text:style-name="P52"><text:span text:style-name="T20">Aptitude</text:span> = <text:span text:style-name="T2">Characteristic modifier </text:span></text:p>
+   <text:p text:style-name="P52"><text:tab/>+ <text:span text:style-name="T2">Skill modifier</text:span></text:p>
+   <text:p text:style-name="P52"><text:tab/><text:span text:style-name="T2">(+ Special Skill modifier) </text:span></text:p>
+   <text:p text:style-name="P76"><text:span text:style-name="T1"><text:tab/>+ </text:span><text:span text:style-name="T60">modificateurs de circonstance</text:span></text:p>
+   <text:p text:style-name="P51"/>
+   <text:p text:style-name="P77"><text:span text:style-name="T21">Difficulté</text:span><text:span text:style-name="T1"> = fix</text:span><text:span text:style-name="T40">ée par le GM</text:span><text:span text:style-name="T1">. </text:span><text:span text:style-name="T40">Généralement une Défense, ou une Aptitude inversée («</text:span><text:span text:style-name="T7"> flipped roll </text:span><text:span text:style-name="T40">»)</text:span></text:p>
+   <text:p text:style-name="P77"><text:tab/><text:span text:style-name="T46">La difficulté peut être cachée.</text:span></text:p>
+   <text:p text:style-name="P77"/>
+   <text:p text:style-name="P57"><text:span text:style-name="T20">Assistance</text:span> octroie <text:span text:style-name="T47">min</text:span>(+3, Aptitude/2) à un autre joueur.</text:p>
+   <text:p text:style-name="P51"/>
+   <text:p text:style-name="P57">Peut prendre 10 comme résultat si pas pressé.</text:p>
+   <text:p text:style-name="P51"/>
+   <text:p text:style-name="P57">Jets opposés : le résultat final le plus élevé gagne.</text:p>
+   <text:p text:style-name="P51"/>
    <table:table table:name="Tableau1" table:style-name="Tableau1">
     <table:table-column table:style-name="Tableau1.A"/>
     <table:table-column table:style-name="Tableau1.B"/>
-    <table:table-row table:style-name="TableLine2171917818320">
+    <table:table-row table:style-name="TableLine2223058345792">
      <table:table-cell table:style-name="Tableau1.A1" office:value-type="string">
-      <text:p text:style-name="P119">Résultat final</text:p>
+      <text:p text:style-name="P120">Résultat final</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Tableau1.B1" office:value-type="string">
-      <text:p text:style-name="P119">Effet</text:p>
+      <text:p text:style-name="P133">Qualité</text:p>
      </table:table-cell>
     </table:table-row>
-    <table:table-row table:style-name="TableLine2171917819680">
+    <table:table-row table:style-name="TableLine2223058227744">
      <table:table-cell table:style-name="Tableau1.A2" office:value-type="string">
-      <text:p text:style-name="P128">≤<text:span text:style-name="T1"> 0 (</text:span><text:span text:style-name="T4">ou 1 naturel</text:span><text:span text:style-name="T1">)</text:span></text:p>
+      <text:p text:style-name="P129">≤<text:span text:style-name="T1"> 0 (</text:span><text:span text:style-name="T4">ou 1 naturel</text:span><text:span text:style-name="T1">)</text:span></text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Tableau1.B2" office:value-type="string">
-      <text:p text:style-name="P104">Échec critique (<text:span text:style-name="T2">Fumble</text:span>)</text:p>
+      <text:p text:style-name="P105">Échec critique (<text:span text:style-name="T2">Fumble</text:span>)</text:p>
      </table:table-cell>
     </table:table-row>
-    <table:table-row table:style-name="TableLine2171917814240">
+    <table:table-row table:style-name="TableLine2223058229648">
      <table:table-cell table:style-name="Tableau1.A2" office:value-type="string">
-      <text:p text:style-name="P129"><text:span text:style-name="T1">1 </text:span><text:span text:style-name="T37">à</text:span><text:span text:style-name="T1"> 5</text:span></text:p>
+      <text:p text:style-name="P130"><text:span text:style-name="T1">1 </text:span><text:span text:style-name="T41">à</text:span><text:span text:style-name="T1"> 5</text:span></text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Tableau1.B2" office:value-type="string">
-      <text:p text:style-name="P106">Échec <text:span text:style-name="T37">(</text:span><text:span text:style-name="T4">Failure</text:span><text:span text:style-name="T37">)</text:span></text:p>
+      <text:p text:style-name="P107">Échec <text:span text:style-name="T41">(</text:span><text:span text:style-name="T4">Failure</text:span><text:span text:style-name="T41">)</text:span></text:p>
      </table:table-cell>
     </table:table-row>
-    <table:table-row table:style-name="TableLine2171917804992">
+    <table:table-row table:style-name="TableLine2223058226656">
      <table:table-cell table:style-name="Tableau1.A2" office:value-type="string">
-      <text:p text:style-name="P122">6 à 10</text:p>
+      <text:p text:style-name="P123">6 à 10</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Tableau1.B2" office:value-type="string">
-      <text:p text:style-name="P129"><text:span text:style-name="T37">Échec partiel</text:span><text:span text:style-name="T1"> (</text:span><text:span text:style-name="T3">Graze</text:span><text:span text:style-name="T1">)</text:span></text:p>
+      <text:p text:style-name="P130"><text:span text:style-name="T41">Échec partiel</text:span><text:span text:style-name="T1"> (</text:span><text:span text:style-name="T3">Graze</text:span><text:span text:style-name="T1">)</text:span></text:p>
      </table:table-cell>
     </table:table-row>
-    <table:table-row table:style-name="TableLine2171917805264">
+    <table:table-row table:style-name="TableLine2223058221488">
      <table:table-cell table:style-name="Tableau1.A2" office:value-type="string">
-      <text:p text:style-name="P122">11 à 1<text:span text:style-name="T77">9</text:span></text:p>
+      <text:p text:style-name="P123">11 à 1<text:span text:style-name="T85">9</text:span></text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Tableau1.B2" office:value-type="string">
-      <text:p text:style-name="P108">Réussite (<text:span text:style-name="T2">Success</text:span>)</text:p>
+      <text:p text:style-name="P109">Réussite (<text:span text:style-name="T2">Success</text:span>)</text:p>
      </table:table-cell>
     </table:table-row>
-    <table:table-row table:style-name="TableLine2171917816960">
+    <table:table-row table:style-name="TableLine2223058222576">
      <table:table-cell table:style-name="Tableau1.A2" office:value-type="string">
-      <text:p text:style-name="P128">≥<text:span text:style-name="T1"> </text:span><text:span text:style-name="T77">20</text:span><text:span text:style-name="T1"> (</text:span><text:span text:style-name="T3">ou 20 naturel</text:span><text:span text:style-name="T1">)</text:span></text:p>
+      <text:p text:style-name="P129">≥<text:span text:style-name="T1"> </text:span><text:span text:style-name="T85">20</text:span><text:span text:style-name="T1"> (</text:span><text:span text:style-name="T3">ou 20 naturel</text:span><text:span text:style-name="T1">)</text:span></text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Tableau1.B2" office:value-type="string">
-      <text:p text:style-name="P129"><text:span text:style-name="T38">Réussite</text:span><text:span text:style-name="T39"> critique (</text:span><text:span text:style-name="T40">Critical </text:span><text:span text:style-name="T41">S</text:span><text:span text:style-name="T40">uccess</text:span><text:span text:style-name="T39">)</text:span></text:p>
+      <text:p text:style-name="P130"><text:span text:style-name="T42">Réussite</text:span><text:span text:style-name="T43"> critique (</text:span><text:span text:style-name="T44">Critical </text:span><text:span text:style-name="T45">S</text:span><text:span text:style-name="T44">uccess</text:span><text:span text:style-name="T43">)</text:span></text:p>
      </table:table-cell>
     </table:table-row>
    </table:table>
-   <text:p text:style-name="P92">En cas de doute, traiter les Échecs partiels comme des Échecs. <text:span text:style-name="T72">Une réussite critique est le meilleur résultat raisonnablement possible, un 20 naturel est un peu plus extravagant.</text:span></text:p>
-   <text:p text:style-name="P50"/>
-   <text:p text:style-name="P96">Échelle de <text:span text:style-name="T56">D</text:span>ifficulté :</text:p>
-   <text:p text:style-name="P72"><text:tab/>-<text:span text:style-name="T56">0 = Facile</text:span></text:p>
-   <text:p text:style-name="P72"><text:tab/>-<text:span text:style-name="T56">3 = Faisable avec quelques notions</text:span></text:p>
-   <text:p text:style-name="P72"><text:tab/>-<text:span text:style-name="T56">6 = Demande une </text:span><text:span text:style-name="T57">certaine </text:span><text:span text:style-name="T56">expertise</text:span></text:p>
-   <text:p text:style-name="P72"><text:tab/>-<text:span text:style-name="T56">9 = Difficile même pour un expert</text:span></text:p>
+   <text:p text:style-name="P93">En cas de doute, traiter les Échecs partiels comme des Échecs. <text:span text:style-name="T80">Une réussite critique est le meilleur résultat raisonnablement possible, un 20 naturel est un peu plus extravagant.</text:span></text:p>
+   <text:p text:style-name="P51"/>
+   <text:p text:style-name="P97">Échelle de <text:span text:style-name="T63">D</text:span>ifficulté :</text:p>
+   <text:p text:style-name="P73"><text:tab/>-<text:span text:style-name="T63">0 = Facile</text:span></text:p>
+   <text:p text:style-name="P73"><text:tab/>-<text:span text:style-name="T63">3 = Faisable avec quelques notions</text:span></text:p>
+   <text:p text:style-name="P73"><text:tab/>-<text:span text:style-name="T63">6 = Demande une </text:span><text:span text:style-name="T64">certaine </text:span><text:span text:style-name="T63">expertise</text:span></text:p>
+   <text:p text:style-name="P73"><text:tab/>-<text:span text:style-name="T63">9 = Difficile même pour un expert</text:span></text:p>
    <text:p text:style-name="P20"/>
    <text:p text:style-name="P20">Fiche de personnage</text:p>
-   <text:p text:style-name="P50"/>
-   <text:p text:style-name="P73"><text:span text:style-name="T47">Le modificateur associé à une Caractéristique </text:span><text:span text:style-name="T67">(</text:span><text:span text:style-name="T11">Characteristic</text:span><text:span text:style-name="T49">)</text:span><text:span text:style-name="T47"> </text:span><text:span text:style-name="T45">x</text:span><text:span text:style-name="T47"> est </text:span><text:span text:style-name="T45">(x-10)/2</text:span>. <text:span text:style-name="T47">Le modificateur se note par les 3 lettres majuscules de la Caractéristique.</text:span></text:p>
+   <text:p text:style-name="P51"/>
+   <text:p text:style-name="P74"><text:span text:style-name="T52">Le modificateur associé à une Caractéristique </text:span><text:span text:style-name="T75">(</text:span><text:span text:style-name="T11">Characteristic</text:span><text:span text:style-name="T54">)</text:span><text:span text:style-name="T52"> </text:span><text:span text:style-name="T49">x</text:span><text:span text:style-name="T52"> est </text:span><text:span text:style-name="T49">(x-10)/2</text:span>. <text:span text:style-name="T52">Le modificateur se note par les 3 lettres majuscules de la Caractéristique.</text:span></text:p>
    <table:table table:name="Tableau2" table:style-name="Tableau2">
     <table:table-column table:style-name="Tableau2.A"/>
     <table:table-column table:style-name="Tableau2.B"/>
-    <table:table-row table:style-name="TableLine2171917806352">
+    <table:table-row table:style-name="TableLine2223058346336">
      <table:table-cell table:style-name="Tableau2.A1" office:value-type="string">
-      <text:p text:style-name="P120">Caractéristique</text:p>
+      <text:p text:style-name="P121">Caractéristique</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Tableau2.B1" office:value-type="string">
-      <text:p text:style-name="P120">Rôles</text:p>
+      <text:p text:style-name="P121">Rôles</text:p>
      </table:table-cell>
     </table:table-row>
-    <table:table-row table:style-name="TableLine2171917817776">
+    <table:table-row table:style-name="TableLine2223058223392">
      <table:table-cell table:style-name="Tableau2.A2" office:value-type="string">
-      <text:p text:style-name="P52">Force </text:p>
-      <text:p text:style-name="P94">Might, MIG</text:p>
+      <text:p text:style-name="P53">Force </text:p>
+      <text:p text:style-name="P95">Might, MIG</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Tableau2.B2" office:value-type="string">
-      <text:p text:style-name="P122">Dégâts et effets numériques</text:p>
+      <text:p text:style-name="P123">Dégâts et effets numériques</text:p>
      </table:table-cell>
     </table:table-row>
-    <table:table-row table:style-name="TableLine2171917816144">
+    <table:table-row table:style-name="TableLine2223058228832">
      <table:table-cell table:style-name="Tableau2.A2" office:value-type="string">
-      <text:p text:style-name="P52">Dextérité </text:p>
-      <text:p text:style-name="P94">Dexterity, DEX</text:p>
+      <text:p text:style-name="P53">Dextérité </text:p>
+      <text:p text:style-name="P95">Dexterity, DEX</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Tableau2.B2" office:value-type="string">
-      <text:p text:style-name="P122">Vitesse</text:p>
-      <text:p text:style-name="P124">Précision au contact</text:p>
+      <text:p text:style-name="P123">Vitesse</text:p>
+      <text:p text:style-name="P125">Précision au contact</text:p>
      </table:table-cell>
     </table:table-row>
-    <table:table-row table:style-name="TableLine2171917807440">
+    <table:table-row table:style-name="TableLine2223058229920">
      <table:table-cell table:style-name="Tableau2.A2" office:value-type="string">
-      <text:p text:style-name="P50">Constitution <text:span text:style-name="T2">Constitution, CON</text:span></text:p>
+      <text:p text:style-name="P51">Constitution <text:span text:style-name="T2">Constitution, CON</text:span></text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Tableau2.B2" office:value-type="string">
-      <text:p text:style-name="P123">Points de vie</text:p>
+      <text:p text:style-name="P124">Points de vie</text:p>
      </table:table-cell>
     </table:table-row>
-    <table:table-row table:style-name="TableLine2171917817232">
+    <table:table-row table:style-name="TableLine2223058232096">
      <table:table-cell table:style-name="Tableau2.A2" office:value-type="string">
-      <text:p text:style-name="P50">Intelligence <text:span text:style-name="T2">Intelligence, INT</text:span></text:p>
+      <text:p text:style-name="P51">Intelligence <text:span text:style-name="T2">Intelligence, INT</text:span></text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Tableau2.B2" office:value-type="string">
-      <text:p text:style-name="P122">Durée des Conditions appliquées</text:p>
-      <text:p text:style-name="P123">Magie <text:span text:style-name="T47">(Accents)</text:span></text:p>
+      <text:p text:style-name="P123">Durée des Conditions appliquées</text:p>
+      <text:p text:style-name="P124">Magie <text:span text:style-name="T52">(Accents)</text:span></text:p>
      </table:table-cell>
     </table:table-row>
-    <table:table-row table:style-name="TableLine2171917803632">
+    <table:table-row table:style-name="TableLine2223058228560">
      <table:table-cell table:style-name="Tableau2.A2" office:value-type="string">
-      <text:p text:style-name="P52">Astuce</text:p>
-      <text:p text:style-name="P94">Wits, WIT</text:p>
+      <text:p text:style-name="P53">Astuce</text:p>
+      <text:p text:style-name="P95">Wits, WIT</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Tableau2.B2" office:value-type="string">
-      <text:p text:style-name="P123">Précision à distance</text:p>
-      <text:p text:style-name="P123">Perception</text:p>
+      <text:p text:style-name="P124">Précision à distance</text:p>
+      <text:p text:style-name="P124">Perception</text:p>
      </table:table-cell>
     </table:table-row>
-    <table:table-row table:style-name="TableLine2171917804448">
+    <table:table-row table:style-name="TableLine2223058221760">
      <table:table-cell table:style-name="Tableau2.A2" office:value-type="string">
-      <text:p text:style-name="P52">Résolution </text:p>
-      <text:p text:style-name="P94">Resolve, RES</text:p>
+      <text:p text:style-name="P53">Résolution </text:p>
+      <text:p text:style-name="P95">Resolve, RES</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Tableau2.B2" office:value-type="string">
-      <text:p text:style-name="P122">Durée des Conditions hostiles</text:p>
-      <text:p text:style-name="P125">Défenses</text:p>
-      <text:p text:style-name="P125">Hors-combat</text:p>
+      <text:p text:style-name="P123">Durée des Conditions hostiles</text:p>
+      <text:p text:style-name="P126">Défenses</text:p>
+      <text:p text:style-name="P126">Hors-combat</text:p>
      </table:table-cell>
     </table:table-row>
    </table:table>
-   <text:p text:style-name="P76"/>
-   <text:p text:style-name="P76"><text:span text:style-name="T21">D</text:span><text:span text:style-name="T20">é</text:span><text:span text:style-name="T21">fenses </text:span><text:span text:style-name="T1">: </text:span><text:span text:style-name="T61">Le plus élevé</text:span><text:span text:style-name="T47"> parmi...</text:span></text:p>
-   <text:p text:style-name="P50"><text:span text:style-name="T47">Volonté (</text:span><text:span text:style-name="T2">Will</text:span><text:span text:style-name="T47">)</text:span> = RES <text:span text:style-name="T61">+ INT</text:span></text:p>
-   <text:p text:style-name="P76"><text:span text:style-name="T1">Fortitude = </text:span><text:span text:style-name="T61">CON + MIG, ou CON + RES</text:span></text:p>
-   <text:p text:style-name="P76"><text:span text:style-name="T47">Réflexes</text:span><text:span text:style-name="T1"> = </text:span><text:span text:style-name="T61">DEX + WIT, ou DEX + RES</text:span></text:p>
-   <text:p text:style-name="P76"><text:span text:style-name="T47">Déflexion</text:span><text:span text:style-name="T1"> = </text:span><text:span text:style-name="T47">Réflexe</text:span><text:span text:style-name="T61">s </text:span><text:span text:style-name="T1">+ </text:span><text:span text:style-name="T47">bonus de bouclier</text:span></text:p>
-   <text:p text:style-name="P76"/>
-   <text:p text:style-name="P77"><text:span text:style-name="T8">En général</text:span><text:span text:style-name="T59">, le combat cible la Déflexion, les AoE et pièges ciblent les Réflexes, les Conditions ciblent la Fortitude et la magie cible la Volonté.</text:span></text:p>
-   <text:p text:style-name="P76"/>
-   <text:p text:style-name="P78"><text:span text:style-name="T19">Compétences (</text:span><text:span text:style-name="T14">Skills</text:span><text:span text:style-name="T19">)</text:span></text:p>
-   <text:p text:style-name="P57">Le modificateur associé est de +1 par point de Compétence.</text:p>
-   <text:p text:style-name="P50"/>
-   <text:p text:style-name="P58">Compétences principales :</text:p>
-   <text:list xml:id="list2457179968" text:style-name="L1">
+   <text:p text:style-name="P77"/>
+   <text:p text:style-name="P77"><text:span text:style-name="T24">D</text:span><text:span text:style-name="T23">é</text:span><text:span text:style-name="T24">fenses </text:span><text:span text:style-name="T1">: </text:span><text:span text:style-name="T68">Le plus élevé</text:span><text:span text:style-name="T52"> parmi...</text:span></text:p>
+   <text:p text:style-name="P51"><text:span text:style-name="T52">Volonté (</text:span><text:span text:style-name="T2">Will</text:span><text:span text:style-name="T52">)</text:span> = RES <text:span text:style-name="T68">+ INT</text:span></text:p>
+   <text:p text:style-name="P77"><text:span text:style-name="T1">Fortitude = </text:span><text:span text:style-name="T68">CON + MIG, ou CON + RES</text:span></text:p>
+   <text:p text:style-name="P77"><text:span text:style-name="T52">Réflexes</text:span><text:span text:style-name="T1"> = </text:span><text:span text:style-name="T68">DEX + WIT, ou DEX + RES</text:span></text:p>
+   <text:p text:style-name="P77"><text:span text:style-name="T52">Déflexion</text:span><text:span text:style-name="T1"> = </text:span><text:span text:style-name="T52">Réflexe</text:span><text:span text:style-name="T68">s </text:span><text:span text:style-name="T1">+ </text:span><text:span text:style-name="T52">bonus de bouclier</text:span></text:p>
+   <text:p text:style-name="P77"/>
+   <text:p text:style-name="P78"><text:span text:style-name="T8">En général</text:span><text:span text:style-name="T66">, le combat cible la Déflexion, les AoE et pièges ciblent les Réflexes, les Conditions ciblent la Fortitude et la magie cible la Volonté.</text:span></text:p>
+   <text:p text:style-name="P77"/>
+   <text:p text:style-name="P79"><text:span text:style-name="T22">Compétences (</text:span><text:span text:style-name="T15">Skills</text:span><text:span text:style-name="T22">)</text:span></text:p>
+   <text:p text:style-name="P58">Le modificateur associé est de +1 par point de Compétence.</text:p>
+   <text:p text:style-name="P51"/>
+   <text:p text:style-name="P59">Compétences principales :</text:p>
+   <text:list xml:id="list4080619000" text:style-name="L1">
     <text:list-item>
-     <text:p text:style-name="P132"><text:span text:style-name="T1">Athlétisme (</text:span><text:span text:style-name="T3">Athletics</text:span><text:span text:style-name="T1">)</text:span></text:p>
+     <text:p text:style-name="P134"><text:span text:style-name="T1">Athlétisme (</text:span><text:span text:style-name="T3">Athletics</text:span><text:span text:style-name="T1">)</text:span></text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P132"><text:span text:style-name="T1">Discrétion (</text:span><text:span text:style-name="T3">Discretion</text:span><text:span text:style-name="T1">)</text:span></text:p>
+     <text:p text:style-name="P134"><text:span text:style-name="T1">Discrétion (</text:span><text:span text:style-name="T3">Discretion</text:span><text:span text:style-name="T1">)</text:span></text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P132"><text:span text:style-name="T37">Fabrication</text:span><text:span text:style-name="T1"> (</text:span><text:span text:style-name="T3">Crafting</text:span><text:span text:style-name="T1">) : </text:span><text:span text:style-name="T37">mécanique</text:span></text:p>
+     <text:p text:style-name="P134"><text:span text:style-name="T41">Fabrication</text:span><text:span text:style-name="T1"> (</text:span><text:span text:style-name="T3">Crafting</text:span><text:span text:style-name="T1">) : </text:span><text:span text:style-name="T41">mécanique</text:span></text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P132"><text:span text:style-name="T1">Culture (</text:span><text:span text:style-name="T3">Lore</text:span><text:span text:style-name="T1">) : </text:span><text:span text:style-name="T37">culture générale</text:span></text:p>
+     <text:p text:style-name="P134"><text:span text:style-name="T1">Culture (</text:span><text:span text:style-name="T3">Lore</text:span><text:span text:style-name="T1">) : </text:span><text:span text:style-name="T41">culture générale</text:span></text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P132"><text:span text:style-name="T31">P</text:span><text:span text:style-name="T1">hysique (</text:span><text:span text:style-name="T3">Kosmics</text:span><text:span text:style-name="T1">) : </text:span><text:span text:style-name="T37">magie et science</text:span></text:p>
+     <text:p text:style-name="P134"><text:span text:style-name="T35">P</text:span><text:span text:style-name="T1">hysique (</text:span><text:span text:style-name="T3">Kosmics</text:span><text:span text:style-name="T1">) : </text:span><text:span text:style-name="T41">magie et science</text:span></text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P132"><text:span text:style-name="T1">Nature (</text:span><text:span text:style-name="T3">Nature</text:span><text:span text:style-name="T1">)</text:span></text:p>
+     <text:p text:style-name="P134"><text:span text:style-name="T1">Nature (</text:span><text:span text:style-name="T3">Nature</text:span><text:span text:style-name="T1">)</text:span></text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P136">Psychologie (<text:span text:style-name="T2">Psychology</text:span>)</text:p>
+     <text:p text:style-name="P138">Psychologie (<text:span text:style-name="T2">Psychology</text:span>)</text:p>
     </text:list-item>
    </text:list>
-   <text:p text:style-name="P50"/>
-   <text:p text:style-name="P59">Les Compétences ne sont <text:span text:style-name="T2">pas</text:span><text:span text:style-name="T48"> associées à une caractéristiques.</text:span></text:p>
-   <text:p text:style-name="P60">Les <text:span text:style-name="T1">Compétences Spéciales (</text:span><text:span text:style-name="T3">Special Skills</text:span><text:span text:style-name="T1">) s’appliquent dans des cas particuliers. </text:span><text:span text:style-name="T37">Potentiellement cumulatif.</text:span></text:p>
+   <text:p text:style-name="P51"/>
+   <text:p text:style-name="P60">Les Compétences ne sont <text:span text:style-name="T2">pas</text:span><text:span text:style-name="T53"> associées à une caractéristiques.</text:span></text:p>
+   <text:p text:style-name="P61">Les <text:span text:style-name="T1">Compétences Spéciales (</text:span><text:span text:style-name="T3">Special Skills</text:span><text:span text:style-name="T1">) s’appliquent dans des cas particuliers. </text:span><text:span text:style-name="T41">Potentiellement cumulatif.</text:span></text:p>
    <text:p text:style-name="P21"/>
    <text:p text:style-name="P21"/>
    <text:p text:style-name="P21">Combat</text:p>
-   <text:p text:style-name="P50"/>
-   <text:p text:style-name="P60"><text:span text:style-name="T17">Initiative</text:span> = <text:span text:style-name="T1">DEX + 1d10</text:span></text:p>
-   <text:p text:style-name="P50"/>
-   <text:p text:style-name="P76"><text:span text:style-name="T1">2 </text:span><text:span text:style-name="T16">Points d’Action (AP)</text:span><text:span text:style-name="T1"> </text:span><text:span text:style-name="T47">par tour. Peut en reporter 1 pour le prochain tour.</text:span></text:p>
-   <text:p text:style-name="P50"/>
-   <text:p text:style-name="P61"><text:span text:style-name="T17">Actions </text:span>:</text:p>
-   <text:list xml:id="list837938605" text:style-name="L2">
+   <text:p text:style-name="P51"/>
+   <text:p text:style-name="P61"><text:span text:style-name="T20">Initiative</text:span> = <text:span text:style-name="T1">DEX + 1d10</text:span></text:p>
+   <text:p text:style-name="P51"/>
+   <text:p text:style-name="P77"><text:span text:style-name="T1">2 </text:span><text:span text:style-name="T19">Points d’Action (AP)</text:span><text:span text:style-name="T1"> </text:span><text:span text:style-name="T52">par tour. Peut en reporter 1 pour le prochain tour.</text:span></text:p>
+   <text:p text:style-name="P51"/>
+   <text:p text:style-name="P62"><text:span text:style-name="T20">Actions </text:span>:</text:p>
+   <text:list xml:id="list1671805376" text:style-name="L2">
     <text:list-item>
-     <text:p text:style-name="P133"><text:span text:style-name="T47">Déplacement :</text:span><text:span text:style-name="T16"> 10 mètres par AP. </text:span><text:span text:style-name="T44">x</text:span><text:span text:style-name="T16">0,5 en terrain difficile</text:span></text:p>
+     <text:p text:style-name="P135"><text:span text:style-name="T52">Déplacement :</text:span><text:span text:style-name="T19"> 10 mètres par AP. </text:span><text:span text:style-name="T48">x</text:span><text:span text:style-name="T19">0,5 en terrain difficile.</text:span></text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P133"><text:span text:style-name="T16">Attaque : </text:span><text:span text:style-name="T47">voir plus </text:span><text:span text:style-name="T54">loin</text:span><text:span text:style-name="T47">. La 2ème attaque par tour a un malus de -2.</text:span></text:p>
+     <text:p text:style-name="P135"><text:span text:style-name="T19">Attaque : </text:span><text:span text:style-name="T52">voir plus </text:span><text:span text:style-name="T61">loin</text:span><text:span text:style-name="T52">. La 2ème attaque par tour a un malus de -2.</text:span></text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P133"><text:span text:style-name="T16">Utiliser une </text:span><text:span text:style-name="T42">C</text:span><text:span text:style-name="T16">apacité (</text:span><text:span text:style-name="T5">Ability</text:span><text:span text:style-name="T16">) : dépenser 1 </text:span><text:span text:style-name="T69">Focus</text:span><text:span text:style-name="T16"> </text:span><text:span text:style-name="T47">et l’utiliser</text:span></text:p>
+     <text:p text:style-name="P135"><text:span text:style-name="T19">Utiliser une </text:span><text:span text:style-name="T46">C</text:span><text:span text:style-name="T19">apacité (</text:span><text:span text:style-name="T5">Ability</text:span><text:span text:style-name="T19">) : dépenser 1 </text:span><text:span text:style-name="T77">Focus</text:span><text:span text:style-name="T19"> </text:span><text:span text:style-name="T52">et l’utiliser.</text:span></text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P133"><text:span text:style-name="T5">Overwatch </text:span><text:span text:style-name="T16">: 1 action </text:span><text:span text:style-name="T47">par</text:span><text:span text:style-name="T16"> AP </text:span><text:span text:style-name="T47">dépensé</text:span><text:span text:style-name="T16">. Effectuer une action </text:span><text:span text:style-name="T47">définie</text:span><text:span text:style-name="T16"> dès que quelque chose (le </text:span><text:span text:style-name="T5">trigger</text:span><text:span text:style-name="T16">) se produit</text:span></text:p>
-    </text:list-item>
-   </text:list>
-   <text:p text:style-name="P79"/>
-   <text:p text:style-name="P79"><text:span text:style-name="T22">Autres Actions</text:span><text:span text:style-name="T23"> </text:span><text:span text:style-name="T16">:</text:span></text:p>
-   <text:list xml:id="list3074218251" text:style-name="L3">
-    <text:list-item>
-     <text:p text:style-name="P137">Pas-de-côté (<text:span text:style-name="T2">Sidestep</text:span>) : bouger de DEX mètres <text:span text:style-name="T69">sans dépenser un AP</text:span></text:p>
-    </text:list-item>
-    <text:list-item>
-     <text:p text:style-name="P134"><text:span text:style-name="T16">Esquive (</text:span><text:span text:style-name="T5">Dodge</text:span><text:span text:style-name="T16">) : +3 R</text:span><text:span text:style-name="T47">éflexe</text:span><text:span text:style-name="T16"> et </text:span><text:span text:style-name="T47">Déflection</text:span><text:span text:style-name="T16"> ce tou</text:span><text:span text:style-name="T47">r-ci</text:span></text:p>
-    </text:list-item>
-    <text:list-item>
-     <text:p text:style-name="P134"><text:soft-page-break/><text:span text:style-name="T16">Aide (</text:span><text:span text:style-name="T5">Help</text:span><text:span text:style-name="T16">) : </text:span><text:span text:style-name="T47">Assistance au jet d’u</text:span><text:span text:style-name="T16">n ami</text:span></text:p>
-    </text:list-item>
-    <text:list-item>
-     <text:p text:style-name="P137">Concentration (<text:span text:style-name="T12">Concentrate</text:span>) : +2 prochain j<text:span text:style-name="T47">et, </text:span><text:span text:style-name="T69">coûte un point de Focus, </text:span><text:span text:style-name="T73">ne coute pas d’AP</text:span></text:p>
-    </text:list-item>
-    <text:list-item>
-     <text:p text:style-name="P134"><text:span text:style-name="T16">Corps-à-corps (</text:span><text:span text:style-name="T5">Grapple</text:span><text:span text:style-name="T16">) : </text:span><text:span text:style-name="T47">immobiliser ;</text:span><text:span text:style-name="T16"> MIG + </text:span><text:span text:style-name="T47">Athlétisme</text:span><text:span text:style-name="T16"> vs </text:span><text:span text:style-name="T47">Réflexe</text:span></text:p>
-    </text:list-item>
-    <text:list-item>
-     <text:p text:style-name="P137">Assommer : -<text:span text:style-name="T47">3 au jet, ne tue pas</text:span></text:p>
-    </text:list-item>
-    <text:list-item>
-     <text:p text:style-name="P135"><text:span text:style-name="T16">Pousser </text:span><text:span text:style-name="T47">(</text:span><text:span text:style-name="T6">Shove</text:span><text:span text:style-name="T47">)</text:span><text:span text:style-name="T16"> : </text:span><text:span text:style-name="T47">pousser d’une case ; </text:span><text:span text:style-name="T16">MIG </text:span><text:span text:style-name="T47">+</text:span><text:span text:style-name="T16"> </text:span><text:span text:style-name="T47">Athlétisme</text:span><text:span text:style-name="T16"> vs Fortitude</text:span></text:p>
+     <text:p text:style-name="P135"><text:span text:style-name="T5">Overwatch </text:span><text:span text:style-name="T19">: 1 action </text:span><text:span text:style-name="T52">par</text:span><text:span text:style-name="T19"> AP </text:span><text:span text:style-name="T52">dépensé</text:span><text:span text:style-name="T19">. Effectuer une action </text:span><text:span text:style-name="T52">définie</text:span><text:span text:style-name="T19"> dès que quelque chose (le </text:span><text:span text:style-name="T5">trigger</text:span><text:span text:style-name="T19">) se produit.</text:span></text:p>
     </text:list-item>
    </text:list>
-   <text:p text:style-name="P60"/>
-   <text:p text:style-name="P60">Les bonus donnés par des Actions sont généralement non-cumulatifs.</text:p>
+   <text:p text:style-name="P80"/>
+   <text:p text:style-name="P80"><text:span text:style-name="T25">Autres Actions</text:span><text:span text:style-name="T26"> </text:span><text:span text:style-name="T19">:</text:span></text:p>
+   <text:list xml:id="list1722712069" text:style-name="L3">
+    <text:list-item>
+     <text:p text:style-name="P139">Pas-de-côté (<text:span text:style-name="T2">Sidestep</text:span>) : bouger de DEX mètres <text:span text:style-name="T77">sans dépenser un AP</text:span></text:p>
+    </text:list-item>
+    <text:list-item>
+     <text:p text:style-name="P136"><text:span text:style-name="T19">Esquive (</text:span><text:span text:style-name="T5">Dodge</text:span><text:span text:style-name="T19">) : +3 R</text:span><text:span text:style-name="T52">éflexe</text:span><text:span text:style-name="T19"> et </text:span><text:span text:style-name="T52">Déflection</text:span><text:span text:style-name="T19"> ce tou</text:span><text:span text:style-name="T52">r-ci</text:span></text:p>
+    </text:list-item>
+    <text:list-item>
+     <text:p text:style-name="P136"><text:soft-page-break/><text:span text:style-name="T19">Aide (</text:span><text:span text:style-name="T5">Help</text:span><text:span text:style-name="T19">) : </text:span><text:span text:style-name="T52">Assistance au jet d’u</text:span><text:span text:style-name="T19">n ami.</text:span></text:p>
+    </text:list-item>
+    <text:list-item>
+     <text:p text:style-name="P139">Concentration (<text:span text:style-name="T12">Concentrate</text:span>) : +2 prochain j<text:span text:style-name="T52">et, </text:span><text:span text:style-name="T77">coûte un point de Focus, </text:span><text:span text:style-name="T81">ne coute pas d’AP.</text:span></text:p>
+    </text:list-item>
+    <text:list-item>
+     <text:p text:style-name="P136"><text:span text:style-name="T19">Corps-à-corps (</text:span><text:span text:style-name="T5">Grapple</text:span><text:span text:style-name="T19">) : </text:span><text:span text:style-name="T52">immobiliser ;</text:span><text:span text:style-name="T19"> MIG + </text:span><text:span text:style-name="T52">Athlétisme</text:span><text:span text:style-name="T19"> vs </text:span><text:span text:style-name="T52">Réflexe.</text:span></text:p>
+    </text:list-item>
+    <text:list-item>
+     <text:p text:style-name="P139">Assommer : -<text:span text:style-name="T52">3 au jet, ne tue pas.</text:span></text:p>
+    </text:list-item>
+    <text:list-item>
+     <text:p text:style-name="P137"><text:span text:style-name="T19">Pousser </text:span><text:span text:style-name="T52">(</text:span><text:span text:style-name="T6">Shove</text:span><text:span text:style-name="T52">)</text:span><text:span text:style-name="T19"> : </text:span><text:span text:style-name="T52">pousser d’une case ; </text:span><text:span text:style-name="T19">MIG </text:span><text:span text:style-name="T52">+</text:span><text:span text:style-name="T19"> </text:span><text:span text:style-name="T52">Athlétisme</text:span><text:span text:style-name="T19"> vs Fortitude.</text:span></text:p>
+    </text:list-item>
+   </text:list>
    <text:p text:style-name="P61"/>
-   <text:p text:style-name="P61"><text:span text:style-name="T17">Attaque </text:span>:</text:p>
-   <text:p text:style-name="P62">Faire <text:span text:style-name="T50">le jet suivant, avec modificateurs :</text:span></text:p>
-   <text:p text:style-name="P67">[1<text:span text:style-name="T54">d20 + </text:span>Précision (<text:span text:style-name="T2">Accuracy</text:span>) – Défense] </text:p>
+   <text:p text:style-name="P61">Les bonus donnés par des Actions sont généralement non-cumulatifs.</text:p>
    <text:p text:style-name="P62"/>
-   <text:p text:style-name="P62">Précision au contact = <text:span text:style-name="T72">Dexterity - 10</text:span></text:p>
-   <text:p text:style-name="P62"><text:span text:style-name="T50">Précision </text:span>à distance <text:span text:style-name="T50">=</text:span> <text:span text:style-name="T72">Wits - 10</text:span></text:p>
-   <text:p text:style-name="P61"/>
-   <text:p text:style-name="P61">+3 contre ennemi flanqué</text:p>
-   <text:p text:style-name="P61">-2 pour viser une partie précise</text:p>
-   <text:p text:style-name="P79"><text:span text:style-name="T16">-3 contre ennemi à couvert, sauf </text:span><text:span text:style-name="T51">tir à l’aveugle</text:span></text:p>
-   <text:p text:style-name="P61"/>
-   <text:p text:style-name="P61"><text:span text:style-name="T17">Dégâts</text:span> <text:span text:style-name="T54">=</text:span> <text:span text:style-name="T54">(</text:span>Jet de l’arme + MIG<text:span text:style-name="T54">)</text:span> – Armure</text:p>
-   <text:p text:style-name="P65">Grazes : <text:span text:style-name="T45">x</text:span>0,5 dégâts ; <text:span text:style-name="T52">C</text:span>ritiques : <text:s/><text:span text:style-name="T45">x</text:span><text:span text:style-name="T69">2 d</text:span>égâts <text:span text:style-name="T78">de base (sauf modificateurs)</text:span></text:p>
-   <text:p text:style-name="P61"/>
+   <text:p text:style-name="P62"><text:span text:style-name="T20">Attaque </text:span>:</text:p>
+   <text:p text:style-name="P63">Faire <text:span text:style-name="T57">le jet suivant, avec modificateurs :</text:span></text:p>
+   <text:p text:style-name="P68">[1<text:span text:style-name="T61">d20 + </text:span>Précision (<text:span text:style-name="T2">Accuracy</text:span>) – Défense] </text:p>
+   <text:p text:style-name="P63"/>
+   <text:p text:style-name="P63">Précision au contact = <text:span text:style-name="T80">Dexterity - 10</text:span></text:p>
+   <text:p text:style-name="P63"><text:span text:style-name="T57">Précision </text:span>à distance <text:span text:style-name="T57">=</text:span> <text:span text:style-name="T80">Wits - 10</text:span></text:p>
+   <text:p text:style-name="P62"/>
+   <text:p text:style-name="P62">+3 contre ennemi flanqué <text:span text:style-name="T88">en mêlée</text:span></text:p>
+   <text:p text:style-name="P62">-2 pour viser une partie précise</text:p>
+   <text:p text:style-name="P80"><text:span text:style-name="T19">-3 contre ennemi à couvert, sauf </text:span><text:span text:style-name="T58">tir à l’aveugle</text:span></text:p>
+   <text:p text:style-name="P62"/>
+   <text:p text:style-name="P62"><text:span text:style-name="T20">Dégâts</text:span> <text:span text:style-name="T61">=</text:span> <text:span text:style-name="T61">(</text:span>Jet de l’arme + MIG<text:span text:style-name="T61">)</text:span> – Armure</text:p>
+   <text:p text:style-name="P66">Grazes : <text:span text:style-name="T49">x</text:span>0,5 dégâts ; <text:span text:style-name="T59">C</text:span>ritiques : <text:s/><text:span text:style-name="T49">x</text:span><text:span text:style-name="T77">2 d</text:span>égâts <text:span text:style-name="T86">de base (sauf modificateurs)</text:span></text:p>
+   <text:p text:style-name="P62"/>
    <table:table table:name="Tableau4" table:style-name="Tableau4">
     <table:table-column table:style-name="Tableau4.A"/>
     <table:table-column table:style-name="Tableau4.B"/>
     <table:table-column table:style-name="Tableau4.C"/>
-    <table:table-row table:style-name="TableLine2171917818864">
+    <table:table-row table:style-name="TableLine2223058222032">
      <table:table-cell table:style-name="Tableau4.A1" office:value-type="string">
-      <text:p text:style-name="P121">Catégorie</text:p>
+      <text:p text:style-name="P122">Catégorie</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Tableau4.A1" office:value-type="string">
-      <text:p text:style-name="P121">Dégâts</text:p>
+      <text:p text:style-name="P122">Dégâts</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Tableau4.C1" office:value-type="string">
-      <text:p text:style-name="P121">Spécial</text:p>
+      <text:p text:style-name="P122">Spécial</text:p>
      </table:table-cell>
     </table:table-row>
-    <table:table-row table:style-name="TableLine2171917810160">
+    <table:table-row table:style-name="TableLine2223058220400">
      <table:table-cell table:style-name="Tableau4.A2" office:value-type="string">
-      <text:p text:style-name="P126">Légère</text:p>
+      <text:p text:style-name="P127">Légère</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Tableau4.A2" office:value-type="string">
-      <text:p text:style-name="P131">3</text:p>
+      <text:p text:style-name="P132">3</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Tableau4.C2" office:value-type="string">
-      <text:p text:style-name="P126">+<text:span text:style-name="T77">3</text:span> Précision</text:p>
+      <text:p text:style-name="P127">+<text:span text:style-name="T85">3</text:span> Précision</text:p>
      </table:table-cell>
     </table:table-row>
-    <table:table-row table:style-name="TableLine2171917813696">
+    <table:table-row table:style-name="TableLine2223058235360">
      <table:table-cell table:style-name="Tableau4.A2" office:value-type="string">
-      <text:p text:style-name="P126">Standard</text:p>
+      <text:p text:style-name="P127">Standard</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Tableau4.A2" office:value-type="string">
-      <text:p text:style-name="P131">5</text:p>
+      <text:p text:style-name="P132">5</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Tableau4.C2" office:value-type="string">
-      <text:p text:style-name="P127"/>
+      <text:p text:style-name="P128"/>
      </table:table-cell>
     </table:table-row>
-    <table:table-row table:style-name="TableLine2171917805808">
+    <table:table-row table:style-name="TableLine2223058224480">
      <table:table-cell table:style-name="Tableau4.A2" office:value-type="string">
-      <text:p text:style-name="P126">Lourde</text:p>
+      <text:p text:style-name="P127">Lourde</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Tableau4.A2" office:value-type="string">
-      <text:p text:style-name="P131">7</text:p>
+      <text:p text:style-name="P132">7</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Tableau4.C2" office:value-type="string">
-      <text:p text:style-name="P130"><text:span text:style-name="T51">Ignore 2 Armure ; </text:span><text:span text:style-name="T55">u</text:span><text:span text:style-name="T51">ne seule attaque par tour</text:span></text:p>
+      <text:p text:style-name="P131"><text:span text:style-name="T58">Ignore 2 Armure ; </text:span><text:span text:style-name="T62">u</text:span><text:span text:style-name="T58">ne seule attaque par tour</text:span></text:p>
      </table:table-cell>
     </table:table-row>
    </table:table>
-   <text:p text:style-name="P64"/>
-   <text:p text:style-name="P64"><text:span text:style-name="T55">L’</text:span>Armure ne peut <text:span text:style-name="T55">pas </text:span>réduire <text:span text:style-name="T70">les </text:span>dégâts <text:span text:style-name="T55">d’une attaque réussie</text:span> en dessous de 1. </text:p>
-   <text:p text:style-name="P64"/>
-   <text:p text:style-name="P55">L’Armure peut être légère, moyenne ou lourde (1, 3 ou 5). Les d<text:span text:style-name="T16">égâts élémentaires </text:span>et magiques<text:span text:style-name="T16"> ignorent l’</text:span>A<text:span text:style-name="T16">rmure.</text:span></text:p>
-   <text:p text:style-name="P55"/>
-   <text:p text:style-name="P85">Les Combinaisons (ie. Eau avec électricité) augmentent <text:span text:style-name="T78">une</text:span> qualité de résultats (ie. <text:span text:style-name="T75">Réussite devient Réussite Critique)</text:span></text:p>
-   <text:p text:style-name="P64"/>
-   <text:p text:style-name="P61"><text:span text:style-name="T17">Blessures (</text:span><text:span text:style-name="T13">Wounds</text:span><text:span text:style-name="T17">)</text:span></text:p>
-   <text:p text:style-name="P81"><text:span text:style-name="T73">En étant sous</text:span><text:span text:style-name="T16"> les 50 % </text:span><text:span text:style-name="T51">et les</text:span><text:span text:style-name="T16"> 25 % de HP. Repoussé (</text:span><text:span text:style-name="T5">Knockback</text:span><text:span text:style-name="T16">) immédiatement de 2 cases (</text:span><text:span text:style-name="T45">x</text:span><text:span text:style-name="T16">2 dégâts si impossible)</text:span></text:p>
-   <text:p text:style-name="P61">Malus de -1 <text:span text:style-name="T51">par Blessure</text:span> à tous les jets actifs jusqu’à guérison.</text:p>
+   <text:p text:style-name="P65"/>
+   <text:p text:style-name="P65"><text:span text:style-name="T62">L’</text:span>Armure ne peut <text:span text:style-name="T62">pas </text:span>réduire <text:span text:style-name="T78">les </text:span>dégâts <text:span text:style-name="T62">d’une attaque réussie</text:span> en dessous de 1. </text:p>
+   <text:p text:style-name="P65"/>
+   <text:p text:style-name="P56">L’Armure peut être légère, moyenne ou lourde (1, 3 ou 5). Les d<text:span text:style-name="T19">égâts élémentaires </text:span>et magiques<text:span text:style-name="T19"> ignorent l’</text:span>A<text:span text:style-name="T19">rmure.</text:span></text:p>
+   <text:p text:style-name="P56"/>
+   <text:p text:style-name="P86">Les Combinaisons (ie. Eau avec électricité) augmentent <text:span text:style-name="T86">une</text:span> qualité de résultats (ie. <text:span text:style-name="T83">Réussite devient Réussite Critique)</text:span></text:p>
+   <text:p text:style-name="P65"/>
+   <text:p text:style-name="P62"><text:span text:style-name="T20">Blessures (</text:span><text:span text:style-name="T14">Wounds</text:span><text:span text:style-name="T20">)</text:span></text:p>
+   <text:p text:style-name="P82"><text:span text:style-name="T81">En étant sous</text:span><text:span text:style-name="T19"> les 50 % </text:span><text:span text:style-name="T58">et les</text:span><text:span text:style-name="T19"> 25 % de HP. Repoussé (</text:span><text:span text:style-name="T5">Knockback</text:span><text:span text:style-name="T19">) immédiatement de 2 cases (</text:span><text:span text:style-name="T88">augmente la Qualité de l’attaque </text:span><text:span text:style-name="T19">si impossible)</text:span></text:p>
+   <text:p text:style-name="P62">Malus de -1 <text:span text:style-name="T58">par Blessure</text:span> à tous les jets actifs jusqu’à guérison.</text:p>
+   <text:p text:style-name="P63"/>
+   <text:p text:style-name="P23"/>
+   <text:p text:style-name="P62"><text:span text:style-name="T38">Effets sur la durée (</text:span><text:span text:style-name="T39">Conditions</text:span><text:span text:style-name="T38">)</text:span></text:p>
    <text:p text:style-name="P62"/>
-   <text:p text:style-name="P138"/>
-   <text:p text:style-name="P61"><text:span text:style-name="T34">Effets sur la durée (</text:span><text:span text:style-name="T35">Conditions</text:span><text:span text:style-name="T34">)</text:span></text:p>
-   <text:p text:style-name="P61"/>
-   <text:p text:style-name="P61">Leur durée : <text:span text:style-name="T70">1 + </text:span>INT du lance<text:span text:style-name="T59">u</text:span>r -<text:span text:style-name="T70"> </text:span>RES de la cible, minimum 1 tour.</text:p>
-   <text:p text:style-name="P61"/>
-   <text:p text:style-name="P68">La table des Conditions est dans les règles complètes. Elles infligent en général divers modificateurs.</text:p>
-   <text:p text:style-name="P68"/>
-   <text:p text:style-name="P88">Vous pouvez retenter le jet contre une Condition qui empêche totalement d’agir au début de chaque tour pour le tour prochain.</text:p>
-   <text:p text:style-name="P61"><text:span text:style-name="T33">Fabrication (</text:span><text:span text:style-name="T35">Crafting</text:span><text:span text:style-name="T33">)</text:span></text:p>
-   <text:p text:style-name="P61"/>
-   <text:p text:style-name="P68">La fabrication d’objets simples est automatique si les composants et le plan sont disponibles.</text:p>
-   <text:p text:style-name="P68"/>
-   <text:p text:style-name="P68">Pour les objets compliqués et les enchantements conçus par le joueur, le GM demande un jet de Fabrication : [WIT ou INT + Crafting ou Kosmics].</text:p>
-   <text:p text:style-name="P68"><text:tab/><text:span text:style-name="T76">Ils peuvent être Restockés facilement si ils ont déjà été fabriqués car dans ce cas tous les résultats ont leur qualité augmentée d’un cran. </text:span></text:p>
-   <text:p text:style-name="P61"/>
-   <text:p text:style-name="P61"/>
+   <text:p text:style-name="P62">Leur durée : <text:span text:style-name="T78">1 + </text:span>INT du lance<text:span text:style-name="T66">u</text:span>r -<text:span text:style-name="T78"> </text:span>RES de la cible, minimum 1 tour.</text:p>
+   <text:p text:style-name="P62"/>
+   <text:p text:style-name="P69">La table des Conditions est dans les règles complètes. Elles infligent en général divers modificateurs.</text:p>
+   <text:p text:style-name="P69"/>
+   <text:p text:style-name="P89">Vous pouvez retenter le jet contre une Condition qui empêche totalement d’agir au début de chaque tour pour le tour prochain.</text:p>
+   <text:p text:style-name="P62"><text:span text:style-name="T37">Fabrication (</text:span><text:span text:style-name="T39">Crafting</text:span><text:span text:style-name="T37">)</text:span></text:p>
+   <text:p text:style-name="P62"/>
+   <text:p text:style-name="P69">La fabrication d’objets simples est automatique si les composants et le plan sont disponibles.</text:p>
+   <text:p text:style-name="P69"/>
+   <text:p text:style-name="P69">Pour les objets compliqués et les enchantements conçus par le joueur, le GM demande un jet de Fabrication : [WIT ou INT + Crafting ou Kosmics].</text:p>
+   <text:p text:style-name="P69"><text:tab/><text:span text:style-name="T84">Ils peuvent être Restockés facilement si ils ont déjà été fabriqués car dans ce cas tous les résultats ont leur qualité augmentée d’un cran. </text:span></text:p>
+   <text:p text:style-name="P62"/>
+   <text:p text:style-name="P62"/>
    <text:p text:style-name="P22">Interactions</text:p>
-   <text:p text:style-name="P61"/>
-   <text:p text:style-name="P61">Tests passifs : prendre 10 <text:span text:style-name="T59">pour le jet de dé.</text:span></text:p>
-   <text:p text:style-name="P61"/>
-   <text:p text:style-name="P77"><text:span text:style-name="T24">Furtivité </text:span><text:span text:style-name="T59">:</text:span><text:span text:style-name="T16"> [DEX + Discretion – WIT </text:span><text:span text:style-name="T60">de la cible</text:span><text:span text:style-name="T16">] </text:span></text:p>
-   <text:p text:style-name="P77"><text:span text:style-name="T59">Possible en combat. </text:span><text:span text:style-name="T60">Modificateur de ± 3 sel</text:span><text:span text:style-name="T63">on</text:span><text:span text:style-name="T60"> les conditions.</text:span></text:p>
-   <text:p text:style-name="P61"/>
-   <text:p text:style-name="P61"><text:span text:style-name="T25">Défis (</text:span><text:span text:style-name="T15">Challenges</text:span><text:span text:style-name="T25">)</text:span><text:span text:style-name="T28"> : faire un nombre fixe (5?) de jets. Chaque jet diminue le Challenge par son résultat final.</text:span></text:p>
-   <text:p text:style-name="P61"/>
-   <text:p text:style-name="P79"><text:span text:style-name="T23">Réputations</text:span><text:span text:style-name="T27"> : </text:span><text:span text:style-name="T16">0-3 </text:span><text:span text:style-name="T60">Positive</text:span><text:span text:style-name="T16">, 0-3 </text:span><text:span text:style-name="T60">Négative, séparées</text:span></text:p>
-   <text:p text:style-name="P61"/>
-   <text:p text:style-name="P79"><text:span text:style-name="T25">Repos</text:span><text:span text:style-name="T28"> : Regain des HP jusqu’à la dernière Blessure subie. Soigner les blessures demande un repos long ou de le magie puissante.</text:span></text:p>
-   <text:p text:style-name="P61"/>
-   <text:p text:style-name="P61"/>
-   <text:p text:style-name="P61"><text:span text:style-name="T32">Capacités (</text:span><text:span text:style-name="T35">Abilities</text:span><text:span text:style-name="T32">)</text:span></text:p>
-   <text:p text:style-name="P97"/>
-   <text:p text:style-name="P79"><text:span text:style-name="T27">Liste dans les </text:span><text:span text:style-name="T28">A</text:span><text:span text:style-name="T27">nnexes. </text:span><text:span text:style-name="T28">Chaque utilisation d’une Capacité c</text:span><text:span text:style-name="T27">onsomme </text:span><text:span text:style-name="T29">un point de Focus</text:span><text:span text:style-name="T27"> (</text:span><text:span text:style-name="T29">5</text:span><text:span text:style-name="T27"> à la création du personnage), régénérée</text:span><text:span text:style-name="T28">s</text:span><text:span text:style-name="T27"> par un repos </text:span><text:span text:style-name="T30">court</text:span><text:span text:style-name="T27">.</text:span></text:p>
-   <text:p text:style-name="P95"/>
-   <text:p text:style-name="P95">Sorts</text:p>
-   <text:p text:style-name="P95"/>
-   <text:p text:style-name="P71">Un sort est composé d’un Sigle (Sigil) combiné à des Accents. <text:span text:style-name="T76">Les sorts sont toujours designés avec le GM.</text:span></text:p>
-   <text:p text:style-name="P69"/>
-   <text:p text:style-name="P69">Les Accents les plus importants sont :</text:p>
-   <text:p text:style-name="P84"><text:span text:style-name="T60">- Puissance (</text:span><text:span text:style-name="T9">Power</text:span><text:span text:style-name="T60">), déterminent l’ampleur des effets (équivalent </text:span><text:span text:style-name="T73">2 HP</text:span><text:span text:style-name="T60">, ou </text:span><text:span text:style-name="T62">un modificateur appliqué de</text:span><text:span text:style-name="T60"> ± 1, par Accent)/ </text:span><text:span text:style-name="T76">Le premier est gratuit et fait 3 HP. Les effets absolus forts demandent beaucoup de Puissance, mais des effets très spécifiques en demanderont moins. </text:span></text:p>
-   <text:p text:style-name="P82"><text:span text:style-name="T60">- </text:span><text:span text:style-name="T62">Ciblage (</text:span><text:span text:style-name="T9">Targeting</text:span><text:span text:style-name="T10">)</text:span><text:span text:style-name="T60"> pour le ciblage du sort</text:span></text:p>
-   <text:p text:style-name="P69"/>
-   <text:p text:style-name="P88">Selon le temps disponible, un sort peut être lancé rapidement (<text:span text:style-name="T2">Snap</text:span>) avec les règles de combat ou calmement (<text:span text:style-name="T2">Calm</text:span>) avec INT+Kosmics.</text:p>
-   <text:p text:style-name="P87"/>
-   <text:p text:style-name="P69">Un personnage a droit à son INT en Accents gratuits. Chaque Accent <text:span text:style-name="T66">au-delà de cette limite</text:span> inflige une pénalité de -<text:span text:style-name="T73">3</text:span> au jet de dé. </text:p>
-   <text:p text:style-name="P69"/>
-   <text:p text:style-name="P88">Le nombre de sorts dans le répertoire est de 2<text:span text:style-name="T45">x</text:span>Kosmics, dont 1+Kosmics peuvent être gardés en mémoire. Changer le répertoire demande un repos long, mais changer les sorts mémorisés demande un repos court. </text:p>
+   <text:p text:style-name="P62"/>
+   <text:p text:style-name="P62">Tests passifs : prendre 10 <text:span text:style-name="T66">pour le jet de dé.</text:span></text:p>
+   <text:p text:style-name="P62"/>
+   <text:p text:style-name="P78"><text:span text:style-name="T27">Furtivité </text:span><text:span text:style-name="T66">:</text:span><text:span text:style-name="T19"> [DEX + Discretion – WIT </text:span><text:span text:style-name="T67">de la cible</text:span><text:span text:style-name="T19">] </text:span></text:p>
+   <text:p text:style-name="P78"><text:span text:style-name="T66">Possible en combat. </text:span><text:span text:style-name="T67">Modificateur de ± 3 sel</text:span><text:span text:style-name="T70">on</text:span><text:span text:style-name="T67"> les conditions.</text:span></text:p>
+   <text:p text:style-name="P62"/>
+   <text:p text:style-name="P62"><text:span text:style-name="T28">Défis (</text:span><text:span text:style-name="T16">Challenges</text:span><text:span text:style-name="T28">)</text:span><text:span text:style-name="T31"> : faire un nombre fixe (5?) de jets. Chaque jet diminue le Challenge par son résultat final.</text:span></text:p>
+   <text:p text:style-name="P62"/>
+   <text:p text:style-name="P80"><text:span text:style-name="T26">Réputations</text:span><text:span text:style-name="T30"> : </text:span><text:span text:style-name="T19">0-3 </text:span><text:span text:style-name="T67">Positive</text:span><text:span text:style-name="T19">, 0-3 </text:span><text:span text:style-name="T67">Négative, séparées</text:span></text:p>
+   <text:p text:style-name="P62"/>
+   <text:p text:style-name="P80"><text:span text:style-name="T28">Repos</text:span><text:span text:style-name="T31"> : Regain des HP jusqu’à la dernière Blessure subie. Soigner les blessures demande un repos long ou de l</text:span><text:span text:style-name="T34">a</text:span><text:span text:style-name="T31"> magie puissante.</text:span></text:p>
+   <text:p text:style-name="P62"/>
+   <text:p text:style-name="P62"/>
+   <text:p text:style-name="P62"><text:span text:style-name="T36">Capacités (</text:span><text:span text:style-name="T39">Abilities</text:span><text:span text:style-name="T36">)</text:span></text:p>
+   <text:p text:style-name="P98"/>
+   <text:p text:style-name="P80"><text:span text:style-name="T30">Liste dans les </text:span><text:span text:style-name="T31">A</text:span><text:span text:style-name="T30">nnexes. </text:span><text:span text:style-name="T31">Chaque utilisation d’une Capacité c</text:span><text:span text:style-name="T30">onsomme </text:span><text:span text:style-name="T32">un point de Focus</text:span><text:span text:style-name="T30"> (</text:span><text:span text:style-name="T32">5</text:span><text:span text:style-name="T30"> à la création du personnage), régénéré</text:span><text:span text:style-name="T31">s</text:span><text:span text:style-name="T30"> par un repos </text:span><text:span text:style-name="T33">court</text:span><text:span text:style-name="T30">.</text:span></text:p>
+   <text:p text:style-name="P96"/>
+   <text:p text:style-name="P96">Sorts</text:p>
+   <text:p text:style-name="P96"/>
+   <text:p text:style-name="P72">Un sort est composé d’un Sigle (<text:span text:style-name="T2">Sigil</text:span>) combiné à des Accents. <text:span text:style-name="T84">Les sorts sont toujours </text:span><text:span text:style-name="T88">créés</text:span><text:span text:style-name="T84"> avec le GM.</text:span></text:p>
+   <text:p text:style-name="P70"/>
+   <text:p text:style-name="P70">Les Accents les plus importants sont :</text:p>
+   <text:p text:style-name="P85"><text:span text:style-name="T67">- Puissance (</text:span><text:span text:style-name="T9">Power</text:span><text:span text:style-name="T67">), déterminent l’ampleur des effets (équivalent </text:span><text:span text:style-name="T81">2 HP</text:span><text:span text:style-name="T67">, ou </text:span><text:span text:style-name="T69">un modificateur appliqué de</text:span><text:span text:style-name="T67"> ± 1, par Accent). </text:span><text:span text:style-name="T84">Le premier est gratuit et fait 3 HP. Les effets absolus forts demandent beaucoup de Puissance, mais des effets très spécifiques en demanderont moins. </text:span></text:p>
+   <text:p text:style-name="P83"><text:span text:style-name="T67">- </text:span><text:span text:style-name="T69">Ciblage (</text:span><text:span text:style-name="T9">Targeting</text:span><text:span text:style-name="T10">)</text:span><text:span text:style-name="T67"> pour le ciblage du sort.</text:span></text:p>
+   <text:p text:style-name="P70"/>
+   <text:p text:style-name="P89">Selon le temps disponible, un sort peut être lancé rapidement (<text:span text:style-name="T2">Snap</text:span>) avec les règles de combat ou calmement (<text:span text:style-name="T2">Calm</text:span>) avec INT+Kosmics.</text:p>
+   <text:p text:style-name="P88"/>
+   <text:p text:style-name="P70">Un personnage a droit à son INT en Accents gratuits. Chaque Accent <text:span text:style-name="T74">au-delà de cette limite</text:span> inflige une pénalité de -<text:span text:style-name="T81">3</text:span> au jet de dé. </text:p>
+   <text:p text:style-name="P70"/>
+   <text:p text:style-name="P89">Le nombre de sorts dans le répertoire est de 2 <text:span text:style-name="T49">x </text:span>Kosmics, dont 1 + Kosmics peuvent être gardés en mémoire. Changer le répertoire demande un repos long, mais changer les sorts mémorisés demande un repos court. </text:p>
   </office:text>
  </office:body>
 </office:document>
