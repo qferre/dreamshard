@@ -1,5 +1,5 @@
 - RE-READ EVERYTHING from the beginning to the end, the pdf and the incls, to ensure all is well.
-    LAST COMPLETED PAGE of the PDF file: 56
+    LAST COMPLETED PAGE of the PDF file: 59
 Be quick about it and not perfectionnist. Treat this as if I had a deadline for yesterday.
 
 - Try a few tricks like adding blank spaces to get nice page layouts if necessary (remember to clear the cache to check from scratch)
