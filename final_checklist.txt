@@ -1,7 +1,7 @@
 # FINISHING THE MANUSCRIPT
 
 - Finish the Lore. Be quick about it and not perfectionnist. Treat this as if I had a deadline for yesterday.
-    LAST COMPLETED PAGE of the PDF file: 63.5, up until "Imperial Dreamshard Company"
+    LAST COMPLETED PAGE of the PDF file: 64.5, until "First Nothern Company"
 
 - Try a few tricks like adding blank spaces to get nice page layouts if necessary (remember to clear the cache to check from scratch)
 
@@ -21,4 +21,4 @@
 
 - Send to Jeanne, all players in the group (post on whatsapp or discord) Dad and Zach, Cédric/Alpharius, Robin (tell him it's for giggles). Do so by sending them the Google Drive link.
 
-- Send the players in Discord PMs the links to their character sheets and a new copy of the rules directoty, and explicitly tell them to BOOKMARK those, but addthat "although don't worry, I put reminders in the FoundryVTT app for those links. but still, bookmark!"
+- Send the players in Discord PMs the links to their character sheets and a new copy of the rules directory, and explicitly tell them to BOOKMARK those since the latest rules will always be there, but add that "although don't worry, I put reminders in the FoundryVTT app for those links. But still, bookmark!"
