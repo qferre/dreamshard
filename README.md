@@ -14,6 +14,8 @@ This contains the full source code to re-create the rules manuscript.
 
 The LibreOffice files here are in flat format. This takes more space, but makes them gittable.
 
+A full compiled copy can be found at <https://drive.google.com/drive/folders/1TaOvkW6zsIso4MtEfzujdXoxl7g_9NPt?usp=sharing> and should be up to date, but when in doubt the version on this repository is more recent.
+
 ## Compiling
 
 *The most recent release will always be on GitHub. Remember to git pull before doing anything!*
