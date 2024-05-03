@@ -10,7 +10,7 @@ During a \textbf{turn}, each Actor gets to take a \textbf{round} of actions. Eac
 
 APs are used whenever an Actor wants to perform something that requires some attention. In other cases, common sense must prevail: while a shout is a free Action, a monologue is not.
 
-\subsection{Initiative} 
+\subsection{Initiative}
 
 Initiative is computed at the start of combat. Each Actor's Initiative equals their DEX + 1d10. Within a turn, Actors act in order of descending Initiative\footnote{For a few select cases such as formation warfare, some Actors may take their turns simultaneously. See later.}. In case of ties between PCs, the PCs can choose among themselves who acts in which order. In case of a tie between a PC and an NPC (Non-Player Character), the PC acts first.
 
@@ -23,7 +23,7 @@ In an ambush, the ambushers get a free turn, meaning that they all get to act on
 
 Similary, if an Actor is waiting hidden to join the fray, they can strike whenever they want, which will interrupt the Initiative queue. This will have any "caught off guard" bonuses that make sense in context. Then, the ambusher joins the Initiative queue classically (1d10 + DEX) and will act again whenever the queue reaches the ambusher's value. This means that, in effect, they interrupt the flow of play to get a free round, before the flow resumes.
 
-\paragraph{World Initiative} 
+\paragraph{World Initiative}
 
 Splitting time into turns and using Initiative to order actions is mostly used in combat, but it can also be used in puzzles. Objects in the world can be given a fixed Initiative, and Actions can be taken as in combat. 
 
@@ -64,7 +64,7 @@ Here are the Actions each Actor can take during a round\footnote{It may be worth
 
 With rare exceptions, the boni provided by actions such as Assist \textbf{can not be stacked} by performing the actions several times. Any bonus that can be stacked will clearly state so in its description.
 
-\paragraph{Ongoing Actions} 
+\paragraph{Ongoing Actions}
 
 Heavy efforts (moving a large rock, advanced spellcasting, etc.) might take several Actions. Any Action costing more than 2 AP is called an "Ongoing Action" into the next turn. To do so, you pre-emptively reserve AP from the next turn, and the Action will trigger only once its full AP cost is paid.
 
@@ -78,7 +78,7 @@ Ongoing Actions can also be used to simulate ongoing movement of the platform yo
 When declaring an Overwatch, you can be very specific as to what will trigger it and what you will do, but you need to stay reasonable. Most Actions can be a trigger for Overwatch, but Actions that don't leave one exposed such as Concentrate or Dodge should not be able to trigger Overwatch, except for plot reasons. A good example would be "I will shoot this particular enemy if he moves" or "I am watching anyone in this cone of vision". In essence, Overwatch functions as a delayed Action, but it's not a blank check. You can't change your mind unless it makes sense for you to do so. You can remain vague to a certain extent, but \textbf{you must tell the GM what you are on the lookout for and what you want to do}, even if that's only in general terms.
 
 If you spend a number $n$ of Action Points on Overwatch, you will get an equal number $n$ of Overwatch Actions. \textit{Using Abilities on Overwatch is possible.}
-    
+
 In the general case, you don't get a particular bonus or malus on Overwatch action, but the GM may decide to apply one if it makes sense. For example, if an enemy sprints away (spends all its AP on movement), you may get a slight penalty to an attack against them. Or, an enemy that is merely Sidestepping from melee (instead of moving with abandon) may get a free Deflection bonus if they are a trained fighter, to represent keeping their guard. Or again, an enemy making a very involved action such as casting a spell may get a penalty instead. It's up to the GM, but keep in mind that these are all exceptional cases, only to be used if the action is especially egregious.
 
 More often than not, it can be clearly seen when an Actor is on Overwatch and poised to strike. Surprises are always possible, but be careful not be be too frustrating with them.
@@ -192,7 +192,7 @@ The difference between Deflection and Reflex is that shields and cover give a bo
 \end{table*}
 
 
-\paragraph{Body part targeting} 
+\paragraph{Body part targeting}
 
 \label{called_shot}
 
@@ -200,13 +200,13 @@ Aiming for a specific body part is called a \textit{Called Attack}. Depending on
 
 When aiming for a specific body part, you inflict minor Conditions on Critical Hits\footnote{Applying a small malus of -1 or -2 to a specific aspect of the target. This remains small, so as not to replace Abilities.} You of course inflict any additional effect that the GM deems to make sense\footnote{For especially large monsters and/or Bosses, the body parts may have their own Hit Points totals, applying a major effect once depleted!}.
 
-\subsubsection{Underhanded tactics} 
+\subsubsection{Underhanded tactics}
 
 An Actor is considered \textbf{Flanked} if they are adjacent to two enemy Actors which are not themselves adjacent. Note that if those two enemy Actors are only diagonally adjacent (as opposed to sharing one edge of their tiles), this is not adjacent in this particular case, unlike the rest of the rules. Making it more concrete: if you have an enemy at your North and your West, you are Flanked, even though they are diagonally adjacent to each other. If the enemies are to your North and North-West, they are adjacent by a side to each other and as a result do not Flank you. If the Actor being Flanked is larger than 1\texttimes1 tiles, ignore this: the large Actor will have an orientation, and being flanked will \textit{only} depend on its orientation. 
 
 Flanking at range is still Flanking, although it does not apply a Deflection malus. This means it can trigger effects such as Opportunist\footnote{Thus resulting in a net +1 in that case, +4 from Opportunist and -3 from aiming into a melee if the other flanker is in melee.}. Flanking at range is based on your projected position if you were in melee: the last tile crossed by the LoS of the flanker towards the flankee is considered to be the projection of the flanker. It only applies to the ranged attacker: this means that if you are in melee range, you don't get the bonus for hitting a Flanked enemy if the other flanker is flanking at range.
 
-Someone who is caught off-guard (including Flanked, but also caught by surprise), suffers -3 Deflection on melee attacks only, and -3 Reflex. Other Incapacitating Conditions (ie. that prevent acting, such as Prone, see section \ref{conditions}) will usually inflict additional penalties on top of this, detailed in their description.
+Someone who is caught off-guard (including Flanked, but also caught by surprise), suffers -3 Deflection on melee attacks only, and -3 Reflex. Other Incapacitating Conditions (ie. that prevent acting, such as Knocked Down, see section \ref{conditions}) will usually inflict additional penalties on top of this, detailed in their description.
 
 
 \subsection{Damage}
@@ -221,13 +221,13 @@ Damage values for weapons are given in combat, but for cutscene moments (ie. hol
 
 On Grazes, your inflict only half the result of your total damage, rounded down as usual. On Critical Successes/Hits, the attack's base damage is doubled (unlike Grazes, \textbf{not} including modifiers\footnote{Bonuses from Tier 2+ objects are still doubled since they are part of the base damage, but bonuses given by Spells or Abilities (including passives) will not be doubled.}) and is only then reduced by the target's Armor. For example, consider an Actor with +4 MIG using a Standard weapon (5 damage) against an enemy with 3 Armor: a Critical Hit will inflict $2\times5+4-3 = 11$ damage. \textbf{Any successful Attack will always inflict at least 1 point of Damage}, regardless of Armor or Grazes. Only very special edge cases, such as damage immunities, may nullify this.
 
-\subsubsection{Armor} 
+\subsubsection{Armor}
 
 Armor works very straightforwardly: any Damage applied to you is reduced by your Armor. However, as we just saw, Armor cannot reduce the damage of a successful Attack below 1. Furthermore, elemental damage (fire, electricity, cold, etc.) and magic will usually ignore Armor; at the GM's discretion, Armor may give different protections against different types of damage\footnote{Slashing, Piercing and Bludgeoning can also be considered different types of Damage, the distinction is not simply between physical and elemental. But this is usually not relevant.}. See section \ref{armor} for more details about how to equip a Player Character with Armor.
 
 Explosives destroy half their damage value's worth of the target's Armor.
 
-\subsubsection{Cover} 
+\subsubsection{Cover}
 
 When performing an attack against a target behind Cover, said target gets a bonus to Deflection. It is dependent on the nature of the Cover, as specified below.
 
@@ -252,7 +252,7 @@ Of course, a Cover's bonus does not apply when the attacker is attacking from a 
 
 However if the attacker strikes indiscriminately, with a very heavy armament or an area-of-effect one, the bonus will be to Armor instead of Deflection. The Armor given depends on the cover's sturdiness: flimsy cover such as wood should give 1 Armor, but metal or stone can give 5 or more. 
 
-\subsubsection{Wounds} 
+\subsubsection{Wounds}
 \label{wounds}
 
 An Actor's Hit Points represent not only their physical resistance, but also general luck, combat sense and fatigue. This is why the tangible effects of losing HP only appear when certain thresholds are crossed: this entails gaining a Wound.
@@ -282,8 +282,9 @@ For example, shooting a poisoned arrow will require a [Accuracy - Deflection] ro
 
 On a Graze, a Condition is generally downgraded in magnitude (but not shortened) or simply not applied. The opposite is true for Critical Successes. The duration of Conditions is equal to $1+INT_i-RES_t$ where $INT_i$ is the INT of the Actor inflicting them, and $RES_t$ is the RES of the target if the action is hostile (otherwise is 0). \textit{The minimum duration is always 1 turn.} An Ability can also specify a custom duration in its text.
 
-See Table \ref{conditions_table} for common Conditions and the Defenses that must be passed to inflict them. Feel free to draw inspiration from those in your balancing endeavors. 
+See Table \ref{conditions_table} for common Conditions and the Defenses that must be passed to inflict them. Feel free to draw inspiration from those in your balancing endeavors.
 
+Some Conditions are similar to others, meaning they have the same or similar effects. They can also be slightly different. For instance, Prone is a lighter version of Incapacited: it only removes 1 AP and reduces all Aptitudes by only -3 ; other effects unchanged.
 
 \begin{table*}[h!tbp]
 	\begin{center}
@@ -294,7 +295,7 @@ See Table \ref{conditions_table} for common Conditions and the Defenses that mus
 		    Blinded & & Fortitude & No Sight, -4 all perception Aptitudes, -4 Reflex. \\[4mm] 
 		    Charmed & & Will & -4 Will against charmer, very reticent to harm charmer. \\[4mm] 
 		    Frightened & Disoriented, Weakened & Will & -3 all rolls, might require a [RES] roll to act. \\[4mm] 
-            Incapacitated & Grappled, Prone, Stunned & Reflex & No Actions, -4 all Defenses, -6 all Aptitudes. \\[4mm]
+            Incapacitated & Grappled, Prone*, Stunned & Reflex & -3 AP, -4 all Defenses, -6 all Aptitudes. \\[4mm]
 			Invisible & & & +6 Reflex same turn, then untargetable. \\[4mm] 
             Poisoned & Burning, Bleeding & Fortitude & -1 all rolls, Damage over Time. \\[4mm] 
             Crippled & Shocked & Fortitude & -2 all rolls, $\times$0.25 Movement. \\[4mm] 
@@ -304,9 +305,10 @@ See Table \ref{conditions_table} for common Conditions and the Defenses that mus
 		    \bottomrule
 		\end{tabular}
 	\end{center}
-	\caption{Conditions}
+	\caption{Examples of Conditions. For those with an asterisk, see notes in the main text.}
   \label{conditions_table}
 \end{table*}
+
 
 \paragraph{Clarifications} 
 
@@ -320,7 +322,7 @@ Note that Conditions are not cumulative \textbf{with the same rank}, and more ge
 
 To remove Conditions before their set expiration time, on a case by case basis the Help action may be used, for example to help someone who was knocked down back on their feet. Anything the players can think of is potentially acceptable, through a roll (ie. chucking water at someone burning, or using Nature to treat poison). Furthermore, in general, the Vigor Sigil can simply give a positive Condition that effectively counteracts the negative one.
 
-In Incapacitating Conditions, the "-4 to all Defenses" modifier is cumulative with the -3 from the general rule on being attacked while Incapacitated or Flanked, resulting in a total of -7 in melee. It should also be noted that Incapacitating Conditions have an exception to their potential duration: any Actor that suffers from an Incapacitating Condition that fully prevents them from taking Actions, such as Prone, gets a special escape roll at the beginning of their turn it it makes sense to do so (ie. not bound in iron chains). This escape roll consists in a flipped roll with the Difficulty being the Aptitiude of the roll that inflicted the condition; if the roll is a Success, the Condition will be removed at the beginning of their \textbf{next} turn\footnote{This helps prevent stunlocking, but since it works with a one turn delay does not trivialize Incapacitations.}. Grazes count as Failures for this roll. It should also be noted that the "-6 to all Aptitudes" malus does not apply to this escape roll nor to any roll with the purpose of recovering from the Conditions (for example, the opposed Grapple roll to attempt to escape).
+In Incapacitating Conditions, the "-4 to all Defenses" modifier is cumulative with the -3 from the general rule on being attacked while Incapacitated or Flanked, resulting in a \textbf{total of -7} in melee. It should also be noted that Incapacitating Conditions have an exception to their potential duration: any Actor that suffers from an Incapacitating Condition that fully prevents them from taking Actions, such as Knocked-Out, gets a special escape roll at the beginning of their turn it it makes sense to do so (ie. not bound in iron chains). This escape roll consists in a flipped roll with the Difficulty being the Aptitiude of the roll that inflicted the condition; if the roll is a Success, the Condition will be removed at the beginning of their \textbf{next} turn\footnote{This helps prevent stunlocking, but since it works with a one turn delay does not trivialize Incapacitations.}. Grazes count as Failures for this roll. It should also be noted that the "-6 to all Aptitudes" malus does not apply to this escape roll nor to any roll with the purpose of recovering from the Conditions (for example, the opposed Grapple roll to attempt to escape).
 
 
 \subsubsection{Hazards}

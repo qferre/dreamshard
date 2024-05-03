@@ -1,4 +1,4 @@
-# Dreamshard RPG project 
+# Dreamshard RPG project
 
 A RPG system derived from the d20 framework, with its accompanying Lore. It uses a flexible classless system, with different degrees of success for the outcomes of rolls.
 
@@ -31,7 +31,7 @@ You **must use LuaLaTeX** to compile this!
 To recreate the files, run:
 ```sh
 # Compile the manuscript
-lualatex main.tex 
+lualatex main.tex
 
 # Package it with the contents of the `incl` directory
 tar -czvf dreamshard_release.tar.gz main.pdf incl/*

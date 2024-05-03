@@ -1,8 +1,8 @@
 \chapter{Core rules}
 
-The core gameplay loop of the Dreamshard RPG will be familiar to every tabletop RPG player. First, the Game Master (GM) describes the current situation, then the Players each describe what they want their respective Player Characters (PC) to do. Following this, the GM adjudicates: they decide if this is possible, and give the odds for a roll to determine the outcome if they so wish. Finally, the GM narrates the results. 
+The core gameplay loop of the Dreamshard RPG will be familiar to every tabletop RPG player. First, the Game Master (GM) describes the current situation, then the Players each describe what they want their respective Player Characters (PC) to do. Following this, the GM adjudicates: they decide if this is possible, and give the odds for a roll to determine the outcome if they so wish. Finally, the GM narrates the results.
 
-Whenever the rules are unclear, use common sense and personal preference. In any case, \textbf{the GM is always right}, and has full latitude to modify the rules to fit the situation. When a specific rule (such as an Ability) contradicts a general rule, the specific rule wins. Finally, when halving numbers, \textbf{round down} unless specified otherwise. 
+Whenever the rules are unclear, use common sense and personal preference. In any case, \textbf{the GM is always right}, and has full latitude to modify the rules to fit the situation. When a specific rule (such as an Ability) contradicts a general rule, the specific rule wins. Finally, when halving numbers, \textbf{round down} unless specified otherwise.
 
 
 \section{Dice rolls}
@@ -15,7 +15,7 @@ First, some terminology: an \textit{Actor} designates any agent in the game that
 To do a roll, follow these steps:
 
 \begin{enumerate}
-    \item The GM picks the associated Characteristic modifier (see section \ref{characteristics}), and a Skill modifier (see section \ref{skills}) if applicable. 
+    \item The GM picks the associated Characteristic modifier (see section \ref{characteristics}), and a Skill modifier (see section \ref{skills}) if applicable.
     \item Furthermore, the GM may order additional circumstance modifiers, including but not limited to: Special Skills, environmental modifiers, etc.
 	\item The GM determines and announces the Difficulty of the test.
     \item The player may present an argument to the GM for more modifiers, of for the use of different ones from the character sheet. \textit{Regardless, the GM always has the last word.}
@@ -38,11 +38,11 @@ The general philosophy of the system is to ask the players what they want to do,
 If players request a re-roll, they should have a very good reason to do so: perhaps having acquired new skills, tools, or information, or the action not being time sensitive. If the GM feels like it, this may come with a potential tradeoff of more severe failures...
 
 
-\paragraph{Assistance} 
+\paragraph{Assistance}
 
 A friendly Actor can help another Actor perform an action. They can provide, as a bonus modifier, half their Aptitude for a maximum of +3. In combat, this is an Action (see section \ref{actions}). Several Actors can help, but this can only stack up to +4 in the general case.
 
-\paragraph{No hurry} 
+\paragraph{No hurry}
 
 If there is no hurry, the GM may allow Actors to simply take 10 as the result of the dice (meaning the true final result will be equal to 10 + Aptitude - Difficulty) instead of rolling. In particulary lenient cases, such as when the players are in a calm environment with all necessary tools and all the time in the world, they may take 14 instead\footnote{Do recall that the GM decides the Difficulty, so they can essentially determine the final result in advance since by fixing the dice result, the resulting score will be known in advance.}. This is not recommended for spur-of-the-moment actions, like persuading someone, but permitted for certain skill checks such as general knowledge checks. This is also not recommended if you intentionally want there to be an uncertainty as to the result, such as in certain kinds of Crafting\footnote{Taking 14 is not recommended here, but taking 10 could be justifiable.}.
 
@@ -151,7 +151,7 @@ The Characteristics represent the fundamental attributes of one's, well, charact
 	\item \textbf{\underline{Res}olve}: Your determination and the raw force of your personality.
 \end{itemize}
 
-Their value will usually be between 1 and 20, with 8-10 being average, 16 being rather good, and 20 close to the best human capabilities. Their values can be higher, but having a Characteristic drop below 1 means death. The associated \textbf{Characteristic modifier} they provide for a value $x$ is $\frac{x-10}{2}$ rounded down. This modifier is used in rolls, as we will discuss later. 
+Their value will usually be between 1 and 20, with 8-10 being average, 16 being rather good, and 20 close to the best human capabilities. Their values can be higher, but having a Characteristic drop below 1 means death. The associated \textbf{Characteristic modifier} they provide for a value $x$ is $\frac{x-10}{2}$ rounded down. This modifier is used in rolls, as we will discuss later.
 
 \begin{rpg-examplebox}
 	In the text of this book, the full word (eg. "Constitution") designates the full value (eg. 14) but the acronym in capitals (eg. "CON") refers to the modifier (eg. +2).
@@ -177,9 +177,9 @@ They are presented further on Table \ref{characteristics_table}. For each charac
 \begin{table*}[h!tbp]
 	\begin{center}
 		\begin{tabular}{p{4cm}p{4cm}p{6cm}} \toprule
-			
+
 		    \textbf{Characteristic} & \textbf{Modifier applies to ...} & \textbf{Other uses} \\ \midrule
-		    
+
 		    Might (MIG) & Damage, numerical Ability effects & Fortitude Defense \\[2mm]
 		    Dexterity (DEX) & & Accuracy in melee, Reflex Defense \\[2mm]
 		    Constitution (CON) & & Hit Points, Fortitude Defense \\[2mm]
@@ -194,23 +194,6 @@ They are presented further on Table \ref{characteristics_table}. For each charac
 	\label{characteristics_table}
 \end{table*}
 
-
-% \paragraph{rpg-table with more columns}
-% \begin{rpg-table}[XXX]
-%     \textbf{Table head 1}  & \textbf{Table head 2} & \textbf{Table head 3}\\
-%    	Some value  & Some value & Some value\\
-%    	Some value  & Some value & Some value\\
-%    	Some value  & Some value & Some value
-% \end{rpg-table}
-
-
-% \paragraph{rpg-table with more columns}
-% \begin{rpg-table2}[XXX]
-%     \textbf{Table head 1}  & \textbf{Table head 2} & \textbf{Table head 3}\\
-%    	Some value  & Some value & Some value\\
-%    	Some value  & Some value & Some value\\
-%    	Some value  & Some value & Some value
-% \end{rpg-table2}
 
 
 \paragraph{Clarifications}
@@ -274,7 +257,7 @@ Warfare Special Skills that impact Accuracy in combat are permitted, but to be u
 
 Traits, broadly speaking, cover any peculiarity of your character, and can tweak them beyond what is planned in the core rules. Note that a Trait is equivalent to a Passive Ability (see later). This is usually a personality trait, but can be descriptive of pretty much anything. Traits can of course be gained during an adventure!
 
-At the GM discretion, a Trait may give any type of gameplay modifier. But their impact on the gameplay should remain quite limited (see section \ref{balancing_abilities}), as their role is simply give a bit of flavor and contribute to a character's development. 
+At the GM discretion, a Trait may give any type of gameplay modifier. But their impact on the gameplay should remain quite limited (see section \ref{balancing_abilities}), as their role is simply give a bit of flavor and contribute to a character's development.
 
 Consider those examples: a reckless or perfectionnist character may get a modifier in some situations. Paranoid can give you a +2 to Discretion but -2 to Psychology, or Cross-Eyed gives you a -2 to ranged Accuracy but does not impact your Wits. And so on so forth.
 
@@ -284,14 +267,17 @@ Finally, a Trait may also have no gameplay impact whatsoever but simply round up
 
 \label{heroism}
 
-Heroism represents, well, heroism. Going above and beyond, the stuff of myths and legends. A Player Character begins with as many Heroism tokens as their RES, for a minimum of 2. Heroism is awarded by the GM for good roleplaying, or generally making the story better! A PC cannot stockpile more than 3 Heroism points. 
+Heroism represents, well, heroism. Going above and beyond, the stuff of myths and legends. Heroism is drawn from a \textbf{shared pool for all players in the party}. Players can draw from it as needed, and a great feat by any player contributes to the shared pool.
 
-As this is a cooperative game, I heavily recommend to have a \textbf{shared pool of Heroism points} for all players in the party. Players can draw from it as needed, and a great feat by any player contributes to the shared pool.
+At the start of the campaign, each Player Character contributes an amount of tokens to the pool equal to their RES, for a minimum of 2. Heroism is awarded by the GM for good roleplaying, or generally making the story better! The party cannot stockpile more than 3 Heroism points per player unless the GM says so.
+
+
 
 At any time, the PCs can spend one Heroism point to trigger one effect of their choice among the following list:
 
 \begin{itemize}
-    \item \textbf{Add +4} to your Aptitude or Defense for any d20 roll. This bonus can be stacked by spending several Heroism points, up to a maximum of +10 if you do this before rolling, but only up to +6 if you are retroactively modifying a roll.
+    \item \textbf{Convert any one result to a Success}, or convert a Success to a Critical Success.
+    \item Convert any one result on a hostile Action against you into a Critical Failure.
     \item Until the beginning of your next round, anything that would reduce your Hit Points below 1 is ignored.
     \item Replenish half your Focus.
     \item Use a Mythic Ability (see section \ref{signature}).
@@ -314,9 +300,9 @@ All steps of character creation are summarized here. The player will, with the G
     \item Assign 3 points worth of Special Skills, discussing it with the GM.
     \item Your starting Hit Points (HP) are equal to two times your Constitution.
     \item Compute your Defenses (section \ref{defenses}).
-	\item Spend 4 Ability points (section \ref{abilities}) to learn Abilities. 
+	\item Spend 4 Ability points (section \ref{abilities}) to learn Abilities.
     \item Determine Traits with the GM, if applicable.
     \item Prepare Spells (section \ref{spells}) with the GM, if applicable.
 	\item Write down your starting Focus (section \ref{resources}) and Heroism.
-    \item Determine your starting equipment with the GM, if applicable. 
+    \item Determine your starting equipment with the GM, if applicable.
 \end{enumerate}
