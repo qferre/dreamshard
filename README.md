@@ -9,7 +9,7 @@ This is set in a low-fantasy late medieval universe, on the Dreamshard Archipela
 
 This contains the full source code to re-create the rules manuscript.
 
-- *main.tex* is the hub files, with the subfiles in the */tex* directory.
+- *main.tex* is the hub file, with the subfiles in the */tex* directory.
 - Additonal elements in the the */incl* directory, including the character sheet template, an interactive table of roll modifiers, and a rules summary (in French).
 
 The LibreOffice files here are in flat format. This takes more space, but makes them gittable.
